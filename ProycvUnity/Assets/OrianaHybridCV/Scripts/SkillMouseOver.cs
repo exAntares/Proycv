@@ -3,32 +3,15 @@ using System.Collections;
 
 public class SkillMouseOver : MonoBehaviour {
 
-	public SpriteRenderer ButtonFX;
+    [Multiline]
+    public string SkillText = "";
+    public TextMesh TextRenderer;
 
 	// Use this for initialization
 	void Start () {
-	
+        if (TextRenderer)
+        {
+            TextRenderer.text = SkillText;
+        }
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
-	void OnMouseOver()
-	{ 
-		if(ButtonFX)
-		{
-			ButtonFX.enabled = true;
-		}
-	}
-
-	void OnMouseExit()
-	{ 
-		if(ButtonFX)
-		{
-			ButtonFX.enabled = false;
-		}
-	}
-
-
 }
