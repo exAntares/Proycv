@@ -1,2 +1,9 @@
 /Library/
 /Temp/
+/obj/
+/Assembly-CSharp-vs.csproj
+/Assembly-CSharp.csproj
+/Assembly-UnityScript-vs.unityproj
+/Assembly-UnityScript.unityproj
+/ProycvUnity-csharp.sln
+/ProycvUnity.sln
