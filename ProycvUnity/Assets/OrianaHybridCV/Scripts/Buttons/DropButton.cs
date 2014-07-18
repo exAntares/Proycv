@@ -12,7 +12,7 @@ public class DropButton : ButtonBase
 		set{ _Height = value; }
 	}
 
-	//[HideInInspector]
+	[HideInInspector]
 	public List<DropItem> _DropItems;
 
 	public override void Init()

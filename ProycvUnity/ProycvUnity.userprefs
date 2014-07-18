@@ -1,11 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OrianaHybridCV\Scripts\Buttons\DropButton.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OrianaHybridCV\Scripts\Buttons\SliderButton.cs">
     <Files>
-      <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\DropButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\DropButtonManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\DropButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\DropButton.cs" Line="29" Column="5" />
       <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\ButtonBase.cs" Line="1" Column="1" />
+      <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\DropItem.cs" Line="1" Column="1" />
+      <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\TabButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\DropButtonManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\OrianaHybridCV\Scripts\Buttons\SliderButton.cs" Line="9" Column="7" />
+      <File FileName="Assets\OrianaHybridCV\Scripts\SlideController.cs" Line="5" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

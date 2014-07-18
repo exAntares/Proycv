@@ -6,6 +6,8 @@ TagManager:
   - Window
   - TabButton
   - DropButton
+  - Slide
+  - DropItem
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -44,6 +46,10 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
+  - name: Background
+    userID: 2
+    uniqueID: 1535931219
+    locked: 0
   - name: Window
     userID: 1
     uniqueID: 3363470833
@@ -52,9 +58,9 @@ TagManager:
     userID: 7
     uniqueID: 3193806129
     locked: 0
-  - name: Background
-    userID: 2
-    uniqueID: 1535931219
+  - name: Slides
+    userID: 8
+    uniqueID: 3282679009
     locked: 0
   - name: Character
     userID: 4
