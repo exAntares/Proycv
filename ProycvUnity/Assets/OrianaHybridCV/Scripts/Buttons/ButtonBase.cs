@@ -14,20 +14,26 @@ public class ButtonBase : MonoBehaviour
 	protected bool Selected = false;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
+		Init();
+	}
+
+	public virtual void Init()
+	{
 		UpdateText();
 	}
 
-	public virtual void OnButtonPressed()
+	public virtual void OnSelected()
 	{
 
 	}
 
-	public virtual void OnButtonUnPressed()
+	public virtual void OnUnSelected()
 	{
 	}
 
-	public void StopSelecting()
+	public void StopSelect()
 	{
 		Selected = false;
 
@@ -36,21 +42,28 @@ public class ButtonBase : MonoBehaviour
 			myAnimator.Play("Idle");
 		}
 
-		OnButtonUnPressed();
+		UpdateText();
+
+		OnUnSelected();
 	}
 
-	void OnMouseUpAsButton()
+	public void StartSelect()
 	{
 		Selected = true;
-
+		
 		if(myAnimator)
 		{
 			myAnimator.Play("Selected");
 		}
-
+		
 		UpdateText();
+		
+		OnSelected();
+	}
 
-		OnButtonPressed();
+	void OnMouseUpAsButton()
+	{
+		StartSelect();
 	}
 
 	void OnMouseOver()

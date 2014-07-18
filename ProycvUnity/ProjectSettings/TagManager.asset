@@ -44,9 +44,13 @@ TagManager:
     userID: 0
     uniqueID: 0
     locked: 0
-  - name: BehindText
+  - name: Window
     userID: 1
     uniqueID: 3363470833
+    locked: 0
+  - name: Button
+    userID: 7
+    uniqueID: 3193806129
     locked: 0
   - name: Background
     userID: 2
@@ -63,4 +67,8 @@ TagManager:
   - name: UI
     userID: 5
     uniqueID: 149272721
+    locked: 0
+  - name: GuiText
+    userID: 6
+    uniqueID: 607488441
     locked: 0
