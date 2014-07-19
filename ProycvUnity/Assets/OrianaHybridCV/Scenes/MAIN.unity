@@ -105,7 +105,7 @@ Transform:
   - {fileID: 2102908307}
   - {fileID: 477923809}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 1
+  m_RootOrder: 12
 --- !u!114 &32288103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -627,7 +627,7 @@ Transform:
   - {fileID: 932915136}
   - {fileID: 678463601}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 15
+  m_RootOrder: 8
 --- !u!114 &154506437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,7 +1146,7 @@ Transform:
   - {fileID: 2115225837}
   - {fileID: 1798913054}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 13
+  m_RootOrder: 6
 --- !u!114 &240573904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1192,6 +1192,64 @@ MonoBehaviour:
 
     Soy una Skill</size> '
   TextRenderer: {fileID: 549391715}
+--- !u!1 &250699281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 250699282}
+  - 114: {fileID: 250699284}
+  - 61: {fileID: 250699283}
+  m_Layer: 0
+  m_Name: MailBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250699282
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 250699281}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 56.0787277, y: -9.50742912, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 536218116}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!61 &250699283
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 250699281}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 10, y: 24}
+  m_Center: {x: 0, y: 12.1000004}
+--- !u!114 &250699284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 250699281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: daf87d85892d97040a4149c3682cf8dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonText: 
+  TextRenderer: {fileID: 0}
+  myAnimator: {fileID: 0}
+  TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+  TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  ContactCard: {fileID: 2130353739}
 --- !u!1 &251746243
 GameObject:
   m_ObjectHideFlags: 0
@@ -1223,7 +1281,7 @@ Transform:
   - {fileID: 792023601}
   - {fileID: 1741287479}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 9
+  m_RootOrder: 2
 --- !u!114 &251746245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1615,7 +1673,7 @@ Transform:
   - {fileID: 1099884723}
   - {fileID: 642613038}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 17
+  m_RootOrder: 10
 --- !u!114 &276528500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1692,7 +1750,7 @@ Transform:
   - {fileID: 1602235648}
   - {fileID: 1901674126}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 0
+  m_RootOrder: 11
 --- !u!114 &303685068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2779,7 +2837,7 @@ Transform:
   - {fileID: 696411283}
   - {fileID: 2018659295}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 14
+  m_RootOrder: 7
 --- !u!114 &455616315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2856,7 +2914,7 @@ Transform:
   - {fileID: 1843376677}
   - {fileID: 962404709}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!1 &461643703
 GameObject:
   m_ObjectHideFlags: 0
@@ -3113,7 +3171,7 @@ Transform:
   - {fileID: 364405742}
   - {fileID: 600295466}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 2
+  m_RootOrder: 13
 --- !u!1001 &514039363
 Prefab:
   m_ObjectHideFlags: 0
@@ -3228,6 +3286,56 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: df34a352cb4dd4b4fb1d9f8e2dca6597, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &536218114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 536218116}
+  - 212: {fileID: 536218115}
+  m_Layer: 0
+  m_Name: mailbox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!212 &536218115
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 536218114}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 4c16f2c8856492c4fac6d67c3963918f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!4 &536218116
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 536218114}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.85000002, y: 7, z: 1}
+  m_Children: []
+  m_Father: {fileID: 250699282}
+  m_RootOrder: 0
 --- !u!1 &546698571
 GameObject:
   m_ObjectHideFlags: 0
@@ -4182,7 +4290,7 @@ Transform:
   - {fileID: 714741035}
   - {fileID: 1083143809}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 5
+  m_RootOrder: 16
 --- !u!114 &687948660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4496,7 +4604,7 @@ Transform:
   - {fileID: 176747376}
   - {fileID: 1553774294}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 3
+  m_RootOrder: 14
 --- !u!114 &717747380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5878,13 +5986,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
-  - {fileID: 303685067}
-  - {fileID: 32288102}
-  - {fileID: 506406804}
-  - {fileID: 717747379}
-  - {fileID: 2014510060}
-  - {fileID: 687948659}
-  - {fileID: 1625309883}
   - {fileID: 2099272739}
   - {fileID: 2001002089}
   - {fileID: 251746244}
@@ -5896,6 +5997,13 @@ Transform:
   - {fileID: 154506436}
   - {fileID: 2063146094}
   - {fileID: 276528499}
+  - {fileID: 303685067}
+  - {fileID: 32288102}
+  - {fileID: 506406804}
+  - {fileID: 717747379}
+  - {fileID: 2014510060}
+  - {fileID: 687948659}
+  - {fileID: 1625309883}
   m_Father: {fileID: 460439694}
   m_RootOrder: 2
 --- !u!95 &895306886
@@ -7299,7 +7407,7 @@ Transform:
   - {fileID: 855182636}
   - {fileID: 179891816}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 12
+  m_RootOrder: 5
 --- !u!114 &1145861759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7853,7 +7961,7 @@ Transform:
   - {fileID: 1029992119}
   - {fileID: 749292961}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 11
+  m_RootOrder: 4
 --- !u!114 &1370225572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8987,7 +9095,7 @@ Transform:
   - {fileID: 1504306496}
   - {fileID: 1995887493}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 6
+  m_RootOrder: 17
 --- !u!114 &1625309884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10651,7 +10759,7 @@ Transform:
   - {fileID: 1797546992}
   - {fileID: 977427794}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 8
+  m_RootOrder: 1
 --- !u!114 &2001002090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10796,7 +10904,7 @@ Transform:
   - {fileID: 259038403}
   - {fileID: 264599342}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 4
+  m_RootOrder: 15
 --- !u!114 &2014510061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11152,7 +11260,7 @@ Transform:
   - {fileID: 1115953600}
   - {fileID: 894349157}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 16
+  m_RootOrder: 9
 --- !u!114 &2063146095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11229,7 +11337,7 @@ Transform:
   - {fileID: 487890729}
   - {fileID: 2039782847}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 10
+  m_RootOrder: 3
 --- !u!114 &2067259494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11306,7 +11414,7 @@ Transform:
   - {fileID: 450164658}
   - {fileID: 660202807}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 7
+  m_RootOrder: 0
 --- !u!114 &2099272740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11675,6 +11783,83 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
+--- !u!1 &2130353739
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2130353742}
+  - 212: {fileID: 2130353741}
+  - 95: {fileID: 2130353740}
+  - 61: {fileID: 2130353743}
+  m_Layer: 0
+  m_Name: ContactCard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!95 &2130353740
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130353739}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fb8a5e65ab2edac4092cdee7dc85054e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+--- !u!212 &2130353741
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130353739}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 607488441
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 9c0f545f75e74d748b26ad2cc1e2c06b, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 0}
+--- !u!4 &2130353742
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130353739}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 30, y: 30, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+--- !u!61 &2130353743
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2130353739}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 3.71000004, y: 2.31999993}
+  m_Center: {x: 0, y: 0}
 --- !u!1001 &2131444150
 Prefab:
   m_ObjectHideFlags: 0

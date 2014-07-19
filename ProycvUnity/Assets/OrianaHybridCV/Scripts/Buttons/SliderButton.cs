@@ -64,10 +64,8 @@ public class SliderButton : ButtonBase
 		{
 		case Direction.Left:
 			return (SliderController.SlideIndex > 0);
-			break;
 		case Direction.Right:
 			return (SliderController.SlideIndex < (SliderController.Slides.Count - 1) );
-			break;
 		default:
 			return true;
 		}
