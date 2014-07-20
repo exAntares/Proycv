@@ -49,6 +49,7 @@ public class DropButton : ButtonBase
 		}
 	}
 
+	[ContextMenu("ToggleSelected")]
 	void ToggleSelected()
 	{
 		if(Selected)
@@ -98,6 +99,11 @@ public class DropButton : ButtonBase
 	}
 
 	void FixedUpdate()
+	{
+		UpdateItemLocations();
+	}
+
+	public void UpdateItemLocations()
 	{
 		float DropItemHeight = 4.0f;
 		float AccumulatedHeight = DropItemHeight;

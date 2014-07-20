@@ -10,7 +10,7 @@ public class ButtonBase : MonoBehaviour
 
 	public Color TextNormalColor = Color.yellow;
 	public Color TextSelectedColor = Color.white;
-
+	
 	protected bool Selected = false;
 	protected bool ButtonEnabled = true;
 
@@ -44,6 +44,7 @@ public class ButtonBase : MonoBehaviour
 	{
 	}
 
+	[ContextMenu("StopSelect")]
 	public void StopSelect()
 	{
 		Selected = false;
@@ -58,6 +59,7 @@ public class ButtonBase : MonoBehaviour
 		OnUnSelected();
 	}
 
+	[ContextMenu("StartSelect")]
 	public void StartSelect()
 	{
 		Selected = true;
@@ -99,7 +101,8 @@ public class ButtonBase : MonoBehaviour
 
 		UpdateText();
 	}
-	
+
+	[ContextMenu("UpdateText")]
 	public void UpdateText()
 	{
 		if(TextRenderer)

@@ -182,8 +182,10 @@ MonoBehaviour:
   ButtonText: INSERTNAME
   TextRenderer: {fileID: 10200000}
   myAnimator: {fileID: 9500000}
-  TextNormalColor: {r: .388235301, g: .388235301, b: .388235301, a: 1}
+  TextNormalColor: {r: .666666687, g: .392156869, b: 0, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  _HexNameNormalColor: 
+  _HexNameSelectedColor: 
   WindowToShow: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:

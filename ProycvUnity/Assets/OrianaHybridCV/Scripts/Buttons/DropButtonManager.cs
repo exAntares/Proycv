@@ -10,16 +10,24 @@ public class DropButtonManager : MonoBehaviour {
 	// Update is called once per frame
 	void FixedUpdate () {
 
-		AccumulatedHeight = 0.0f;
+		UpdateLocations();
 
+	}
+
+	[ContextMenu("UpdateLocations")]
+	void UpdateLocations()
+	{
+		AccumulatedHeight = 0.0f;
+		
 		for(int i = 0; i < DropButtons.Count; i++)
 		{
 			Vector3 newPosition = transform.position;
-
+			
 			newPosition.y += AccumulatedHeight;
-
+			
 			DropButtons[i].gameObject.transform.position = newPosition;
-
+			DropButtons[i].UpdateItemLocations();
+			
 			AccumulatedHeight -= GetButtonHeight(DropButtons[i]);
 		}
 	}

@@ -9,6 +9,7 @@ public class DropItem : ButtonBase
 
 	public override void Init()
 	{
+		ButtonText = gameObject.name;
 		base.Init();
 		Owner = transform.parent ? transform.parent.GetComponent<DropButton>() : null;
 	}

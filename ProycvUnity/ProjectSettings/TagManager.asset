@@ -8,6 +8,7 @@ TagManager:
   - DropButton
   - Slide
   - DropItem
+  - DropItemWindow
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

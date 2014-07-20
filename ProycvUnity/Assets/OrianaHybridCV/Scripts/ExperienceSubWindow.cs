@@ -17,4 +17,13 @@ public class ExperienceSubWindow : MonoBehaviour {
 		}
 	}
 
+	[ContextMenu("UpdateText")]
+	void UpdateText()
+	{
+		if(TextMeshRenderer)
+		{
+			TextMeshRenderer.text = WindowText;
+		}
+	}
+
 }
