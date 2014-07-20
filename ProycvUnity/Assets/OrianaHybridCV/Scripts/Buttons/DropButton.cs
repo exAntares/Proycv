@@ -64,7 +64,10 @@ public class DropButton : ButtonBase
 
 	void OnMouseUpAsButton()
 	{
-		ToggleSelected();
+		if(ButtonEnabled)
+		{
+			ToggleSelected();
+		}
 	}
 
 	void UnSelectAllOtherDropButtons()

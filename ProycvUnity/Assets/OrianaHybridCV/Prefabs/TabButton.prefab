@@ -139,13 +139,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultTab: 0
-  TabDisplayName: 
+  ButtonText: 
+  TextRenderer: {fileID: 10200000}
   myAnimator: {fileID: 9500000}
-  TabTextRenderer: {fileID: 10200000}
+  TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+  TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  DefaultTab: 0
   AssociatedTab: {fileID: 0}
-  NormalColor: {r: .5, g: .5, b: .5, a: 1}
-  SelectedColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

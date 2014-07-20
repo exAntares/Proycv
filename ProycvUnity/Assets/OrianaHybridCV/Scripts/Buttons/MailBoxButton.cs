@@ -14,6 +14,12 @@ public class MailBoxButton : ButtonBase
 			{
 				ContactCardAnim.Play("Show");
 			}
+
+			GameObject UI = GameObject.Find("UI");
+			if(UI)
+			{
+				UI.BroadcastMessage("DisableButton");
+			}
 		}
 	}
 	

@@ -14,7 +14,7 @@ public class SliderButton : ButtonBase
 
 	void OnMouseUpAsButton()
 	{
-		if(SliderController)
+		if(SliderController && ButtonEnabled)
 		{
 			switch(SliderButtonDirection)
 			{

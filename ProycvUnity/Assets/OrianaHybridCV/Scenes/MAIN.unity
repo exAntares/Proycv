@@ -105,7 +105,7 @@ Transform:
   - {fileID: 2102908307}
   - {fileID: 477923809}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 12
+  m_RootOrder: 4
 --- !u!114 &32288103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,7 +189,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 710724998}
   m_GameObject: {fileID: 46360243}
-  m_Text: <color=#7F7F7F>Portfolio</color>
+  m_Text: <color=#FFEB04>Portfolio</color>
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1.5
@@ -627,7 +627,7 @@ Transform:
   - {fileID: 932915136}
   - {fileID: 678463601}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 8
+  m_RootOrder: 0
 --- !u!114 &154506437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,7 +1146,7 @@ Transform:
   - {fileID: 2115225837}
   - {fileID: 1798913054}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 6
+  m_RootOrder: 16
 --- !u!114 &240573904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1281,7 +1281,7 @@ Transform:
   - {fileID: 792023601}
   - {fileID: 1741287479}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 2
+  m_RootOrder: 12
 --- !u!114 &251746245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1673,7 +1673,7 @@ Transform:
   - {fileID: 1099884723}
   - {fileID: 642613038}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 10
+  m_RootOrder: 2
 --- !u!114 &276528500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1750,7 +1750,7 @@ Transform:
   - {fileID: 1602235648}
   - {fileID: 1901674126}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 11
+  m_RootOrder: 3
 --- !u!114 &303685068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2837,7 +2837,7 @@ Transform:
   - {fileID: 696411283}
   - {fileID: 2018659295}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 7
+  m_RootOrder: 17
 --- !u!114 &455616315
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3171,7 +3171,7 @@ Transform:
   - {fileID: 364405742}
   - {fileID: 600295466}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 13
+  m_RootOrder: 5
 --- !u!1001 &514039363
 Prefab:
   m_ObjectHideFlags: 0
@@ -3873,13 +3873,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultTab: 0
-  TabDisplayName: Experience
+  ButtonText: Experience
+  TextRenderer: {fileID: 1912056262}
   myAnimator: {fileID: 615572651}
-  TabTextRenderer: {fileID: 1912056262}
+  TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+  TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  DefaultTab: 0
   AssociatedTab: {fileID: 1919479379}
-  NormalColor: {r: .5, g: .5, b: .5, a: 1}
-  SelectedColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
 --- !u!4 &615572653
 Transform:
   m_ObjectHideFlags: 0
@@ -4290,7 +4290,7 @@ Transform:
   - {fileID: 714741035}
   - {fileID: 1083143809}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 16
+  m_RootOrder: 8
 --- !u!114 &687948660
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4403,6 +4403,62 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+--- !u!1 &694554809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 694554811}
+  - 114: {fileID: 694554812}
+  - 61: {fileID: 694554810}
+  m_Layer: 0
+  m_Name: CloseButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &694554810
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 694554809}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 20, y: 9}
+  m_Center: {x: 0, y: 0}
+--- !u!4 &694554811
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 694554809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.17347062, y: -.735802233, z: 0}
+  m_LocalScale: {x: .0333333351, y: .0333333351, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2130353742}
+  m_RootOrder: 0
+--- !u!114 &694554812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 694554809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4deac6ad0d98bbd49a01d9c0f71ed7b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonText: 
+  TextRenderer: {fileID: 0}
+  myAnimator: {fileID: 2130353740}
+  TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+  TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &696411282
 GameObject:
   m_ObjectHideFlags: 0
@@ -4511,12 +4567,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10200000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_Text
-      value: <color=#7F7F7F>Portfolio</color>
+      value: <color=#FFEB04>Portfolio</color>
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: AssociatedTab
       value: 
       objectReference: {fileID: 962404708}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: ButtonText
+      value: Portfolio
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
   m_RootGameObject: {fileID: 1082502558}
@@ -4604,7 +4664,7 @@ Transform:
   - {fileID: 176747376}
   - {fileID: 1553774294}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 14
+  m_RootOrder: 6
 --- !u!114 &717747380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5986,14 +6046,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
-  - {fileID: 2099272739}
-  - {fileID: 2001002089}
-  - {fileID: 251746244}
-  - {fileID: 2067259493}
-  - {fileID: 1370225571}
-  - {fileID: 1145861758}
-  - {fileID: 240573903}
-  - {fileID: 455616314}
   - {fileID: 154506436}
   - {fileID: 2063146094}
   - {fileID: 276528499}
@@ -6004,6 +6056,14 @@ Transform:
   - {fileID: 2014510060}
   - {fileID: 687948659}
   - {fileID: 1625309883}
+  - {fileID: 2099272739}
+  - {fileID: 2001002089}
+  - {fileID: 251746244}
+  - {fileID: 2067259493}
+  - {fileID: 1370225571}
+  - {fileID: 1145861758}
+  - {fileID: 240573903}
+  - {fileID: 455616314}
   m_Father: {fileID: 460439694}
   m_RootOrder: 2
 --- !u!95 &895306886
@@ -6736,7 +6796,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10200000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_Text
-      value: <color=#FFEB04>Skills</color>
+      value: <color=#FFFFFF>Skills</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: ButtonText
+      value: Skills
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
@@ -7009,13 +7073,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultTab: 0
-  TabDisplayName: Portfolio
+  ButtonText: Portfolio
+  TextRenderer: {fileID: 46360245}
   myAnimator: {fileID: 1082502562}
-  TabTextRenderer: {fileID: 46360245}
+  TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+  TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  DefaultTab: 0
   AssociatedTab: {fileID: 962404708}
-  NormalColor: {r: .5, g: .5, b: .5, a: 1}
-  SelectedColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
 --- !u!1 &1083143808
 GameObject:
   m_ObjectHideFlags: 0
@@ -7407,7 +7471,7 @@ Transform:
   - {fileID: 855182636}
   - {fileID: 179891816}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 5
+  m_RootOrder: 15
 --- !u!114 &1145861759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7961,7 +8025,7 @@ Transform:
   - {fileID: 1029992119}
   - {fileID: 749292961}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 4
+  m_RootOrder: 14
 --- !u!114 &1370225572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9095,7 +9159,7 @@ Transform:
   - {fileID: 1504306496}
   - {fileID: 1995887493}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 17
+  m_RootOrder: 9
 --- !u!114 &1625309884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9593,7 +9657,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1071737077}
   m_GameObject: {fileID: 1767714520}
-  m_Text: <color=#FFEB04>Skills</color>
+  m_Text: <color=#FFFFFF>Skills</color>
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1.5
@@ -10062,7 +10126,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10200000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_Text
-      value: <color=#7F7F7F>Experience</color>
+      value: <color=#FFEB04>Experience</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: ButtonText
+      value: Experience
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
@@ -10324,7 +10392,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1866039080}
   m_GameObject: {fileID: 1912056261}
-  m_Text: <color=#7F7F7F>Experience</color>
+  m_Text: <color=#FFEB04>Experience</color>
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1.5
@@ -10759,7 +10827,7 @@ Transform:
   - {fileID: 1797546992}
   - {fileID: 977427794}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 1
+  m_RootOrder: 11
 --- !u!114 &2001002090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10904,7 +10972,7 @@ Transform:
   - {fileID: 259038403}
   - {fileID: 264599342}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 15
+  m_RootOrder: 7
 --- !u!114 &2014510061
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11260,7 +11328,7 @@ Transform:
   - {fileID: 1115953600}
   - {fileID: 894349157}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 9
+  m_RootOrder: 1
 --- !u!114 &2063146095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11337,7 +11405,7 @@ Transform:
   - {fileID: 487890729}
   - {fileID: 2039782847}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 3
+  m_RootOrder: 13
 --- !u!114 &2067259494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11414,7 +11482,7 @@ Transform:
   - {fileID: 450164658}
   - {fileID: 660202807}
   m_Father: {fileID: 895306885}
-  m_RootOrder: 0
+  m_RootOrder: 10
 --- !u!114 &2099272740
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11793,7 +11861,6 @@ GameObject:
   - 4: {fileID: 2130353742}
   - 212: {fileID: 2130353741}
   - 95: {fileID: 2130353740}
-  - 61: {fileID: 2130353743}
   m_Layer: 0
   m_Name: ContactCard
   m_TagString: Untagged
@@ -11846,20 +11913,10 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 30, y: 30, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 694554811}
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!61 &2130353743
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2130353739}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 3.71000004, y: 2.31999993}
-  m_Center: {x: 0, y: 0}
 --- !u!1001 &2131444150
 Prefab:
   m_ObjectHideFlags: 0
@@ -12006,13 +12063,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DefaultTab: 1
-  TabDisplayName: Skills
+  ButtonText: Skills
+  TextRenderer: {fileID: 1767714521}
   myAnimator: {fileID: 2147346904}
-  TabTextRenderer: {fileID: 1767714521}
+  TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+  TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  DefaultTab: 1
   AssociatedTab: {fileID: 895306883}
-  NormalColor: {r: .5, g: .5, b: .5, a: 1}
-  SelectedColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
 --- !u!61 &2147346907
 BoxCollider2D:
   m_ObjectHideFlags: 0

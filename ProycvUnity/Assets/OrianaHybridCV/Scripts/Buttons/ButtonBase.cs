@@ -12,6 +12,17 @@ public class ButtonBase : MonoBehaviour
 	public Color TextSelectedColor = Color.white;
 
 	protected bool Selected = false;
+	protected bool ButtonEnabled = true;
+
+	public void DisableButton()
+	{
+		ButtonEnabled = false;
+	}
+
+	public void EnableButton()
+	{
+		ButtonEnabled = true;
+	}
 
 	// Use this for initialization
 	void Start ()
@@ -63,20 +74,25 @@ public class ButtonBase : MonoBehaviour
 
 	void OnMouseUpAsButton()
 	{
-		StartSelect();
+		if(ButtonEnabled)
+		{
+			StartSelect();
+		}
 	}
 
 	void OnMouseOver()
 	{
-		if(myAnimator && !Selected)
+		if(ButtonEnabled && myAnimator && !Selected)
 		{
 			myAnimator.Play("MouseOver");
 		}
+
+		UpdateText();
 	}
 
 	void OnMouseExit()
 	{
-		if(myAnimator && !Selected)
+		if(ButtonEnabled && myAnimator && !Selected)
 		{
 			myAnimator.Play("Idle");
 		}
