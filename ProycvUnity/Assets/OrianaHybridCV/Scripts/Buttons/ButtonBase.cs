@@ -103,7 +103,7 @@ public class ButtonBase : MonoBehaviour
 	}
 
 	[ContextMenu("UpdateText")]
-	public void UpdateText()
+	public virtual void UpdateText()
 	{
 		if(TextRenderer)
 		{
@@ -118,7 +118,7 @@ public class ButtonBase : MonoBehaviour
 		return HexName;
 	}
 	
-	string RGBToHex(Color ColorToHex)
+	protected string RGBToHex(Color ColorToHex)
 	{
 		float red = ColorToHex.r * 255;
 		float green = ColorToHex.g * 255;
@@ -136,7 +136,7 @@ public class ButtonBase : MonoBehaviour
 		return z;
 	}
 
-	string GetButtonText()
+	public virtual string GetButtonText()
 	{
 		string End = "</color>";
 		string Start = Selected ? "<color=#"+RGBToHex(TextSelectedColor)+">" : "<color=#"+RGBToHex(TextNormalColor)+">";

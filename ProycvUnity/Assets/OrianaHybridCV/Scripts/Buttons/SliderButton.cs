@@ -60,15 +60,19 @@ public class SliderButton : ButtonBase
 
 	bool ShouldShow()
 	{
-		switch(SliderButtonDirection)
+		if(SliderController)
 		{
-		case Direction.Left:
-			return (SliderController.SlideIndex > 0);
-		case Direction.Right:
-			return (SliderController.SlideIndex < (SliderController.Slides.Count - 1) );
-		default:
-			return true;
+			switch(SliderButtonDirection)
+			{
+			case Direction.Left:
+				return (SliderController.GetSlideIndex() > 0);
+			case Direction.Right:
+				return (SliderController.GetSlideIndex() < (SliderController.GetSlidesCount() - 1) );
+			default:
+				return true;
+			}
 		}
+		return false;
 	}
 
 }

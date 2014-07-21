@@ -68,7 +68,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 45, y: 60}
+  m_Size: {x: 45, y: 50}
   m_Center: {x: 0, y: 0}
 --- !u!95 &9500000
 Animator:
@@ -100,6 +100,8 @@ MonoBehaviour:
   myAnimator: {fileID: 9500000}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  SliderButtonDirection: 0
+  SliderController: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
