@@ -5493,10 +5493,6 @@ Prefab:
       propertyPath: m_RootMapOrder
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 2000000, guid: 2eedf1f66c104d248a5d3baabb13d766, type: 2}
-      propertyPath: orthographic size
-      value: 37
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2eedf1f66c104d248a5d3baabb13d766, type: 2}
   m_RootGameObject: {fileID: 783354760}
@@ -6774,7 +6770,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 37
+  orthographic size: 41.4000015
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
