@@ -36,7 +36,7 @@ public class SlideController : MonoBehaviour
 		}
 		else
 		{
-			Debug.LogWarning("There is no such List");
+            Debug.LogWarning("There is no such List: " + ListName);
 		}
 	}
 
