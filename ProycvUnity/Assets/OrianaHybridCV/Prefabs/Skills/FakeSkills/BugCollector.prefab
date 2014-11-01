@@ -225,11 +225,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d672c4a2abfb746bab22b905df731b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SkillText: '<color=#a52a2aff><b>Bug Collector</b></color>
-
-    <size=15><color=#808000ff>Rank: 2/10</color>
-
-    -----------</size> '
+  SkillRank: 'Rank: 2/10'
+  SkillDescription: Soy una skill
   TextRenderer: {fileID: 10200000}
 --- !u!114 &11400004
 MonoBehaviour:
