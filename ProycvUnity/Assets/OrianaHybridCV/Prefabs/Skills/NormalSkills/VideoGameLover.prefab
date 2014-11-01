@@ -254,6 +254,9 @@ MonoBehaviour:
     <size=15><color=yellow>Rank: 10/10</color>
 
     Soy una Skill</size> '
+  SkillTitle: Title
+  SkillRank: Rank 10/10
+  SkillDescription: Soy una Skill
   TextRenderer: {fileID: 10200000}
 --- !u!212 &21200000
 SpriteRenderer:
