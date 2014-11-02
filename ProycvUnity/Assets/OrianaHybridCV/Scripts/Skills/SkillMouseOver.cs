@@ -10,12 +10,14 @@ public class SkillMouseOver : MonoBehaviour {
 
     private string SkillTitle;
     private GameObject SkillText;
+    private SkillInfo skillInformation;
 
 	// Use this for initialization
 	void Start () {
 
         SkillText = GameObject.FindGameObjectWithTag("SkillText");
         TextRenderer = SkillText.GetComponentInChildren<TextMesh>();
+        skillInformation = SkillText.GetComponent<SkillInfo>();
 
         SkillTitle = "<color=red><b>" + gameObject.name + "</b></color>\n";
         SkillRank = "<size=15><color=yellow>" + SkillRank + "</color>\n";
@@ -26,13 +28,13 @@ public class SkillMouseOver : MonoBehaviour {
 
     void OnMouseOver()
     {
-        SkillText.SetActive(true);
         UpdateText();
+        skillInformation.ShowInfo();
     }
 
     void OnMouseExit()
     {
-        SkillText.SetActive(false);
+        skillInformation.HideInfo();
     }
 
     void UpdateText()
