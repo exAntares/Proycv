@@ -19,8 +19,8 @@ public class SkillMouseOver : MonoBehaviour {
         TextRenderer = SkillText.GetComponentInChildren<TextMesh>();
         skillInformation = SkillText.GetComponent<SkillInfo>();
 
-        SkillTitle = "<color=red><b>" + gameObject.name + "</b></color>\n";
-        SkillRank = "<size=15><color=yellow>" + SkillRank + "</color>\n";
+        SkillTitle = "<color=orange><b>" + gameObject.name + "</b></color>\n";
+        SkillRank = "<size=20><color=#dcc06c>" + SkillRank + "</color>\n";
         SkillDescription = SkillDescription + "</size>";
 
         UpdateText();

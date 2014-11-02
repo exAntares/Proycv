@@ -12,7 +12,7 @@ GameObject:
   - 61: {fileID: 6100000}
   - 114: {fileID: 11400000}
   m_Layer: 0
-  m_Name: Perforce
+  m_Name: VCS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -95,7 +95,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 5/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'I''ve used version control systems
+
+    for personal and profesional projects
+
+    * Git
+
+    * Perforce
+
+    * Tortoise'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200002
 SpriteRenderer:
