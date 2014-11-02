@@ -29,12 +29,12 @@ public class SkillMouseOver : MonoBehaviour {
     void OnMouseOver()
     {
         UpdateText();
-        skillInformation.ShowInfo();
+        skillInformation.ShowInfo(true);
     }
 
     void OnMouseExit()
     {
-        skillInformation.HideInfo();
+        skillInformation.ShowInfo(false);
     }
 
     void UpdateText()

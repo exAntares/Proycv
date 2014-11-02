@@ -22,19 +22,11 @@ public class SkillInfo : MonoBehaviour {
         transform.position = p + MouseOffset;
 	}
 
-    public void ShowInfo()
+    public void ShowInfo(bool show)
     {
         for (int i = 0; i < transform.childCount; ++i)
         {
-            transform.GetChild(i).gameObject.SetActive(true);
-        }
-    }
-
-    public void HideInfo()
-    {
-        for (int i = 0; i < transform.childCount; ++i)
-        {
-            transform.GetChild(i).gameObject.SetActive(false);
+            transform.GetChild(i).gameObject.SetActive(show);
         }
     }
 }
