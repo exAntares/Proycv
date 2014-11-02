@@ -13,7 +13,7 @@ public class SkillMouseOver : MonoBehaviour {
     private SkillInfo skillInformation;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 
         SkillText = GameObject.FindGameObjectWithTag("SkillText");
         TextRenderer = SkillText.GetComponentInChildren<TextMesh>();
