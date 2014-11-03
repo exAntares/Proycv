@@ -112,8 +112,19 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1591718794}
   m_GameObject: {fileID: 20382216}
-  m_Text: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9 Nogue</b></size>\n<size=20>\nStudied
-    the Bachelor of Arts in Jaen, Spain.\n</size>"
+  m_Text: '<size=25><b><color=white>Insert Text</color></b></size>
+
+    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+    <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+    <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+    <size=20><color=#62C0CEFF>Insert Text</color></size>
+
+'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1400,6 +1411,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
     Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 20382218}
 --- !u!1 &485492008
 GameObject:
@@ -1823,6 +1840,12 @@ MonoBehaviour:
     designer at University Complutense</b></size>\n<size=22><b>\r  Madrid 2011-2012</b></size>\n<size=20>\nMade
     the game named <color=blue><i>Galahad Memories</i></color>.\nWhere I worked as
     a Designer and 2D Artist\n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 199792282}
 --- !u!1 &615572648
 GameObject:
@@ -2065,6 +2088,10 @@ Prefab:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: DefaultTab
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
   m_RootGameObject: {fileID: 1082502558}
@@ -2302,6 +2329,10 @@ Prefab:
     - target: {fileID: 10200000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_Text
       value: <color=#FFB500>Skills</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: DefaultTab
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
@@ -2632,6 +2663,12 @@ MonoBehaviour:
     with all departments\nespecially with the animation and programming team.  \r\nI\u2019m
     learning the importance of a good communication between\nall departments for a
     coordinate and focused work. \n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 1025372579}
 --- !u!1 &891891707
 GameObject:
@@ -2776,6 +2813,10 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 3193806129
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: DefaultTab
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
   m_RootGameObject: {fileID: 1951737282}
@@ -2836,6 +2877,12 @@ MonoBehaviour:
     persistent,\nto understand the developer\xB4s pressure, to know how\nto prioritize
     problems and to communicate with the team\n(especially I learned how to give bads
     news to\nthe team)\n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 2108471486}
 --- !u!1 &997758176
 GameObject:
@@ -3113,7 +3160,7 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: .709803939, b: 0, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
-  DefaultTab: 1
+  DefaultTab: 0
   AssociatedTab: {fileID: 0}
 --- !u!1 &1087150957
 GameObject:
@@ -3895,6 +3942,12 @@ MonoBehaviour:
     months in the xbox version.
 
     </size>'
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 2015683846}
 --- !u!1001 &1457365722
 Prefab:
@@ -4090,6 +4143,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Graduate in Fine Arts in University Alonso Cano</b></size>\n<size=22><b>Granada
     2006-2011\r\n</b></size>\n<size=20>\n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 1344089292}
 --- !u!1 &1581447975
 GameObject:
@@ -4217,6 +4276,22 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 10200000, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
+      propertyPath: m_Text
+      value: '<size=25><b><color=white>Insert Text</color></b></size>
+
+        <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+        <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+        <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+        <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+        <size=20><color=#62C0CEFF>Insert Text</color></size>
+
+'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
   m_RootGameObject: {fileID: 478327453}
@@ -4266,6 +4341,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
     Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 1581447977}
 --- !u!1 &1611437070
 GameObject:
@@ -4812,7 +4893,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1919479380
 Transform:
   m_ObjectHideFlags: 0
@@ -4874,6 +4955,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
     Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 876485979}
 --- !u!1 &1951737282
 GameObject:
@@ -4937,7 +5024,7 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: .709803939, b: 0, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
-  DefaultTab: 1
+  DefaultTab: 0
   AssociatedTab: {fileID: 0}
 --- !u!1 &1971100890
 GameObject:
@@ -5726,6 +5813,12 @@ MonoBehaviour:
   WindowText: '<size=22>You can see them on <color=green><i>Linkedin</i></color></size>
 
     <size=22>Or wait a few days.... I''ll update them!</size>'
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 552040334}
 --- !u!1 &2108471484
 GameObject:
@@ -5990,7 +6083,7 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: .709803939, b: 0, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
-  DefaultTab: 1
+  DefaultTab: 0
   AssociatedTab: {fileID: 0}
 --- !u!61 &2147346907
 BoxCollider2D:
