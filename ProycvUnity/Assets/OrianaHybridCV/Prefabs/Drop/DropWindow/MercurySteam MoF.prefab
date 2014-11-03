@@ -437,21 +437,17 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_Text: "<size=16><b>QA Tester (1 year 2 months)</b></size>\n<size=14><b>Madrid
-    Area, Spain</b></size>\n<size=12>\nAt Mercury Steam I was working as QA tester
-    for the videogame \"Mirror of Fate\" for Nintendo 3DS.\nI started to work in the
-    game at the vertical slice until the end of the development. All that time I enjoyed
-    direct\ncontact with the developers.\r\nMy responsabilities where to find issues,
-    categorize them by importance,\ncomunicate them to the developers and make sure
-    that they were fixed.\nThe workload organization, prioritization and the insistence
-    to developers\n(to be sure that the most important issues were fixed) were part
-    of my work too.\r\r\nAt the last stages of the game (specially in the submissions
-    stage)\nI worked with Babel Media through their framework.\r\nMy job taught me
-    to be more patient and persistent, to understand\nthe developer\xB4s presion,
-    to know how to prioritize problems and to comunicate\nwith the team (Specially
-    I learned how to give bads news to the team) \r\r\nMy work as tester allowed me
-    to face and to familiarize with design\nand programmer\xB4s issues. This issues
-    are more obvious when you play\na game been developed.\n</size>"
+  m_Text: "<size=25><b>QA Tester (1 year 2 months)</b></size>\n<size=22><b>Madrid
+    Area, Spain</b></size>\n<size=20>\nI started to work in Castlevania: Mirror of
+    fate 's vertical slice until the\nend of the development. \r\nMy responsibilities
+    where to find issues, categorize them\nby importance, communicate them to the
+    developers and\nmake sure that they were fixed. The workload organization\nprioritization
+    and the insistence to developers (to be sure\nthat the most important issues were
+    fixed) were part of my\nwork, too.\r\nDuring the last stages I tested the game
+    in collaboration\nwith Babel Media.\r\nMy job taught me to be more patient and
+    persistent,\nto understand the developer\xB4s pressure, to know how\nto prioritize
+    problems and to communicate with the team\n(especially I learned how to give bads
+    news to\nthe team)\n</size>"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -476,21 +472,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93922991aa431e9499eb329cc379a483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WindowText: "<size=16><b>QA Tester (1 year 2 months)</b></size>\n<size=14><b>Madrid
-    Area, Spain</b></size>\n<size=12>\nAt Mercury Steam I was working as QA tester
-    for the videogame \"Mirror of Fate\" for Nintendo 3DS.\nI started to work in the
-    game at the vertical slice until the end of the development. All that time I enjoyed
-    direct\ncontact with the developers.\r\nMy responsabilities where to find issues,
-    categorize them by importance,\ncomunicate them to the developers and make sure
-    that they were fixed.\nThe workload organization, prioritization and the insistence
-    to developers\n(to be sure that the most important issues were fixed) were part
-    of my work too.\r\r\nAt the last stages of the game (specially in the submissions
-    stage)\nI worked with Babel Media through their framework.\r\nMy job taught me
-    to be more patient and persistent, to understand\nthe developer\xB4s presion,
-    to know how to prioritize problems and to comunicate\nwith the team (Specially
-    I learned how to give bads news to the team) \r\r\nMy work as tester allowed me
-    to face and to familiarize with design\nand programmer\xB4s issues. This issues
-    are more obvious when you play\na game been developed.\n</size>"
+  WindowText: "<size=25><b>Castlevania Mirror of Fate (1 year 2 months)</b></size>\n<size=22><b>Madrid
+    Area, Spain</b></size>\n<size=20>\nI started to work in Castlevania: Mirror of
+    fate 's vertical slice until the\nend of the development. \r\nMy responsibilities
+    where to find issues, categorize them\nby importance, communicate them to the
+    developers and\nmake sure that they were fixed. The workload organization\nprioritization
+    and the insistence to developers (to be sure\nthat the most important issues were
+    fixed) were part of my\nwork, too.\r\nDuring the last stages I tested the game
+    in collaboration\nwith Babel Media.\r\nMy job taught me to be more patient and
+    persistent,\nto understand the developer\xB4s pressure, to know how\nto prioritize
+    problems and to communicate with the team\n(especially I learned how to give bads
+    news to\nthe team)\n</size>"
   TextMeshRenderer: {fileID: 10200000}
 --- !u!114 &11400004
 MonoBehaviour:

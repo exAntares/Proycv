@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -86,9 +86,8 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_Text: 'Universidad Complutense de Madrid
-
-'
+  m_Text: "<size=25><b>Jaen's Bachelor(2 year)</b></size>\n<size=22><b>Jos\xE9 Nogue</b></size>\n<size=20>\nStudied
+    the Bachelor of Arts in Jaen, Spain.\n</size>"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -113,9 +112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93922991aa431e9499eb329cc379a483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WindowText: 'Bachiller jaen
-
-'
+  WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
+    Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
   TextMeshRenderer: {fileID: 10200000}
 --- !u!114 &11400002
 MonoBehaviour:
