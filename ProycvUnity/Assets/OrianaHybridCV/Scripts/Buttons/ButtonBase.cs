@@ -16,8 +16,8 @@ public class ButtonBase : MonoBehaviour
 
     public Texture2D cursorTextureNormal;
     public Texture2D cursorTextureLink;
-    private CursorMode cursorMode = CursorMode.Auto;
-    private Vector2 hotSpot = Vector2.zero;
+    protected CursorMode cursorMode = CursorMode.Auto;
+    protected Vector2 hotSpot = Vector2.zero;
     
     public void Awake()
     {
