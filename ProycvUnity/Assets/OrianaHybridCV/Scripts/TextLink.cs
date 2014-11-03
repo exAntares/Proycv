@@ -4,13 +4,10 @@ using System.Collections;
 public class TextLink : ButtonBase
 {
     protected bool bMouseOver = false;
-
+    public string selectedHEX;
     public override void Init()
     {
-        if (TextRenderer)
-        {
-            TextRenderer.text = "<color=blue>" + gameObject.name + "</color>";
-        }
+        UpdateText();
     }
 
     public override void OnSelected()
@@ -34,7 +31,12 @@ public class TextLink : ButtonBase
 
     public override string GetButtonText()
     {
-        string Start = "<color=blue>" +  (bMouseOver ? "<i>" : "");
+        selectedHEX = RGBToHex(TextSelectedColor);
+
+        string normalColor = "<color=#" + RGBToHex(TextNormalColor) + ">";
+        string mouseOverColor = "<color=#" + RGBToHex(TextSelectedColor) + ">";
+        
+        string Start = (bMouseOver ? mouseOverColor : normalColor) + (bMouseOver ? "<i>" : "");
         string End = (bMouseOver ? "</i>" : "") + "</color>";
         return Start + gameObject.name + End;
     }

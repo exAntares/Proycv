@@ -3641,6 +3641,9 @@ MonoBehaviour:
     designer at University Complutense</b></size>\n<size=22><b>\r  Madrid 2011-2012</b></size>\n<size=20>\nMade
     the game named <color=blue><i>Galahad Memories</i></color>.\nWhere I worked as
     a Designer and 2D Artist\n</size>"
+  WindowTitle: Insert Text
+  WindowSubTitle: Insert Text
+  WindowDescription: Insert Text
   TextMeshRenderer: {fileID: 199792282}
 --- !u!1 &615572648
 GameObject:
@@ -4934,6 +4937,9 @@ MonoBehaviour:
     with all departments\nespecially with the animation and programming team.  \r\nI\u2019m
     learning the importance of a good communication between\nall departments for a
     coordinate and focused work. \n</size>"
+  WindowTitle: Insert Text
+  WindowSubTitle: Insert Text
+  WindowDescription: Insert Text
   TextMeshRenderer: {fileID: 1025372579}
 --- !u!1 &891891707
 GameObject:
@@ -5142,7 +5148,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2112870656}
-  - {fileID: 1634674853}
+  - {fileID: 1799330169}
   m_Father: {fileID: 552842381}
   m_RootOrder: 4
 --- !u!1 &932915135
@@ -5250,6 +5256,9 @@ MonoBehaviour:
     persistent,\nto understand the developer\xB4s pressure, to know how\nto prioritize
     problems and to communicate with the team\n(especially I learned how to give bads
     news to\nthe team)\n</size>"
+  WindowTitle: Insert Text
+  WindowSubTitle: Insert Text
+  WindowDescription: Insert Text
   TextMeshRenderer: {fileID: 2108471486}
 --- !u!1 &962404708
 GameObject:
@@ -5283,6 +5292,70 @@ Transform:
   - {fileID: 1152982836}
   m_Father: {fileID: 552842381}
   m_RootOrder: 3
+--- !u!1001 &971895169
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 915897408}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -21.645607
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 7.86109352
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_SortingLayerID
+      value: 607488441
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_Name
+      value: Linkedin
+      objectReference: {fileID: 0}
+    - target: {fileID: 10200000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_Text
+      value: <color=#4971CB>Linkedin</color>
+      objectReference: {fileID: 0}
+    - target: {fileID: 10200000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_Size.x
+      value: 11.7200003
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+  m_RootGameObject: {fileID: 1799330168}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &979534340
 Prefab:
   m_ObjectHideFlags: 0
@@ -7610,6 +7683,9 @@ MonoBehaviour:
     months in the xbox version.
 
     </size>'
+  WindowTitle: Insert Text
+  WindowSubTitle: Insert Text
+  WindowDescription: Insert Text
   TextMeshRenderer: {fileID: 2015683846}
 --- !u!1001 &1457365722
 Prefab:
@@ -8115,6 +8191,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Graduate in Fine Arts in University Alonso Cano</b></size>\n<size=22><b>Granada
     2006-2011\r\n</b></size>\n<size=20>\n</size>"
+  WindowTitle: Insert Text
+  WindowSubTitle: Insert Text
+  WindowDescription: Insert Text
   TextMeshRenderer: {fileID: 1344089292}
 --- !u!1 &1581447975
 GameObject:
@@ -8246,6 +8325,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
     Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
+  WindowTitle: Insert Text
+  WindowSubTitle: Insert Text
+  WindowDescription: Insert Text
   TextMeshRenderer: {fileID: 1581447977}
 --- !u!1 &1602235646
 GameObject:
@@ -8400,92 +8482,6 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 281ac13f3296d8949a3097f6fdf2c9e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!1 &1634674852
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100006, guid: d084069e2e02ffb4b8c630fedf6d7c09, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1634674853}
-  - 114: {fileID: 1634674856}
-  - 212: {fileID: 1634674855}
-  - 61: {fileID: 1634674854}
-  m_Layer: 0
-  m_Name: LinkedinLink
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1634674853
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400006, guid: d084069e2e02ffb4b8c630fedf6d7c09, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1634674852}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.1201019, y: 7.46496677, z: 0}
-  m_LocalScale: {x: .257655948, y: .37834236, z: 1}
-  m_Children: []
-  m_Father: {fileID: 915897408}
-  m_RootOrder: 1
---- !u!61 &1634674854
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 6100002, guid: d084069e2e02ffb4b8c630fedf6d7c09,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1634674852}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 47.5, y: 10}
-  m_Center: {x: 0, y: 0}
---- !u!212 &1634674855
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 21200002, guid: d084069e2e02ffb4b8c630fedf6d7c09,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1634674852}
-  m_Enabled: 0
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 3363470833
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
---- !u!114 &1634674856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400006, guid: d084069e2e02ffb4b8c630fedf6d7c09,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1634674852}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ButtonText: https://www.linkedin.com/pub/oriana-laplana-curtido/4a/6b6/906
-  TextRenderer: {fileID: 0}
-  myAnimator: {fileID: 0}
-  TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
-  TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
-  cursorTextureNormal: {fileID: 0}
-  cursorTextureLink: {fileID: 0}
-  NormalSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
-  MouseOverSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
 --- !u!1001 &1638266864
 Prefab:
   m_ObjectHideFlags: 0
@@ -9212,6 +9208,126 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 281ac13f3296d8949a3097f6fdf2c9e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1799330168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1799330169}
+  - 114: {fileID: 1799330174}
+  - 114: {fileID: 1799330173}
+  - 23: {fileID: 1799330172}
+  - 102: {fileID: 1799330171}
+  - 61: {fileID: 1799330170}
+  m_Layer: 0
+  m_Name: Linkedin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1799330169
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  m_GameObject: {fileID: 1799330168}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.645607, y: 7.86109352, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 915897408}
+  m_RootOrder: 1
+--- !u!61 &1799330170
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 56e133ce151a4904fb4f9b5842955b42,
+    type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  m_GameObject: {fileID: 1799330168}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 11.7200003, y: 3.42000008}
+  m_Center: {x: 0, y: 0}
+--- !u!102 &1799330171
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 10200000, guid: 56e133ce151a4904fb4f9b5842955b42,
+    type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  m_GameObject: {fileID: 1799330168}
+  m_Text: <color=#4971CB>Linkedin</color>
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 30
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1799330172
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 56e133ce151a4904fb4f9b5842955b42,
+    type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  m_GameObject: {fileID: 1799330168}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 607488441
+  m_SortingOrder: 0
+--- !u!114 &1799330173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 56e133ce151a4904fb4f9b5842955b42,
+    type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  m_GameObject: {fileID: 1799330168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1055b06bd108f1e438f941bc06b8d5d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layer: GuiText
+--- !u!114 &1799330174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 56e133ce151a4904fb4f9b5842955b42,
+    type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  m_GameObject: {fileID: 1799330168}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e423ceeb2641e04a9b7876acd00fd00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ButtonText: www.oriori.es
+  TextRenderer: {fileID: 1799330171}
+  myAnimator: {fileID: 0}
+  TextNormalColor: {r: .286274523, g: .443137258, b: .796078444, a: 1}
+  TextSelectedColor: {r: 0, g: 0, b: .443137258, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  selectedHEX: 
 --- !u!1 &1843376676
 GameObject:
   m_ObjectHideFlags: 0
@@ -10937,6 +11053,9 @@ MonoBehaviour:
   WindowText: '<size=22>You can see them on <color=green><i>Linkedin</i></color></size>
 
     <size=22>Or wait a few days.... I''ll update them!</size>'
+  WindowTitle: Insert Text
+  WindowSubTitle: Insert Text
+  WindowDescription: Insert Text
   TextMeshRenderer: {fileID: 552040334}
 --- !u!1 &2096050766
 GameObject:
