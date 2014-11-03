@@ -2572,7 +2572,7 @@ GameObject:
   - 4: {fileID: 447755080}
   - 212: {fileID: 447755079}
   m_Layer: 0
-  m_Name: Fondo
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9383,7 +9383,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1919479380}
   m_Layer: 0
-  m_Name: Window_Achievements
+  m_Name: Window_Experience
   m_TagString: Window
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
