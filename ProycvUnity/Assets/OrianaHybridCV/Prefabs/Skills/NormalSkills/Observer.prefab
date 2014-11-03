@@ -83,7 +83,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
   SkillDescription: "I'm always observing my sourroundings, \nyou learn a lot about
-    it, and you can't imagine\nhow many problems can be solved just by\nlooking arround"
+    it and you can't imagine\nhow many problems can be solved just by\nlooking arround."
   TextRenderer: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:

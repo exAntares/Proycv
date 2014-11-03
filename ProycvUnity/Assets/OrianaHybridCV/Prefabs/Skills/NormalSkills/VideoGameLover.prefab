@@ -99,7 +99,7 @@ MonoBehaviour:
 
     Because of this I know about many
 
-    game genders'
+    game genders.'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200002
 SpriteRenderer:

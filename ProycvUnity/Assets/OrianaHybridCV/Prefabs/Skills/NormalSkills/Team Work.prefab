@@ -99,7 +99,7 @@ MonoBehaviour:
 
     team mates, something I really enjoy because
 
-    I think most of what I learn its from co-workers'
+    I think most of what I learn is from co-workers'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200002
 SpriteRenderer:

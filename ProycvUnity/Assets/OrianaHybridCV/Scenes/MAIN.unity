@@ -703,7 +703,7 @@ MonoBehaviour:
 
     I have to deal with Blueprints, Animation
 
-    Montages, and done some level design'
+    Montages and done some level design'
   TextRenderer: {fileID: 0}
 --- !u!1 &154611506
 GameObject:
@@ -959,7 +959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
   SkillDescription: "I'm always observing my sourroundings, \nyou learn a lot about
-    it, and you can't imagine\nhow many problems can be solved just by\nlooking arround"
+    it and you can't imagine\nhow many problems can be solved just by\nlooking arround."
   TextRenderer: {fileID: 0}
 --- !u!1 &190441990
 GameObject:
@@ -1235,7 +1235,7 @@ MonoBehaviour:
   SkillRank: Rank 10/10
   SkillDescription: 'I''m always thinking in how to make the games
 
-    I''m working better, and not tedious or boring.
+    I''m working better and not tedious or boring.
 
     And then communicate those ideas in an easy
 
@@ -2009,7 +2009,7 @@ MonoBehaviour:
   SkillRank: Rank 8/10
   SkillDescription: 'I''ve used version control systems
 
-    for personal and profesional projects
+    for personal and professional projects
 
     * Git
 
@@ -2733,7 +2733,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 1/10'
-  SkillDescription: 'As child I enjoying drawing on this software
+  SkillDescription: 'As child I was enjoying drawing on this software
 
     and kept doing it for some time.'
   TextRenderer: {fileID: 0}
@@ -2929,9 +2929,9 @@ MonoBehaviour:
   SkillRank: 'Rank: 2/10'
   SkillDescription: 'After learning a bit of Blender I took some
 
-    chances on 3DS MAX, and it has been very
+    chances on 3DS MAX and it has been very
 
-    useful when I need to comunicate with
+    useful when I need to communicate with
 
     modelers and animators.'
   TextRenderer: {fileID: 0}
@@ -5432,11 +5432,11 @@ MonoBehaviour:
   SkillRank: Rank 10/10
   SkillDescription: 'Sometimes you need to calm down on stressful
 
-    enviroments and introspect things to really
+    environments and introspect things to really
 
     solve the problems that are there.
 
-    Thats something I''ve learned doing what I love:
+    That''s something I''ve learned doing what I love:
 
     Video games'
   TextRenderer: {fileID: 0}
@@ -7372,7 +7372,7 @@ MonoBehaviour:
 
     Because of this I know about many
 
-    game genders'
+    game genders.'
   TextRenderer: {fileID: 0}
 --- !u!1 &1400926328
 GameObject:
@@ -9804,7 +9804,7 @@ MonoBehaviour:
 
     team mates, something I really enjoy because
 
-    I think most of what I learn its from co-workers'
+    I think most of what I learn is from co-workers'
   TextRenderer: {fileID: 0}
 --- !u!1 &2014510059
 GameObject:
@@ -9877,7 +9877,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SkillRank: Rank 6/10
   SkillDescription: "Whenever there is a GameJam I love to \nparticipate, I think
-    they are a great way to\nachieve creativity and productivity"
+    they are a great way to\nachieve creativity and productivity."
   TextRenderer: {fileID: 0}
 --- !u!1 &2015683844
 GameObject:
@@ -10685,9 +10685,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 8/10'
-  SkillDescription: 'I love traveling, I always learn new things
+  SkillDescription: 'I love traveling, I always learn new things by
 
-    traveling, and also I think its very good for
+    traveling and also I think it''s very good for
 
     the soul.'
   TextRenderer: {fileID: 0}
@@ -10703,7 +10703,7 @@ GameObject:
   - 61: {fileID: 2067259495}
   - 114: {fileID: 2067259494}
   m_Layer: 0
-  m_Name: Project Managment
+  m_Name: Project Managment Tools
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10937,7 +10937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 1/1
-  SkillDescription: 'When I was a child my first aproaches to
+  SkillDescription: 'When I was a child my first approaches to
 
     digital drawing was with Paint, and that lead
 

@@ -99,7 +99,7 @@ MonoBehaviour:
 
     I have to deal with Blueprints, Animation
 
-    Montages, and done some level design'
+    Montages and done some level design'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200002
 SpriteRenderer:

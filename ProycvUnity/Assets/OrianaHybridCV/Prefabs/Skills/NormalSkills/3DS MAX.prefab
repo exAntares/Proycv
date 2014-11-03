@@ -97,9 +97,9 @@ MonoBehaviour:
   SkillRank: 'Rank: 2/10'
   SkillDescription: 'After learning a bit of Blender I took some
 
-    chances on 3DS MAX, and it has been very
+    chances on 3DS MAX and it has been very
 
-    useful when I need to comunicate with
+    useful when I need to communicate with
 
     modelers and animators.'
   TextRenderer: {fileID: 0}
