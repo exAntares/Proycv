@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d672c4a2abfb746bab22b905df731b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SkillRank: Rank 1/10
+  SkillRank: Rank 10/10
   SkillDescription: 'A hobby and skill that is very useful when I need
 
     to communicate ideas to my team.'

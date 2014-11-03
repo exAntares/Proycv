@@ -49,7 +49,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &100006
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,7 +99,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.6303558, y: 25.9247704, z: 0}
+  m_LocalPosition: {x: -17.6303558, y: 21.3650703, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400000}
@@ -114,7 +114,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 47.3899994, y: -26.4687214, z: 0}
+  m_LocalPosition: {x: 57.5999985, y: -26.8267212, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400004}
@@ -238,15 +238,15 @@ PolygonCollider2D:
       - {x: 11.666667, y: -25}
       - {x: 11.583333, y: -23.25}
       - {x: 11.416667, y: -22.083334}
-    - - {x: 11.5476074, y: -16.9040737}
-      - {x: 1.35470581, y: -22.6961346}
-      - {x: 7.40660095, y: -14.569582}
-    - - {x: 10.9810867, y: -4.98126793}
+    - - {x: 13.1978722, y: -22.9746895}
+      - {x: 11.5037193, y: -22.2780094}
+      - {x: 12.9832382, y: -22.1275463}
+    - - {x: 12.6058426, y: -5.39434052}
       - {x: 12.333333, y: -10.166667}
-      - {x: 10.3744431, y: -11.3816051}
-    - - {x: 9.16666698, y: -10.166667}
-      - {x: 8.9590683, y: -5.04862785}
-      - {x: 6.54404449, y: -9.75733757}
+      - {x: 12.5775032, y: -5.4058075}
+    - - {x: 11.9454346, y: -3.55750275}
+      - {x: 11.9492302, y: -3.38754654}
+      - {x: 11.9361992, y: -5.27498245}
 --- !u!102 &10200000
 TextMesh:
   serializedVersion: 3
