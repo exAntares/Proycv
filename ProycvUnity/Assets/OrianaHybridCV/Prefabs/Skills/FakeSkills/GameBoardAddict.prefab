@@ -82,7 +82,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 10/10'
-  SkillDescription: Soy una skill
+  SkillDescription: 'I love playing board games,
+
+    not as much as videogames
+
+    but pretty close.'
   TextRenderer: {fileID: 0}
 --- !u!114 &11400006
 MonoBehaviour:

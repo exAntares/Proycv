@@ -95,7 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 11/10'
-  SkillDescription: Soy una skill
+  SkillDescription: 'YES! I do love cats, I''m a crazy cats girl.
+
+    And most of my artist friends are too.'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:

@@ -94,9 +94,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d672c4a2abfb746bab22b905df731b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SkillTextPrefab: {fileID: 100004, guid: a260a3c1e84cbb943bcf185857030de2, type: 2}
   SkillRank: 'Rank: 1/10'
-  SkillDescription: Soy una Skill
+  SkillDescription: 'As child I enjoying drawing on this software
+
+    and kept doing it for some time.'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:

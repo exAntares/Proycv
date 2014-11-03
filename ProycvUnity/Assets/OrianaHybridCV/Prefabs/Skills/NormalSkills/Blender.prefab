@@ -95,7 +95,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 3/10
-  SkillDescription: Soy una Skill
+  SkillDescription: "I've studied this 3D modeling software because \nI always liked
+    3D, although I've been doing more\n2D than 3D."
   TextRenderer: {fileID: 0}
 --- !u!212 &21200002
 SpriteRenderer:

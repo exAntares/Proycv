@@ -82,7 +82,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'I''m a creative person, in my mind I''m always
+
+    creating new characters, new worlds, new rules,
+
+    new heroes, new enemies...'
   TextRenderer: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:

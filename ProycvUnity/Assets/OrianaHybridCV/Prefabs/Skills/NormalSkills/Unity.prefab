@@ -95,7 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 8/10
-  SkillDescription: Soy una Skill
+  SkillDescription: "*As designer I've used unity for personal projects\n using the
+    editor for balancing and creating\n new content.\n*And as artist I've made 2D
+    animations for unity\n and worked with its \"Animation tree\""
   TextRenderer: {fileID: 0}
 --- !u!212 &21200002
 SpriteRenderer:

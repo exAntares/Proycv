@@ -95,9 +95,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: 'I love playing videogames since I was a little girl.
+  SkillDescription: 'I love playing videogames since I was a child.
 
-    Because of this I know about many game genders'
+    Because of this I know about many
+
+    game genders'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200002
 SpriteRenderer:

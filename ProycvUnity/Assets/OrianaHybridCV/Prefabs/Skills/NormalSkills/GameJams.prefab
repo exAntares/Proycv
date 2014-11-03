@@ -95,7 +95,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 6/10
-  SkillDescription: Soy una Skill
+  SkillDescription: "Whenever there is a GameJam I love to \nparticipate, I think
+    they are a great way to\nachieve creativity and productivity"
   TextRenderer: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:

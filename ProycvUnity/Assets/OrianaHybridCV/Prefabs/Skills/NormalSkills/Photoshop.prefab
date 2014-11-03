@@ -95,7 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 8/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'As a creative person I learned to use photoshop
+
+    to express myself and create new things'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:

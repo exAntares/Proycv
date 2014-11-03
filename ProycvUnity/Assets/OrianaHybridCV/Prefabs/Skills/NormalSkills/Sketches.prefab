@@ -95,7 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 1/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'A hobby and skill that is very useful when I need
+
+    to communicate ideas to my team.'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200002
 SpriteRenderer:

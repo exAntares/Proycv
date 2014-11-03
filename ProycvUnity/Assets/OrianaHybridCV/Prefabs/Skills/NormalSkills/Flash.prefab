@@ -95,7 +95,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 6/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'As a creative person I started using Flash
+
+    to make my own animations, this was my first
+
+    entry to videogames where I made an interactive
+
+    animation'
   TextRenderer: {fileID: 0}
 --- !u!212 &21200000
 SpriteRenderer:

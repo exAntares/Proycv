@@ -276,7 +276,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 3/10
-  SkillDescription: Soy una Skill
+  SkillDescription: "I've studied this 3D modeling software because \nI always liked
+    3D, although I've been doing more\n2D than 3D."
   TextRenderer: {fileID: 0}
 --- !u!1 &40165831
 GameObject:
@@ -770,7 +771,7 @@ GameObject:
   - 61: {fileID: 154506438}
   - 114: {fileID: 154506437}
   m_Layer: 0
-  m_Name: Unreal
+  m_Name: Unreal Engine 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -828,7 +829,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 6/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'Currently I''m working in a project in UE4.
+
+    I have to deal with Blueprints, Animation
+
+    Montages, and done some level design'
   TextRenderer: {fileID: 0}
 --- !u!1 &154611506
 GameObject:
@@ -1155,7 +1160,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: Soy una Skill
+  SkillDescription: "I'm always observing my sourroundings, \nyou learn a lot about
+    it, and you can't imagine\nhow many problems can be solved just by\nlooking arround"
   TextRenderer: {fileID: 0}
 --- !u!1 &190441990
 GameObject:
@@ -1261,7 +1267,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'I''m a creative person, in my mind I''m always
+
+    creating new characters, new worlds, new rules,
+
+    new heroes, new enemies...'
   TextRenderer: {fileID: 0}
 --- !u!1 &193727076
 GameObject:
@@ -1370,7 +1380,7 @@ GameObject:
   - 61: {fileID: 199631834}
   - 114: {fileID: 199631833}
   m_Layer: 0
-  m_Name: GameplayDesigner
+  m_Name: Gameplay Designer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1428,7 +1438,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'I''m always thinking in how to make the games
+
+    I''m working better, and not tedious or boring.
+
+    And then communicate those ideas in an easy
+
+    way to my team.'
   TextRenderer: {fileID: 0}
 --- !u!1 &199792280
 GameObject:
@@ -1577,7 +1593,7 @@ GameObject:
   - 61: {fileID: 240573905}
   - 114: {fileID: 240573904}
   m_Layer: 0
-  m_Name: TraditionalAnimation
+  m_Name: Traditional Animation
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1635,7 +1651,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 8/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'I studied Fine Arts and learned to animate,
+
+    a skill that I use often in personal 2D projects'
   TextRenderer: {fileID: 0}
 --- !u!1001 &250622851
 Prefab:
@@ -1755,7 +1773,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 8/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'As a creative person I learned to use photoshop
+
+    to express myself and create new things'
   TextRenderer: {fileID: 0}
 --- !u!1 &259038402
 GameObject:
@@ -2032,7 +2052,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 11/10'
-  SkillDescription: Soy una skill
+  SkillDescription: 'YES! I do love cats, I''m a crazy cats girl.
+
+    And most of my artist friends are too.'
   TextRenderer: {fileID: 0}
 --- !u!1 &303685066
 GameObject:
@@ -2717,7 +2739,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 8/10'
-  SkillDescription: Soy una skill
+  SkillDescription: 'As expected I also enjoy playing video games
+
+    I really don''t know what I like more,
+
+    designing them or playing them.'
   TextRenderer: {fileID: 0}
 --- !u!1 &447755078
 GameObject:
@@ -2890,7 +2916,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 1/10'
-  SkillDescription: Soy una Skill
+  SkillDescription: 'As child I enjoying drawing on this software
+
+    and kept doing it for some time.'
   TextRenderer: {fileID: 0}
 --- !u!1 &460439693
 GameObject:
@@ -3036,7 +3064,7 @@ GameObject:
   - 61: {fileID: 506406802}
   - 114: {fileID: 506406801}
   m_Layer: 0
-  m_Name: 3DMax
+  m_Name: 3DS MAX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3081,7 +3109,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 2/10'
-  SkillDescription: Soy una Skill
+  SkillDescription: 'After learning a bit of Blender I took some
+
+    chances on 3DS MAX, and it has been very
+
+    useful when I need to comunicate with
+
+    modelers and animators.'
   TextRenderer: {fileID: 0}
 --- !u!4 &506406804
 Transform:
@@ -4504,7 +4538,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 6/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'As a creative person I started using Flash
+
+    to make my own animations, this was my first
+
+    entry to videogames where I made an interactive
+
+    animation'
   TextRenderer: {fileID: 0}
 --- !u!1 &719159502
 GameObject:
@@ -6303,7 +6343,7 @@ GameObject:
   - 61: {fileID: 1022715133}
   - 114: {fileID: 1022715132}
   m_Layer: 0
-  m_Name: Patient
+  m_Name: Insight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6361,7 +6401,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'Sometimes you need to calm down on stressful
+
+    enviroments and introspect things to really
+
+    solve the problems that are there.
+
+    Thats something I''ve learned doing what I love:
+
+    Video games'
   TextRenderer: {fileID: 0}
 --- !u!1 &1025372577
 GameObject:
@@ -6603,7 +6651,7 @@ GameObject:
   - 61: {fileID: 1056321277}
   - 114: {fileID: 1056321276}
   m_Layer: 0
-  m_Name: LevelDesigner
+  m_Name: Level Designer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6661,7 +6709,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 9/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'I''ve designed levels for:
+
+    * Skara the blade remains
+
+    * Galahad
+
+    * Wedding Invitation
+
+    * Dragon Light'
   TextRenderer: {fileID: 0}
 --- !u!1 &1079158628
 GameObject:
@@ -7538,7 +7594,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 1/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'A hobby and skill that is very useful when I need
+
+    to communicate ideas to my team.'
   TextRenderer: {fileID: 0}
 --- !u!1 &1150532351
 GameObject:
@@ -8520,7 +8578,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 8/10
-  SkillDescription: Soy una Skill
+  SkillDescription: "*As designer I've used unity for personal projects\n using the
+    editor for balancing and creating\n new content.\n*And as artist I've made 2D
+    animations for unity\n and worked with its \"Animation tree\""
   TextRenderer: {fileID: 0}
 --- !u!1 &1394379070
 GameObject:
@@ -8741,9 +8801,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: 'I love playing videogames since I was a little girl.
+  SkillDescription: 'I love playing videogames since I was a child.
 
-    Because of this I know about many game genders'
+    Because of this I know about many
+
+    game genders'
   TextRenderer: {fileID: 0}
 --- !u!1 &1400926328
 GameObject:
@@ -9671,7 +9733,7 @@ GameObject:
   - 61: {fileID: 1577429486}
   - 114: {fileID: 1577429485}
   m_Layer: 0
-  m_Name: SelfTaught
+  m_Name: Self Taught
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9729,7 +9791,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'I belive you never stop learning and thats why
+
+    I''m always learning new stuff, being from internet
+
+    other people, new courses, lectures, etc.
+
+    Learning its something that is easy for me.'
   TextRenderer: {fileID: 0}
 --- !u!1 &1578607987
 GameObject:
@@ -11419,7 +11487,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 10/10'
-  SkillDescription: Soy una skill
+  SkillDescription: 'I love playing board games,
+
+    not as much as videogames
+
+    but pretty close.'
   TextRenderer: {fileID: 0}
 --- !u!1 &1947497724
 GameObject:
@@ -11750,7 +11822,7 @@ GameObject:
   - 61: {fileID: 2001002091}
   - 114: {fileID: 2001002090}
   m_Layer: 0
-  m_Name: TeamWork
+  m_Name: Team Work
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11808,7 +11880,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 10/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'As a designer I must and love working with
+
+    team mates, something I really enjoy because
+
+    I think most of what I learn its from co-workers'
   TextRenderer: {fileID: 0}
 --- !u!1 &2014510059
 GameObject:
@@ -11880,7 +11956,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 6/10
-  SkillDescription: Soy una Skill
+  SkillDescription: "Whenever there is a GameJam I love to \nparticipate, I think
+    they are a great way to\nachieve creativity and productivity"
   TextRenderer: {fileID: 0}
 --- !u!1 &2015683844
 GameObject:
@@ -12674,7 +12751,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 8/10'
-  SkillDescription: Soy una skill
+  SkillDescription: 'I love traveling, I always learn new things
+
+    traveling, and also I think its very good for
+
+    the soul.'
   TextRenderer: {fileID: 0}
 --- !u!1 &2067259492
 GameObject:
@@ -12688,7 +12769,7 @@ GameObject:
   - 61: {fileID: 2067259495}
   - 114: {fileID: 2067259494}
   m_Layer: 0
-  m_Name: Mantis
+  m_Name: Project Managment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12746,7 +12827,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 8/10
-  SkillDescription: Soy una Skill
+  SkillDescription: 'In projects I''ve work with:
+
+    * Red Mine
+
+    * Jira
+
+    * Pivotal Tracker
+
+    * Mantis'
   TextRenderer: {fileID: 0}
 --- !u!1001 &2093531849
 Prefab:
@@ -12932,7 +13021,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: Rank 1/1
-  SkillDescription: Soy una Skill
+  SkillDescription: 'When I was a child my first aproaches to
+
+    digital drawing was with Paint, and that lead
+
+    me to Photoshop'
   TextRenderer: {fileID: 0}
 --- !u!1 &2102908306
 GameObject:
