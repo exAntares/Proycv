@@ -95,9 +95,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 8/10'
-  SkillDescription: 'I love traveling, I always learn new things
+  SkillDescription: 'I love traveling, I always learn new things by
 
-    traveling, and also I think its very good for
+    traveling and also I think it''s very good for
 
     the soul.'
   TextRenderer: {fileID: 0}

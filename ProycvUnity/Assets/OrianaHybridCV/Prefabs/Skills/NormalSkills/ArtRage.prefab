@@ -95,7 +95,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 1/10'
-  SkillDescription: 'As child I enjoying drawing on this software
+  SkillDescription: 'As child I was enjoying drawing on this software
 
     and kept doing it for some time.'
   TextRenderer: {fileID: 0}

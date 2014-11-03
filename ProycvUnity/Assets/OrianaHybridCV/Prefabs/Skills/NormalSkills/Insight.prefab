@@ -97,11 +97,11 @@ MonoBehaviour:
   SkillRank: Rank 10/10
   SkillDescription: 'Sometimes you need to calm down on stressful
 
-    enviroments and introspect things to really
+    environments and introspect things to really
 
     solve the problems that are there.
 
-    Thats something I''ve learned doing what I love:
+    That''s something I''ve learned doing what I love:
 
     Video games'
   TextRenderer: {fileID: 0}

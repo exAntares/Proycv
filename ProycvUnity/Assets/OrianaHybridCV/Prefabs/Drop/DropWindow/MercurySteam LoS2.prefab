@@ -254,12 +254,17 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Text: '<b>MercurySteam</b>
+  m_Text: '<size=25><b>Lords of Shadow 2 (3 months)</b></size>
 
-    Tester en Castlevania Lords of Shadow 2
+    <size=22><b>Madrid Area, Spain</b></size>
 
+    <size=20>
 
-'
+    Worked as Internal Tester for Castlevania Lords of shadow 2 for a few
+
+    months in the xbox version.
+
+    </size>'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -296,12 +301,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93922991aa431e9499eb329cc379a483, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  WindowText: '<b>MercurySteam</b>
+  WindowText: '<size=25><b>Castlevania Lords of Shadow 2 (3 months)</b></size>
 
-    Tester en Castlevania Lords of Shadow 2
+    <size=22><b>Madrid Area, Spain</b></size>
 
+    <size=20>
 
-'
+    Worked as Internal Tester for Castlevania Lords of shadow 2 for a few
+
+    months in the xbox version.
+
+    </size>'
   TextMeshRenderer: {fileID: 10200000}
 --- !u!114 &11400006
 MonoBehaviour:
