@@ -2,7 +2,12 @@ fileFormatVersion: 2
 guid: ca4287a1e60ad8a46a00a403fe647585
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - TextRenderer: {instanceID: 0}
+  - myAnimator: {instanceID: 0}
+  - cursorTextureNormal: {instanceID: 0}
+  - cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  - SlidesController: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

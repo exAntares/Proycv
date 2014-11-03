@@ -14,6 +14,15 @@ public class ButtonBase : MonoBehaviour
 	protected bool Selected = false;
 	protected bool ButtonEnabled = true;
 
+    public Texture2D cursorTextureNormal;
+    public Texture2D cursorTextureLink;
+    private CursorMode cursorMode = CursorMode.Auto;
+    private Vector2 hotSpot = Vector2.zero;
+    
+    public void Awake()
+    {
+    }
+
 	public void DisableButton()
 	{
 		ButtonEnabled = false;
@@ -84,6 +93,8 @@ public class ButtonBase : MonoBehaviour
 
 	void OnMouseOver()
 	{
+        Cursor.SetCursor(cursorTextureLink, Vector2.zero, cursorMode);
+
 		if(ButtonEnabled && myAnimator && !Selected)
 		{
 			myAnimator.Play("MouseOver");
@@ -94,6 +105,8 @@ public class ButtonBase : MonoBehaviour
 
 	void OnMouseExit()
 	{
+        Cursor.SetCursor(null, Vector2.zero, cursorMode);
+
 		if(ButtonEnabled && myAnimator && !Selected)
 		{
 			myAnimator.Play("Idle");

@@ -787,6 +787,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
 --- !u!1001 &157740717
@@ -1650,7 +1652,7 @@ Transform:
   m_GameObject: {fileID: 259950851}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.55000019, y: 4, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 891891708}
   m_RootOrder: 1
@@ -1761,7 +1763,7 @@ Transform:
   m_PrefabInternal: {fileID: 1188791208}
   m_GameObject: {fileID: 260176782}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .425094604, y: .035741806, z: 0}
+  m_LocalPosition: {x: 1.20000005, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 190441991}
@@ -1861,6 +1863,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
 --- !u!1 &276528498
@@ -2265,7 +2269,7 @@ Transform:
   m_GameObject: {fileID: 361572430}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.55000019, y: 4, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 1891229178}
   m_RootOrder: 1
@@ -2337,6 +2341,8 @@ MonoBehaviour:
   myAnimator: {fileID: 361572434}
   TextNormalColor: {r: .666666687, g: .392156869, b: 0, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
   DropItemsData:
   - ButtonName: MercurySteam MoF
     WindowToShow: {fileID: 943722882}
@@ -3489,6 +3495,8 @@ MonoBehaviour:
   myAnimator: {fileID: 609271139}
   TextNormalColor: {r: 1, g: 1, b: 1, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   DefaultCategory: 1
   SlidesController: {fileID: 1152982837}
 --- !u!1 &612772284
@@ -3653,7 +3661,9 @@ MonoBehaviour:
   myAnimator: {fileID: 612772285}
   TextNormalColor: {r: .534482777, g: .534482777, b: .534482777, a: 1}
   TextSelectedColor: {r: 1, g: .709803939, b: 0, a: 1}
-  DefaultTab: 1
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  DefaultTab: 0
   AssociatedTab: {fileID: 1919479379}
 --- !u!4 &615572653
 Transform:
@@ -3776,6 +3786,8 @@ MonoBehaviour:
   myAnimator: {fileID: 2113048693}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   SliderButtonDirection: 1
   SliderController: {fileID: 1152982837}
 --- !u!1001 &634538770
@@ -3935,6 +3947,8 @@ MonoBehaviour:
   myAnimator: {fileID: 2130353740}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
 --- !u!1 &696411282
 GameObject:
   m_ObjectHideFlags: 0
@@ -4055,6 +4069,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: DefaultTab
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4196,7 +4214,7 @@ Transform:
   m_PrefabInternal: {fileID: 85742680}
   m_GameObject: {fileID: 771660287}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .425094604, y: .035741806, z: 0}
+  m_LocalPosition: {x: 1.20000005, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 891891708}
@@ -4300,10 +4318,6 @@ Prefab:
       propertyPath: m_Name
       value: TabButton_Skill
       objectReference: {fileID: 0}
-    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
-      propertyPath: AssociatedTab
-      value: 
-      objectReference: {fileID: 895306883}
     - target: {fileID: 21200002, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_SortingLayerID
       value: 3193806129
@@ -4312,6 +4326,14 @@ Prefab:
       propertyPath: m_Text
       value: <color=#FFB500>Skills</color>
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: ButtonText
+      value: Skills
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: AssociatedTab
+      value: 
+      objectReference: {fileID: 895306883}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
   m_RootGameObject: {fileID: 2147346902}
@@ -4690,6 +4712,8 @@ MonoBehaviour:
   myAnimator: {fileID: 828547137}
   TextNormalColor: {r: 1, g: 1, b: 1, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   DefaultCategory: 0
   SlidesController: {fileID: 1152982837}
 --- !u!1 &830997371
@@ -4944,6 +4968,8 @@ MonoBehaviour:
   myAnimator: {fileID: 259950854}
   TextNormalColor: {r: .666666687, g: .392156869, b: 0, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
   DropItemsData:
   - ButtonName: under construction
     WindowToShow: {fileID: 2082544296}
@@ -5052,6 +5078,10 @@ Prefab:
     - target: {fileID: 21200002, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_SortingLayerID
       value: 3193806129
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: DefaultTab
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
@@ -5693,7 +5723,7 @@ Transform:
   m_PrefabInternal: {fileID: 116675525}
   m_GameObject: {fileID: 1079158628}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .425094604, y: .035741806, z: 0}
+  m_LocalPosition: {x: 1.20000005, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1891229178}
@@ -5814,7 +5844,9 @@ MonoBehaviour:
   myAnimator: {fileID: 536147424}
   TextNormalColor: {r: .534482777, g: .534482777, b: .534482777, a: 1}
   TextSelectedColor: {r: 1, g: .709803939, b: 0, a: 1}
-  DefaultTab: 1
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  DefaultTab: 0
   AssociatedTab: {fileID: 962404708}
 --- !u!1 &1087150957
 GameObject:
@@ -5898,6 +5930,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
 --- !u!1001 &1096543272
@@ -6183,6 +6217,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: a7828921aa8f7714ba93560eca6004fd, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: b0bb51bfc766bd444b51ae5519818041, type: 3}
 --- !u!1001 &1104149712
@@ -6342,6 +6378,8 @@ MonoBehaviour:
   myAnimator: {fileID: 1553213476}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   SliderButtonDirection: 0
   SliderController: {fileID: 1152982837}
 --- !u!1 &1115953599
@@ -6764,6 +6802,8 @@ MonoBehaviour:
   myAnimator: {fileID: 1213468693}
   TextNormalColor: {r: 1, g: 1, b: 1, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   DefaultCategory: 0
   SlidesController: {fileID: 1152982837}
 --- !u!95 &1213468693
@@ -7264,6 +7304,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   ContactCard: {fileID: 2130353739}
 --- !u!60 &1396638368
 PolygonCollider2D:
@@ -7377,8 +7419,8 @@ MonoBehaviour:
 --- !u!1 &1400926328
 GameObject:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 100000, guid: 0021614e4aae1df4d8824fbfcf7c362f, type: 2}
+  m_PrefabInternal: {fileID: 1506384219}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1400926329}
@@ -7393,11 +7435,11 @@ GameObject:
 --- !u!4 &1400926329
 Transform:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 400000, guid: 0021614e4aae1df4d8824fbfcf7c362f, type: 2}
+  m_PrefabInternal: {fileID: 1506384219}
   m_GameObject: {fileID: 1400926328}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -46.624691, y: 20.7210808, z: 0}
+  m_LocalPosition: {x: -45, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1919479380}
@@ -7405,8 +7447,9 @@ Transform:
 --- !u!114 &1400926330
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabParentObject: {fileID: 11400000, guid: 0021614e4aae1df4d8824fbfcf7c362f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1506384219}
   m_GameObject: {fileID: 1400926328}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -7726,6 +7769,34 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 7fed5936c223be64e977d358ff3bc397, type: 2}
   m_RootGameObject: {fileID: 2099272738}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
+--- !u!1001 &1506384219
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1919479380}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 0021614e4aae1df4d8824fbfcf7c362f, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 0021614e4aae1df4d8824fbfcf7c362f, type: 2}
+      propertyPath: DropButtons.Array.data[0]
+      value: 
+      objectReference: {fileID: 2034813514}
+    - target: {fileID: 11400000, guid: 0021614e4aae1df4d8824fbfcf7c362f, type: 2}
+      propertyPath: DropButtons.Array.data[1]
+      value: 
+      objectReference: {fileID: 361572435}
+    - target: {fileID: 11400000, guid: 0021614e4aae1df4d8824fbfcf7c362f, type: 2}
+      propertyPath: DropButtons.Array.data[2]
+      value: 
+      objectReference: {fileID: 891891710}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0021614e4aae1df4d8824fbfcf7c362f, type: 2}
+  m_RootGameObject: {fileID: 1400926328}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &1523619574
@@ -8383,6 +8454,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
 --- !u!1001 &1638266864
@@ -8803,6 +8876,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
 --- !u!1 &1767714520
@@ -9252,6 +9327,10 @@ Prefab:
       propertyPath: m_SortingLayerID
       value: 3193806129
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
+      propertyPath: DefaultTab
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
   m_RootGameObject: {fileID: 615572648}
@@ -9592,7 +9671,9 @@ MonoBehaviour:
   myAnimator: {fileID: 1769491207}
   TextNormalColor: {r: .534482777, g: .534482777, b: .534482777, a: 1}
   TextSelectedColor: {r: 1, g: .709803939, b: 0, a: 1}
-  DefaultTab: 1
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  DefaultTab: 0
   AssociatedTab: {fileID: 915897407}
 --- !u!1 &1971100890
 GameObject:
@@ -10371,6 +10452,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: 349b47a536a283e40ae328817089577b, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: f9e252262586f384bbce10b714da71ec, type: 3}
 --- !u!1 &2034813510
@@ -10398,7 +10481,7 @@ Transform:
   m_GameObject: {fileID: 2034813510}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.55000019, y: 4, z: 1}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children: []
   m_Father: {fileID: 190441991}
   m_RootOrder: 1
@@ -10454,6 +10537,8 @@ MonoBehaviour:
   myAnimator: {fileID: 2034813515}
   TextNormalColor: {r: .666666687, g: .392156869, b: 0, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
   DropItemsData:
   - ButtonName: Bachelor
     WindowToShow: {fileID: 1595297663}
@@ -11473,6 +11558,8 @@ MonoBehaviour:
   myAnimator: {fileID: 1364688815}
   TextNormalColor: {r: .534482777, g: .534482777, b: .534482777, a: 1}
   TextSelectedColor: {r: 1, g: .709803939, b: 0, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
   DefaultTab: 1
   AssociatedTab: {fileID: 895306883}
 --- !u!61 &2147346907
