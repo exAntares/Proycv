@@ -133,9 +133,9 @@ public class ButtonBase : MonoBehaviour
 	
 	protected string RGBToHex(Color ColorToHex)
 	{
-		float red = ColorToHex.r * 255;
-		float green = ColorToHex.g * 255;
-		float blue = ColorToHex.b * 255;
+		float red = ColorToHex.r * 255.0f;
+		float green = ColorToHex.g * 255.0f;
+		float blue = ColorToHex.b * 255.0f;
 		
 		string r1 = GetHex((int)Mathf.Floor(red / 16));
 		string r2 = GetHex((int)Mathf.Floor(red % 16));
