@@ -173,6 +173,8 @@ MonoBehaviour:
   myAnimator: {fileID: 9500002}
   TextNormalColor: {r: .534482777, g: .534482777, b: .534482777, a: 1}
   TextSelectedColor: {r: 1, g: .709803939, b: 0, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
   DefaultTab: 1
   AssociatedTab: {fileID: 0}
 --- !u!114 &11400002
