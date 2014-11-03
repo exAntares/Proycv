@@ -1,13 +1,18 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class SkillInfo : MonoBehaviour {
 
     public Vector3 MouseOffset = new Vector3( 2.0f, -2.0f, 0.0f);
 
 	// Use this for initialization
-	void Start () {
-
+	void Start ()
+    {
+        for (int i = 0; i < transform.childCount; ++i)
+        {
+            transform.GetChild(i).gameObject.SetActive(false);
+        }
 	}
 	
 	// Update is called once per frame
@@ -16,4 +21,12 @@ public class SkillInfo : MonoBehaviour {
         p.z = transform.position.z;
         transform.position = p + MouseOffset;
 	}
+
+    public void ShowInfo(bool show)
+    {
+        for (int i = 0; i < transform.childCount; ++i)
+        {
+            transform.GetChild(i).gameObject.SetActive(show);
+        }
+    }
 }

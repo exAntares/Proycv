@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SkillRank: 'Rank: 2/10'
-  SkillDescription: Soy una skill
+  SkillDescription: I recently started a collection of bugs (insects)
   TextRenderer: {fileID: 10200000}
 --- !u!114 &11400004
 MonoBehaviour:
