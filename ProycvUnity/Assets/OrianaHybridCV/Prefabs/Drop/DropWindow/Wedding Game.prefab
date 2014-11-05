@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &100002
 GameObject:
   m_ObjectHideFlags: 0
@@ -172,6 +172,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
     Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 10200000}
 --- !u!114 &11400002
 MonoBehaviour:

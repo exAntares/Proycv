@@ -144,8 +144,19 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_Text: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9 Nogue</b></size>\n<size=20>\nStudied
-    the Bachelor of Arts in Jaen, Spain.\n</size>"
+  m_Text: '<size=25><b><color=white>Insert Text</color></b></size>
+
+    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+    <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+    <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+    <size=20><color=#62C0CEFF>Insert Text</color></size>
+
+'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -172,6 +183,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
     Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 10200000}
 --- !u!114 &11400002
 MonoBehaviour:
