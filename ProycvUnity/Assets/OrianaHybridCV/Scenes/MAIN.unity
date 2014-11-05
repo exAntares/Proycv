@@ -500,7 +500,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: m_LocalPosition.x
@@ -544,12 +544,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.data[1].ButtonName
-      value: Wedding Project
+      value: Eat and Shut it
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.data[0].WindowToShow
       value: 
       objectReference: {fileID: 265385716}
+    - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
+      propertyPath: DropItemsData.Array.data[1].WindowToShow
+      value: 
+      objectReference: {fileID: 974503235}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
   m_RootGameObject: {fileID: 891891707}
@@ -612,6 +616,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 111331284}
   - 212: {fileID: 111331285}
+  - 114: {fileID: 111331287}
+  - 61: {fileID: 111331286}
   m_Layer: 0
   m_Name: GAME Shut
   m_TagString: Untagged
@@ -626,8 +632,8 @@ Transform:
   m_PrefabInternal: {fileID: 1895728687}
   m_GameObject: {fileID: 111331283}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 28.9327011, y: -30.1319256, z: 0}
-  m_LocalScale: {x: 3.5, y: 3.5, z: 1}
+  m_LocalPosition: {x: 12.0120583, y: -41.776268, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
   m_Children: []
   m_Father: {fileID: 974503236}
   m_RootOrder: 2
@@ -654,6 +660,47 @@ SpriteRenderer:
   m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a5adc87fe169696448a31793545d8439, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!61 &111331286
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100000, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 111331283}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 9, y: 7}
+  m_Center: {x: 0, y: -4.76837158e-07}
+--- !u!114 &111331287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 111331283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
+  ButtonText: http://www.kongregate.com/games/chepetzini/eat-shut-it?acomplete=eat+and+shut
+  TextRenderer: {fileID: 0}
+  myAnimator: {fileID: 0}
+  TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+  TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
+  NormalSprite: {fileID: 21300000, guid: a5adc87fe169696448a31793545d8439, type: 3}
+  MouseOverSprite: {fileID: 21300000, guid: 4879e0ea0d944304caf3a9c59225554f, type: 3}
 --- !u!1001 &116675525
 Prefab:
   m_ObjectHideFlags: 0
@@ -661,6 +708,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 310368241}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
+      propertyPath: DropItemsData.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: m_LocalPosition.x
       value: -45
@@ -725,6 +776,14 @@ Prefab:
       propertyPath: m_Text
       value: <color=#AA6400>PersonalProjects</color>
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
+      propertyPath: DropItemsData.Array.data[3].ButtonName
+      value: Skara
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
+      propertyPath: DropItemsData.Array.data[3].WindowToShow
+      value: 
+      objectReference: {fileID: 883041834}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
   m_RootGameObject: {fileID: 1891229177}
@@ -883,6 +942,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: https://www.youtube.com/watch?v=K5wyp-d49aE
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -890,6 +954,9 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 0}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
 --- !u!1001 &157740717
@@ -1979,20 +2046,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
     Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
-  QuestTitle: WEDDING INVITATION ( quest complete)
+  QuestTitle: WEDDING INVITATION  <color=#22fe22ff>(Quest completed)</color>
   QuestPlace: Personal project
-  QuestDescription: "\n\tIt's a personal and creative project that was made by my
-    \n\thusband and me as wedding invitation.I worked in this project \n\tlike Game
-    Designer and Artist.\n\t\"Wedding invitation\" is a plataformer game with RPG
-    dialogs.\n\tDue to his personal theme the dialogs has internal jokes. \n\tThe
-    final result could be improved but was an good wedding\n\tinvitation that was
-    enjoged fo all guest.\n"
+  QuestDescription: "\n\t\"Wedding invitation\" is a plataformer game with RPG dialogs\n\tmade
+    in Unity3D engine. \n\tIt's a personal and creative project that was made by my
+    \n\thusband and me (mains characters) as wedding invitation.\n\tI worked in this
+    project\tas Game Designer, level designer\n\tand artist.\t\n\tThe final result
+    could be improved but was an good wedding\n\tinvitation that was enjoged fo all
+    guest."
   QuestSecondaryTitle: Rewards___________________________________
   QuestSecondaryDescription: "\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t- Wedding
     invitation game\n\t\t\t\t\t\t\t\t\t\t- +20 to Creative Ability\n\t\t\t\t\t\t\t\t\t\t-
     Wedding ring\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>EXP:</color> + 2014p\n\t\t\t\t\t\t\t\t\t\t-
     <color=yellow>Gold:</color> + 400"
-  Links: 
   TextMeshRenderer: {fileID: 655358161}
 --- !u!1 &265630616
 GameObject:
@@ -2071,6 +2137,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: https://www.linkedin.com/pub/oriana-laplana-curtido/4a/6b6/906
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -2078,6 +2149,9 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 0}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
 --- !u!1 &276528498
@@ -2549,6 +2623,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd70c3e870269641a0036729eab8797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: PersonalProjects
   TextRenderer: {fileID: 1079158630}
   myAnimator: {fileID: 361572434}
@@ -2985,6 +3064,36 @@ Transform:
   - {fileID: 997758177}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!1 &476871958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476871959}
+  - 114: {fileID: 1799330174}
+  - 61: {fileID: 1799330170}
+  m_Layer: 0
+  m_Name: Linkedin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476871959
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+  m_PrefabInternal: {fileID: 971895169}
+  m_GameObject: {fileID: 476871958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -21.5, y: 7.69999981, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1799330169}
+  m_Father: {fileID: 915897408}
+  m_RootOrder: 1
 --- !u!1001 &485203061
 Prefab:
   m_ObjectHideFlags: 0
@@ -3740,6 +3849,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca4287a1e60ad8a46a00a403fe647585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: 
   TextRenderer: {fileID: 830997373}
   myAnimator: {fileID: 609271139}
@@ -3870,7 +3984,6 @@ MonoBehaviour:
   QuestDescription: Insert Text
   QuestSecondaryTitle: Insert Text
   QuestSecondaryDescription: Insert Text
-  Links: Insert Text
   TextMeshRenderer: {fileID: 199792282}
 --- !u!1 &615572648
 GameObject:
@@ -3913,6 +4026,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: Experience
   TextRenderer: {fileID: 1912056262}
   myAnimator: {fileID: 612772285}
@@ -4038,6 +4156,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff2d754470892d4ca5225a43e6558ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: 
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 2113048693}
@@ -4186,13 +4309,13 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 852196247}
   m_GameObject: {fileID: 655358159}
-  m_Text: "<size=25><b><color=white>WEDDING INVITATION ( quest complete)</color></b></size>\n<size=21><b><color=#FFDC35FF>Personal
-    project</color></b></size>\n<size=20><color=#DD7D7FF>\n\tIt's a personal and creative
-    project that was made by my \n\thusband and me as wedding invitation.I worked
-    in this project \n\tlike Game Designer and Artist.\n\t\"Wedding invitation\" is
-    a plataformer game with RPG dialogs.\n\tDue to his personal theme the dialogs
-    has internal jokes. \n\tThe final result could be improved but was an good wedding\n\tinvitation
-    that was enjoged fo all guest.\n</color></size>\n<size=21><b><color=#FFDC35FF>Rewards___________________________________</color></b></size>\n<size=20><color=#DD7D7FF>\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t-
+  m_Text: "<size=25><b><color=white>WEDDING INVITATION  <color=#22fe22ff>(Quest completed)</color></color></b></size>\n<size=21><b><color=#FFDC35FF>Personal
+    project</color></b></size>\n<size=20><color=#DD7D7FF>\n\t\"Wedding invitation\"
+    is a plataformer game with RPG dialogs\n\tmade in Unity3D engine. \n\tIt's a personal
+    and creative project that was made by my \n\thusband and me (mains characters)
+    as wedding invitation.\n\tI worked in this project\tlike Game Designer, level
+    designer\n\t and Artist.\t\n\tThe final result could be improved but was an good
+    wedding\n\tinvitation that was enjoged fo all guest.</color></size>\n<size=21><b><color=#FFDC35FF>Rewards___________________________________</color></b></size>\n<size=20><color=#DD7D7FF>\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t-
     Wedding invitation game\n\t\t\t\t\t\t\t\t\t\t- +20 to Creative Ability\n\t\t\t\t\t\t\t\t\t\t-
     Wedding ring\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>EXP:</color> + 2014p\n\t\t\t\t\t\t\t\t\t\t-
     <color=yellow>Gold:</color> + 400</color></size>\n<size=20><color=#62C0CEFF></color></size>\n"
@@ -4345,6 +4468,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4deac6ad0d98bbd49a01d9c0f71ed7b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: 
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 2130353740}
@@ -4681,19 +4809,17 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1895728687}
   m_GameObject: {fileID: 747454867}
-  m_Text: '<size=25><b><color=white>Insert Text</color></b></size>
-
-    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
-
-    <size=20><color=#DD7D7FF>Insert Text</color></size>
-
-    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
-
-    <size=20><color=#DD7D7FF>Insert Text</color></size>
-
-    <size=20><color=#62C0CEFF>Insert Text</color></size>
-
-'
+  m_Text: "<size=25><b><color=white>EAT & SHUT IT   <color=#22fe22ff>(Quest completed)</color></color></b></size>\n<size=21><b><color=#FFDC35FF>Global
+    Game Jam Madrid, 2013</color></b></size>\n<size=20><color=#DD7D7FF>\t \n\tEat
+    And Shut It, is a 2D videogame made in Unity3D engine. \n\tIs a casual, one screen
+    action videogame where you have to eat\n\tall food, that a tree who is in the
+    center of the screen, drops for\n\tyou. If one drop fall down to the floor, the
+    game ends.\n\n\tThis Game was made in a Global Game Jam event.\n\tThe team's members
+    decided to upload to kongregate\n\tfor anyone can played. Overall ,I was in charge
+    of game's art. </color></size>\n<size=21><b><color=#FFDC35FF>Rewards__________________</color></b></size>\n<size=20><color=#DD7D7FF>\t\t\t\t\t\t\t\t\t\t-
+    Eat & Shut it game\n\t\t\t\t\t\t\t\t\t\t- +30 to Team Work\n\t\t\t\t\t\t\t\t\t\t-
+    Global Game Jam Experience\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>EXP:</color> +
+    2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color> + 500</color></size>\n<size=20><color=#62C0CEFF>wwwwwwwwwwwww</color></size>\n"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -5367,6 +5493,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca4287a1e60ad8a46a00a403fe647585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: 
   TextRenderer: {fileID: 2036367977}
   myAnimator: {fileID: 828547137}
@@ -5668,7 +5799,6 @@ MonoBehaviour:
   QuestDescription: Insert Text
   QuestSecondaryTitle: Insert Text
   QuestSecondaryDescription: Insert Text
-  Links: Insert Text
   TextMeshRenderer: {fileID: 1025372579}
 --- !u!1 &891891707
 GameObject:
@@ -5725,6 +5855,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd70c3e870269641a0036729eab8797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: PersonalProjects
   TextRenderer: {fileID: 771660289}
   myAnimator: {fileID: 259950854}
@@ -5735,6 +5870,8 @@ MonoBehaviour:
   DropItemsData:
   - ButtonName: Wedding Game
     WindowToShow: {fileID: 265385716}
+  - ButtonName: Eat and Shut it
+    WindowToShow: {fileID: 974503235}
   DropItemPrefab: {fileID: 100000, guid: 6cba9c5a3663d2e4daa11711010bcf1c, type: 2}
   _DropItems:
   - {fileID: 0}
@@ -5877,7 +6014,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2112870656}
-  - {fileID: 1799330169}
+  - {fileID: 476871959}
   m_Father: {fileID: 552842381}
   m_RootOrder: 4
 --- !u!1 &932915135
@@ -5991,7 +6128,6 @@ MonoBehaviour:
   QuestDescription: Insert Text
   QuestSecondaryTitle: Insert Text
   QuestSecondaryDescription: Insert Text
-  Links: Insert Text
   TextMeshRenderer: {fileID: 2108471486}
 --- !u!1 &962404708
 GameObject:
@@ -6032,38 +6168,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 915897408}
     m_Modifications:
-    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -21.645607
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 7.86109352
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
       propertyPath: m_SortingLayerID
       value: 607488441
@@ -6084,9 +6188,25 @@ Prefab:
       propertyPath: m_Size.x
       value: 11.7200003
       objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_Name
+      value: Linkedin
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -21.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 7.69999981
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
-  m_RootGameObject: {fileID: 1799330168}
+  m_RootGameObject: {fileID: 476871958}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &974503235
@@ -6104,7 +6224,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &974503236
 Transform:
   m_ObjectHideFlags: 0
@@ -6118,6 +6238,7 @@ Transform:
   - {fileID: 747454868}
   - {fileID: 684090715}
   - {fileID: 111331284}
+  - {fileID: 1789151883}
   m_Father: {fileID: 2019962777}
   m_RootOrder: 7
 --- !u!114 &974503237
@@ -6134,12 +6255,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Jaen's Bachelor (2 years)</b></size>\n<size=22><b>Jos\xE9
     Nogue</b></size>\n<size=20>\nStudied the Bachelor of Arts in Jaen, Spain.\n</size>"
-  QuestTitle: Insert Text
-  QuestPlace: Insert Text
-  QuestDescription: Insert Text
-  QuestSecondaryTitle: Insert Text
-  QuestSecondaryDescription: Insert Text
-  Links: Insert Text
+  QuestTitle: EAT & SHUT IT   <color=#22fe22ff>(Quest completed)</color>
+  QuestPlace: Global Game Jam Madrid, 2013
+  QuestDescription: "\t \n\tEat And Shut It, is a 2D videogame made in Unity3D engine.
+    \n\tIs a casual, one screen action videogame where you have to eat\n\tall food,
+    that a tree who is in the center of the screen, drops for\n\tyou. If one drop
+    fall down to the floor, the game ends.\n\n\tThis Game was made in a Global Game
+    Jam event.\n\tThe team's members decided to upload to kongregate\n\tfor anyone
+    can played. Overall ,I was in charge of game's art. "
+  QuestSecondaryTitle: Rewards__________________
+  QuestSecondaryDescription: "\t\t\t\t\t\t\t\t\t\t- Eat & Shut it game\n\t\t\t\t\t\t\t\t\t\t-
+    +30 to Team Work\n\t\t\t\t\t\t\t\t\t\t- Global Game Jam Experience\n\t\t\t\t\t\t\t\t\t\t-
+    <color=yellow>EXP:</color> + 2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color>
+    + 500"
   TextMeshRenderer: {fileID: 747454869}
 --- !u!1001 &979534340
 Prefab:
@@ -6776,6 +6904,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: Portfolio
   TextRenderer: {fileID: 46360245}
   myAnimator: {fileID: 536147424}
@@ -6862,6 +6995,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: https://www.youtube.com/watch?v=K5wyp-d49aE
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -6869,6 +7007,9 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 0}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ce43da8429909a743b301c1979dd74d3, type: 3}
 --- !u!1001 &1096543272
@@ -7149,6 +7290,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: http://www.konami-castlevania.com/castlevania-lords-of-shadow-2/
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -7156,6 +7302,9 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 0}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: a7828921aa8f7714ba93560eca6004fd, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: b0bb51bfc766bd444b51ae5519818041, type: 3}
 --- !u!1001 &1104149712
@@ -7310,6 +7459,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff2d754470892d4ca5225a43e6558ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: 
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 1553213476}
@@ -7622,6 +7776,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 310368241}
     m_Modifications:
+    - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
+      propertyPath: DropItemsData.Array.size
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: m_LocalPosition.x
       value: -45
@@ -7686,6 +7844,14 @@ Prefab:
       propertyPath: m_Text
       value: <color=#AA6400>PersonalProjects</color>
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
+      propertyPath: DropItemsData.Array.data[3].ButtonName
+      value: Master
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
+      propertyPath: DropItemsData.Array.data[3].WindowToShow
+      value: 
+      objectReference: {fileID: 612924054}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
   m_RootGameObject: {fileID: 190441990}
@@ -7734,6 +7900,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca4287a1e60ad8a46a00a403fe647585, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: 
   TextRenderer: {fileID: 362335753}
   myAnimator: {fileID: 1213468693}
@@ -8287,6 +8458,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daf87d85892d97040a4149c3682cf8dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: 
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -8576,7 +8752,6 @@ MonoBehaviour:
   QuestDescription: Insert Text
   QuestSecondaryTitle: Insert Text
   QuestSecondaryDescription: Insert Text
-  Links: Insert Text
   TextMeshRenderer: {fileID: 2015683846}
 --- !u!1001 &1457365722
 Prefab:
@@ -9088,7 +9263,6 @@ MonoBehaviour:
   QuestDescription: Insert Text
   QuestSecondaryTitle: Insert Text
   QuestSecondaryDescription: Insert Text
-  Links: Insert Text
   TextMeshRenderer: {fileID: 1344089292}
 --- !u!1 &1581447975
 GameObject:
@@ -9226,7 +9400,6 @@ MonoBehaviour:
   QuestDescription: Insert Text
   QuestSecondaryTitle: Insert Text
   QuestSecondaryDescription: Insert Text
-  Links: Insert Text
   TextMeshRenderer: {fileID: 1581447977}
 --- !u!1 &1602235646
 GameObject:
@@ -9794,6 +9967,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: https://www.kickstarter.com/projects/408234422/skara-the-blade-remains-0
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -9801,6 +9979,9 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 0}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
 --- !u!1 &1767714520
@@ -10008,6 +10189,131 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 281ac13f3296d8949a3097f6fdf2c9e8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1 &1789151882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1789151883}
+  - 114: {fileID: 1789151888}
+  - 114: {fileID: 1789151887}
+  - 23: {fileID: 1789151886}
+  - 102: {fileID: 1789151885}
+  - 61: {fileID: 1789151884}
+  m_Layer: 0
+  m_Name: '- Video link'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1789151883
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1789151882}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.8571815, y: -41.5243225, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 974503236}
+  m_RootOrder: 3
+--- !u!61 &1789151884
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100002, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1789151882}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 10.7349434, y: 3.42000008}
+  m_Center: {x: .187831879, y: 0}
+--- !u!102 &1789151885
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 10200002, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1789151882}
+  m_Text: <color=#4971CB>- Video link</color>
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 20
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1789151886
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1789151882}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 607488441
+  m_SortingOrder: 0
+--- !u!114 &1789151887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1789151882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1055b06bd108f1e438f941bc06b8d5d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layer: GuiText
+--- !u!114 &1789151888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1789151882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e423ceeb2641e04a9b7876acd00fd00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
+  ButtonText: https://www.youtube.com/watch?v=6kCcKSQ6Nl0
+  TextRenderer: {fileID: 1789151885}
+  myAnimator: {fileID: 0}
+  TextNormalColor: {r: .380392164, g: .741176486, b: .921568632, a: 1}
+  TextSelectedColor: {r: .257352948, g: .404411793, b: .603921592, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  selectedHEX: 000071
 --- !u!1001 &1794685820
 Prefab:
   m_ObjectHideFlags: 0
@@ -10115,11 +10421,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1799330169}
-  - 114: {fileID: 1799330174}
   - 114: {fileID: 1799330173}
   - 23: {fileID: 1799330172}
   - 102: {fileID: 1799330171}
-  - 61: {fileID: 1799330170}
   m_Layer: 0
   m_Name: Linkedin
   m_TagString: Untagged
@@ -10134,18 +10438,18 @@ Transform:
   m_PrefabInternal: {fileID: 971895169}
   m_GameObject: {fileID: 1799330168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.645607, y: 7.86109352, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 915897408}
-  m_RootOrder: 1
+  m_Father: {fileID: 476871959}
+  m_RootOrder: 0
 --- !u!61 &1799330170
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6100000, guid: 56e133ce151a4904fb4f9b5842955b42,
     type: 2}
   m_PrefabInternal: {fileID: 971895169}
-  m_GameObject: {fileID: 1799330168}
+  m_GameObject: {fileID: 476871958}
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -10213,12 +10517,17 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 11400002, guid: 56e133ce151a4904fb4f9b5842955b42,
     type: 2}
   m_PrefabInternal: {fileID: 971895169}
-  m_GameObject: {fileID: 1799330168}
+  m_GameObject: {fileID: 476871958}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1e423ceeb2641e04a9b7876acd00fd00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: www.oriori.es
   TextRenderer: {fileID: 1799330171}
   myAnimator: {fileID: 0}
@@ -10226,7 +10535,7 @@ MonoBehaviour:
   TextSelectedColor: {r: 0, g: 0, b: .443137258, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
-  selectedHEX: 
+  selectedHEX: 000071
 --- !u!1 &1843376676
 GameObject:
   m_ObjectHideFlags: 0
@@ -10761,6 +11070,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: CharacterStats
   TextRenderer: {fileID: 1971100892}
   myAnimator: {fileID: 1769491207}
@@ -11546,6 +11860,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: http://store.steampowered.com/app/282530/
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -11553,6 +11872,9 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 0}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: 349b47a536a283e40ae328817089577b, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: f9e252262586f384bbce10b714da71ec, type: 3}
 --- !u!1 &2034813510
@@ -11631,6 +11953,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dd70c3e870269641a0036729eab8797, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: PersonalProjects
   TextRenderer: {fileID: 260176783}
   myAnimator: {fileID: 2034813515}
@@ -12002,7 +12329,6 @@ MonoBehaviour:
   QuestDescription: Insert Text
   QuestSecondaryTitle: Insert Text
   QuestSecondaryDescription: Insert Text
-  Links: Insert Text
   TextMeshRenderer: {fileID: 552040334}
 --- !u!1 &2096050766
 GameObject:
@@ -12473,7 +12799,7 @@ Transform:
   m_PrefabInternal: {fileID: 852196247}
   m_GameObject: {fileID: 2116184413}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.9632797, y: -40.034771, z: 0}
+  m_LocalPosition: {x: 12.6910515, y: -41.3083725, z: 0}
   m_LocalScale: {x: 2.79999995, y: 2.79999995, z: 5}
   m_Children: []
   m_Father: {fileID: 265385717}
@@ -12502,6 +12828,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: https://www.youtube.com/watch?v=xHSx_sPj5Vg&feature=youtu.be
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -12509,6 +12840,9 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: 1f8da25e38923e5459d92b4596b5e2c7, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: a324d68375a480b40a49b04b1fd9f2b4, type: 3}
 --- !u!212 &2116184417
@@ -12743,6 +13077,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: Skills
   TextRenderer: {fileID: 1767714521}
   myAnimator: {fileID: 1364688815}

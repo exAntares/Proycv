@@ -16,7 +16,6 @@ public class ExperienceSubWindow : MonoBehaviour {
     public string QuestSecondaryTitle = "Insert Text";
     [Multiline]
     public string QuestSecondaryDescription = "Insert Text";
-    public string Links = "Insert Text";
     
 	public TextMesh TextMeshRenderer;
 
@@ -36,7 +35,6 @@ public class ExperienceSubWindow : MonoBehaviour {
             SubWindowText.Add("<size=20><color=#DD7D7FF>" + QuestDescription + "</color></size>\n");
             SubWindowText.Add("<size=21><b><color=#FFDC35FF>" + QuestSecondaryTitle + "</color></b></size>\n");
             SubWindowText.Add("<size=20><color=#DD7D7FF>" + QuestSecondaryDescription + "</color></size>\n");
-            SubWindowText.Add("<size=20><color=#62C0CEFF>" + Links + "</color></size>\n");
 
             TextMeshRenderer.text = "";
             foreach (string windowtext in SubWindowText)
