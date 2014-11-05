@@ -4,6 +4,7 @@ using System.Collections;
 public class TextLink : ButtonBase
 {
     protected bool bMouseOver = false;
+    [HideInInspector]
     public string selectedHEX;
     public override void Init()
     {
