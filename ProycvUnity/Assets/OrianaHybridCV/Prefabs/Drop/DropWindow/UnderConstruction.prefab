@@ -128,9 +128,19 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Text: '<size=22>You can see them on <color=green><i>Linkedin</i></color></size>
+  m_Text: '<size=25><b><color=white>Insert Text</color></b></size>
 
-    <size=22>Or wait a few days.... I''ll update them!</size>'
+    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+    <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+    <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+    <size=20><color=#62C0CEFF>Insert Text</color></size>
+
+'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -170,6 +180,12 @@ MonoBehaviour:
   WindowText: '<size=22>You can see them on <color=green><i>Linkedin</i></color></size>
 
     <size=22>Or wait a few days.... I''ll update them!</size>'
+  QuestTitle: Insert Text
+  QuestPlace: Insert Text
+  QuestDescription: Insert Text
+  QuestSecondaryTitle: Insert Text
+  QuestSecondaryDescription: Insert Text
+  Links: Insert Text
   TextMeshRenderer: {fileID: 10200000}
 --- !u!114 &11400004
 MonoBehaviour:
@@ -187,6 +203,8 @@ MonoBehaviour:
   myAnimator: {fileID: 0}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: ea0c66c00ff9dcb4aa2297060270171a, type: 3}
 --- !u!212 &21200000
