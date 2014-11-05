@@ -6204,6 +6204,10 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: 7.69999981
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
+      propertyPath: ButtonText
+      value: https://www.linkedin.com/pub/oriana-laplana-curtido/4a/6b6/906
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 56e133ce151a4904fb4f9b5842955b42, type: 2}
   m_RootGameObject: {fileID: 476871958}
@@ -10528,7 +10532,7 @@ MonoBehaviour:
     TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
     TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
     TextRenderer: {fileID: 0}
-  ButtonText: www.oriori.es
+  ButtonText: https://www.linkedin.com/pub/oriana-laplana-curtido/4a/6b6/906
   TextRenderer: {fileID: 1799330171}
   myAnimator: {fileID: 0}
   TextNormalColor: {r: .286274523, g: .443137258, b: .796078444, a: 1}
