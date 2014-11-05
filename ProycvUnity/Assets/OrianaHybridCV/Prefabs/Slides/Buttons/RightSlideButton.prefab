@@ -84,6 +84,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -100,6 +101,8 @@ MonoBehaviour:
   myAnimator: {fileID: 9500000}
   TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 0}
   SliderButtonDirection: 0
   SliderController: {fileID: 0}
 --- !u!212 &21200000

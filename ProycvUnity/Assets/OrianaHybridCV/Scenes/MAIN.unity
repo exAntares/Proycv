@@ -122,6 +122,50 @@ Prefab:
   m_RootGameObject: {fileID: 193723447}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1001 &14976946
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1152982836}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+  m_RootGameObject: {fileID: 842540833}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &32288101
 GameObject:
   m_ObjectHideFlags: 0
@@ -284,7 +328,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 710724998}
   m_GameObject: {fileID: 46360243}
-  m_Text: <color=#FFEB04>Portfolio</color>
+  m_Text: <color=#888888>Portfolio</color>
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1.5
@@ -373,17 +417,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10200000, guid: 2fcc77d3854665e40a8d038e781173af, type: 2}
       propertyPath: m_Text
-      value: "<size=25><b>Castlevania Mirror of Fate (1 year 2 months)</b></size>\n<size=22><b>Madrid
-        Area, Spain</b></size>\n<size=20>\nI started to work in Castlevania: Mirror
-        of fate 's vertical slice until the\nend of the development. \r\nMy responsibilities
-        where to find issues, categorize them\nby importance, communicate them to
-        the developers and\nmake sure that they were fixed. The workload organization\nprioritization
-        and the insistence to developers (to be sure\nthat the most important issues
-        were fixed) were part of my\nwork, too.\r\nDuring the last stages I tested
-        the game in collaboration\nwith Babel Media.\r\nMy job taught me to be more
-        patient and persistent,\nto understand the developer\xB4s pressure, to know
-        how\nto prioritize problems and to communicate with the team\n(especially
-        I learned how to give bads news to\nthe team)\n</size>"
+      value: '<size=25><b><color=white>Insert Text</color></b></size>
+
+        <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+        <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+        <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+        <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+        <size=20><color=#62C0CEFF>Insert Text</color></size>
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2fcc77d3854665e40a8d038e781173af, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2fcc77d3854665e40a8d038e781173af, type: 2}
@@ -1070,53 +1120,6 @@ MonoBehaviour:
 
     new heroes, new enemies...'
   TextRenderer: {fileID: 0}
---- !u!1 &193727076
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 193727077}
-  - 114: {fileID: 193727078}
-  m_Layer: 0
-  m_Name: Illustration
-  m_TagString: SliderList
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &193727077
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 193727076}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.69457245, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1152982836}
-  m_RootOrder: 0
---- !u!114 &193727078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 193727076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e80d203cf7d99024ba1a8f1b990d19d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SlidesPrefab: {fileID: 100000, guid: fe44b066164564e4191de1e38cc3515d, type: 2}
-  SlidesImages:
-  - scale: 6
-    SlidesImage: {fileID: 21300000, guid: 7bfd23ab7705f9d45845d4a79cd579da, type: 3}
-  - scale: 4
-    SlidesImage: {fileID: 21300000, guid: 742bac22344837e4585f28ee7890c068, type: 3}
-  SlideIndex: 0
-  Slides: []
 --- !u!1001 &197257070
 Prefab:
   m_ObjectHideFlags: 0
@@ -1380,6 +1383,54 @@ Prefab:
   m_RootGameObject: {fileID: 240573902}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &232346353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+  m_PrefabInternal: {fileID: 2055202249}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 232346354}
+  - 114: {fileID: 232346355}
+  m_Layer: 0
+  m_Name: SpriteSheets
+  m_TagString: SliderList
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &232346354
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+  m_PrefabInternal: {fileID: 2055202249}
+  m_GameObject: {fileID: 232346353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1152982836}
+  m_RootOrder: 0
+--- !u!114 &232346355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 3703b6c2b43e877449b8be9d6f1428c8,
+    type: 2}
+  m_PrefabInternal: {fileID: 2055202249}
+  m_GameObject: {fileID: 232346353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80d203cf7d99024ba1a8f1b990d19d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SlidesPrefab: {fileID: 100000, guid: fe44b066164564e4191de1e38cc3515d, type: 2}
+  SlidesImages:
+  - scale: 5
+    SlidesImage: {fileID: 21300000, guid: dddd30b15a6a4354cabf0ee6f49e2b88, type: 3}
+  - scale: 5
+    SlidesImage: {fileID: 21300000, guid: 25a47b4518f9e1d47bd6a756b0bfdeb8, type: 3}
+  SlideIndex: 0
+  Slides: []
 --- !u!1 &240573902
 GameObject:
   m_ObjectHideFlags: 0
@@ -4042,7 +4093,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -9
+      value: 20.3998928
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_LocalPosition.y
@@ -4090,7 +4141,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10200000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: m_Text
-      value: <color=#FFEB04>Portfolio</color>
+      value: <color=#888888>Portfolio</color>
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 5bd3e99c1a9cbd24ba6d7837af1bba93, type: 2}
       propertyPath: AssociatedTab
@@ -4835,6 +4886,54 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Layer: GuiText
+--- !u!1 &842540833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+  m_PrefabInternal: {fileID: 14976946}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 842540834}
+  - 114: {fileID: 842540835}
+  m_Layer: 0
+  m_Name: Illustration
+  m_TagString: SliderList
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &842540834
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 727610966b5bc904cb621888a0b4c800, type: 2}
+  m_PrefabInternal: {fileID: 14976946}
+  m_GameObject: {fileID: 842540833}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1152982836}
+  m_RootOrder: 1
+--- !u!114 &842540835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 727610966b5bc904cb621888a0b4c800,
+    type: 2}
+  m_PrefabInternal: {fileID: 14976946}
+  m_GameObject: {fileID: 842540833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e80d203cf7d99024ba1a8f1b990d19d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SlidesPrefab: {fileID: 100000, guid: fe44b066164564e4191de1e38cc3515d, type: 2}
+  SlidesImages:
+  - scale: 6
+    SlidesImage: {fileID: 21300000, guid: 7bfd23ab7705f9d45845d4a79cd579da, type: 3}
+  - scale: 4
+    SlidesImage: {fileID: 21300000, guid: 742bac22344837e4585f28ee7890c068, type: 3}
+  SlideIndex: 0
+  Slides: []
 --- !u!1 &855182635
 GameObject:
   m_ObjectHideFlags: 0
@@ -5918,7 +6017,7 @@ Transform:
   m_PrefabInternal: {fileID: 710724998}
   m_GameObject: {fileID: 1082502558}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9, y: -30, z: 0}
+  m_LocalPosition: {x: 20.3998928, y: -30, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 536147423}
@@ -6772,8 +6871,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 193727077}
-  - {fileID: 2041647970}
+  - {fileID: 232346354}
+  - {fileID: 842540834}
   m_Father: {fileID: 962404709}
   m_RootOrder: 4
 --- !u!114 &1152982837
@@ -10823,53 +10922,50 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Layer: GuiText
---- !u!1 &2041647969
-GameObject:
+--- !u!1001 &2055202249
+Prefab:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2041647970}
-  - 114: {fileID: 2041647971}
-  m_Layer: 0
-  m_Name: SpriteSheets
-  m_TagString: SliderList
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2041647970
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2041647969}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.69457233, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1152982836}
-  m_RootOrder: 1
---- !u!114 &2041647971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2041647969}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e80d203cf7d99024ba1a8f1b990d19d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SlidesPrefab: {fileID: 100000, guid: fe44b066164564e4191de1e38cc3515d, type: 2}
-  SlidesImages:
-  - scale: 5
-    SlidesImage: {fileID: 21300000, guid: dddd30b15a6a4354cabf0ee6f49e2b88, type: 3}
-  - scale: 5
-    SlidesImage: {fileID: 21300000, guid: 25a47b4518f9e1d47bd6a756b0bfdeb8, type: 3}
-  SlideIndex: 0
-  Slides: []
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1152982836}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 3703b6c2b43e877449b8be9d6f1428c8, type: 2}
+  m_RootGameObject: {fileID: 232346353}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1 &2063146093
 GameObject:
   m_ObjectHideFlags: 0
@@ -11293,17 +11389,19 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 51968560}
   m_GameObject: {fileID: 2108471484}
-  m_Text: "<size=25><b>Castlevania Mirror of Fate (1 year 2 months)</b></size>\n<size=22><b>Madrid
-    Area, Spain</b></size>\n<size=20>\nI started to work in Castlevania: Mirror of
-    fate 's vertical slice until the\nend of the development. \r\nMy responsibilities
-    where to find issues, categorize them\nby importance, communicate them to the
-    developers and\nmake sure that they were fixed. The workload organization\nprioritization
-    and the insistence to developers (to be sure\nthat the most important issues were
-    fixed) were part of my\nwork, too.\r\nDuring the last stages I tested the game
-    in collaboration\nwith Babel Media.\r\nMy job taught me to be more patient and
-    persistent,\nto understand the developer\xB4s pressure, to know how\nto prioritize
-    problems and to communicate with the team\n(especially I learned how to give bads
-    news to\nthe team)\n</size>"
+  m_Text: '<size=25><b><color=white>Insert Text</color></b></size>
+
+    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+    <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+
+    <size=20><color=#DD7D7FF>Insert Text</color></size>
+
+    <size=20><color=#62C0CEFF>Insert Text</color></size>
+
+'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
