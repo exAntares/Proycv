@@ -3,6 +3,25 @@ using System.Collections;
 
 public class ButtonBase : MonoBehaviour
 {
+    [System.Serializable]
+    public class TextData
+    {
+        public string ButtonText = "";
+        public Color TextNormalColor = Color.yellow;
+        public Color TextSelectedColor = Color.white;
+        public TextMesh TextRenderer;
+
+        TextData()
+        {
+            ButtonText = "";
+            TextNormalColor = Color.yellow;
+            TextSelectedColor = Color.white;
+        }
+    }
+
+    [HideInInspector]
+    public TextData TextConfig;
+
 	public string ButtonText = "";
 
 	public TextMesh TextRenderer;
