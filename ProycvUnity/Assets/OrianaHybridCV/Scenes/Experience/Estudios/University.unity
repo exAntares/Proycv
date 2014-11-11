@@ -494,6 +494,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: Experience
   TextRenderer: {fileID: 1912056262}
   myAnimator: {fileID: 612772285}
@@ -606,15 +611,24 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 10200000, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
       propertyPath: m_Text
-      value: '<size=25><b><color=white>Insert Text</color></b></size>
+      value: '<size=25><b><color=white>UNIVERSITY FINE ARTS "ALONSO CANO"</color></b></size>
 
-        <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+        <size=21><b><color=#FFDC35FF>Granada, 2011</color></b></size>
 
-        <size=20><color=#DD7D7FF>Insert Text</color></size>
+        <size=20><color=#DD7D7FF>During my studies in Granada University I was
 
-        <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+        learning about tradicional art, animation, illustration and
 
-        <size=20><color=#DD7D7FF>Insert Text</color></size>
+        digital art. I also did differents curses like:
+
+
+        </color></size>
+
+        <size=21><b><color=#FFDC35FF>Erase una vez...</color></b></size>
+
+        <size=20><color=#DD7D7FF>A game made with Fals CS4 and Action Script 2
+
+        </color></size>
 
         <size=20><color=#62C0CEFF>Insert Text</color></size>
 
@@ -623,6 +637,35 @@ Prefab:
     - target: {fileID: 100002, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
+      propertyPath: QuestTitle
+      value: UNIVERSITY FINE ARTS "ALONSO CANO"
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
+      propertyPath: QuestPlace
+      value: Granada, 2011
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
+      propertyPath: QuestSecondaryTitle
+      value: Erase una vez...
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
+      propertyPath: QuestSecondaryDescription
+      value: 'A game made with Fals CS4 and Action Script 2
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
+      propertyPath: QuestDescription
+      value: 'During my studies in Granada University I was
+
+        learning about tradicional art, animation, illustration and
+
+        digital art. I also did differents curses like:
+
+
+'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
@@ -1031,6 +1074,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: Portfolio
   TextRenderer: {fileID: 46360245}
   myAnimator: {fileID: 536147424}
@@ -1178,15 +1226,24 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 651189241}
   m_GameObject: {fileID: 1344089290}
-  m_Text: '<size=25><b><color=white>Insert Text</color></b></size>
+  m_Text: '<size=25><b><color=white>UNIVERSITY FINE ARTS "ALONSO CANO"</color></b></size>
 
-    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+    <size=21><b><color=#FFDC35FF>Granada, 2011</color></b></size>
 
-    <size=20><color=#DD7D7FF>Insert Text</color></size>
+    <size=20><color=#DD7D7FF>During my studies in Granada University I was
 
-    <size=21><b><color=#FFDC35FF>Insert Text</color></b></size>
+    learning about tradicional art, animation, illustration and
 
-    <size=20><color=#DD7D7FF>Insert Text</color></size>
+    digital art. I also did differents curses like:
+
+
+    </color></size>
+
+    <size=21><b><color=#FFDC35FF>Erase una vez...</color></b></size>
+
+    <size=20><color=#DD7D7FF>A game made with Fals CS4 and Action Script 2
+
+    </color></size>
 
     <size=20><color=#62C0CEFF>Insert Text</color></size>
 
@@ -1348,6 +1405,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: daf87d85892d97040a4149c3682cf8dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: 
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -1416,6 +1478,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1344089291}
+  - {fileID: 2067544501}
   m_Father: {fileID: 0}
   m_RootOrder: 2
 --- !u!114 &1578607989
@@ -1432,11 +1495,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WindowText: "<size=25><b>Graduate in Fine Arts in University Alonso Cano</b></size>\n<size=22><b>Granada
     2006-2011\r\n</b></size>\n<size=20>\n</size>"
-  QuestTitle: Insert Text
-  QuestPlace: Insert Text
-  QuestDescription: Insert Text
-  QuestSecondaryTitle: Insert Text
-  QuestSecondaryDescription: Insert Text
+  QuestTitle: UNIVERSITY FINE ARTS "ALONSO CANO"
+  QuestPlace: Granada, 2011
+  QuestDescription: 'During my studies in Granada University I was
+
+    learning about tradicional art, animation, illustration and
+
+    digital art. I also did differents curses like:
+
+
+'
+  QuestSecondaryTitle: Erase una vez...
+  QuestSecondaryDescription: 'A game made with Fals CS4 and Action Script 2
+
+'
   Links: Insert Text
   TextMeshRenderer: {fileID: 1344089292}
 --- !u!1 &1767714520
@@ -1873,6 +1945,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: CharacterStats
   TextRenderer: {fileID: 1971100892}
   myAnimator: {fileID: 1769491207}
@@ -1995,6 +2072,57 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1919479380}
   m_RootOrder: 1
+--- !u!1 &2067544500
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
+  m_PrefabInternal: {fileID: 651189241}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2067544501}
+  - 212: {fileID: 2067544502}
+  m_Layer: 0
+  m_Name: quest complete
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2067544501
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 665241f35cf4eca4c98ebce476b4cef5, type: 2}
+  m_PrefabInternal: {fileID: 651189241}
+  m_GameObject: {fileID: 2067544500}
+  m_LocalRotation: {x: 0, y: 0, z: -.0278949961, w: .999610901}
+  m_LocalPosition: {x: 42.624115, y: -44.7665939, z: 0}
+  m_LocalScale: {x: 8.33451939, y: 8.33452034, z: 8}
+  m_Children: []
+  m_Father: {fileID: 1578607988}
+  m_RootOrder: 1
+--- !u!212 &2067544502
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 21200000, guid: 665241f35cf4eca4c98ebce476b4cef5,
+    type: 2}
+  m_PrefabInternal: {fileID: 651189241}
+  m_GameObject: {fileID: 2067544500}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 3363470833
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 21300000, guid: 66a736bdcdff69d4381b6c22a6a9fef1, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2147346902
 GameObject:
   m_ObjectHideFlags: 0
@@ -2038,6 +2166,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74c42f5ef7cf19c43b7ffeb0a8746aaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: Skills
   TextRenderer: {fileID: 1767714521}
   myAnimator: {fileID: 1364688815}
