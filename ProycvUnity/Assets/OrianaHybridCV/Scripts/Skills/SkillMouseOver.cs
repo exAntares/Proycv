@@ -9,7 +9,7 @@ public class SkillMouseOver : MonoBehaviour {
     [Multiline]
     public string SkillDescription = "Soy una Skill";
     public TextMesh TextRenderer;
-    
+    public SpriteRenderer ImageRenderer;
 
     private string SkillTitle;
     private GameObject SkillText;
@@ -29,8 +29,9 @@ public class SkillMouseOver : MonoBehaviour {
             SkillText = GameObject.FindGameObjectWithTag("SkillText");
 
             SkillTitle = "<color=orange><b>" + gameObject.name + "</b></color>\n";
-            SkillRank = "<size=20><color=#dcc06c>" + "Rank:" + Data.SkillRank + "</color>\n";
+            SkillRank = "<size=20><color=#dcc06c>" + "Rank: " + Data.SkillRank + "</color>\n";
             SkillDescription = Data.SkillDescription + "</size>";
+            ImageRenderer.sprite = Data.SkillImage;
 
             UpdateText();
         }
