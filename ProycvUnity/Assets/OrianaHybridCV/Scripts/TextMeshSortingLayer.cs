@@ -5,6 +5,7 @@ using System.Collections;
 [ExecuteInEditMode]
 public class TextMeshSortingLayer : MonoBehaviour {
 	public string Layer = "GuiText";
+    public int index = 0;
 
 	// Use this for initialization
 	void Start () {

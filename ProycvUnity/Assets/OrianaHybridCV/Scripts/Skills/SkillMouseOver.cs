@@ -2,28 +2,40 @@
 using System.Collections;
 
 public class SkillMouseOver : MonoBehaviour {
-    
+
+    public SkillMouseOverData Data;
+
     public string SkillRank = "Rank 1/10";
     [Multiline]
     public string SkillDescription = "Soy una Skill";
     public TextMesh TextRenderer;
+    
 
     private string SkillTitle;
     private GameObject SkillText;
     private SkillInfo skillInformation;
+    private TextMesh SkillTextRenderer;
 
 	// Use this for initialization
-	void Awake () {
+	void Start () {
 
         SkillText = GameObject.FindGameObjectWithTag("SkillText");
-        TextRenderer = SkillText.GetComponentInChildren<TextMesh>();
         skillInformation = SkillText.GetComponent<SkillInfo>();
+        TextRenderer = skillInformation.TextRenderer;
+        SkillTextRenderer = GetComponentInChildren<TextMesh>();
 
-        SkillTitle = "<color=orange><b>" + gameObject.name + "</b></color>\n";
-        SkillRank = "<size=20><color=#dcc06c>" + SkillRank + "</color>\n";
-        SkillDescription = SkillDescription + "</size>";
+        if (Data)
+        {
+            SkillText = GameObject.FindGameObjectWithTag("SkillText");
 
-        UpdateText();
+            SkillTitle = "<color=orange><b>" + gameObject.name + "</b></color>\n";
+            SkillRank = "<size=20><color=#dcc06c>" + "Rank:" + Data.SkillRank + "</color>\n";
+            SkillDescription = Data.SkillDescription + "</size>";
+
+            UpdateText();
+        }
+
+        SkillTextRenderer.text = Data.SkillRank;
 	}
 
     void OnMouseOver()
