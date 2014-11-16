@@ -13,14 +13,14 @@ public class SkillMouseOver : MonoBehaviour {
 
     private string SkillTitle;
     private GameObject SkillText;
-    private SkillInfo skillInformation;
+    private FloatingInfo skillInformation;
     private TextMesh SkillTextRenderer;
 
 	// Use this for initialization
 	void Start () {
 
         SkillText = GameObject.FindGameObjectWithTag("SkillText");
-        skillInformation = SkillText.GetComponent<SkillInfo>();
+        skillInformation = SkillText.GetComponent<FloatingInfo>();
         TextRenderer = skillInformation.TextRenderer;
         SkillTextRenderer = GetComponentInChildren<TextMesh>();
 

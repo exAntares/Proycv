@@ -44,7 +44,7 @@ GameObject:
   - 4: {fileID: 400004}
   - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: SkillText
+  m_Name: FloatingText
   m_TagString: SkillText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
