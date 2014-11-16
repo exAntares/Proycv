@@ -756,7 +756,7 @@ MonoBehaviour:
     I have to deal with Blueprints, Animation
 
     Montages and done some level design'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: e5b9f7fed672c754a87721738b9985ea, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &154611506
 GameObject:
@@ -1793,7 +1793,7 @@ Transform:
   m_PrefabInternal: {fileID: 707861066}
   m_GameObject: {fileID: 303685066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.69687557, y: -.31655407, z: 0}
+  m_LocalPosition: {x: -5.73241091, y: -.370000005, z: 0}
   m_LocalScale: {x: .25, y: .25, z: 1}
   m_Children: []
   m_Father: {fileID: 1365557700}
@@ -3827,34 +3827,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1365557700}
     m_Modifications:
-    - target: {fileID: 400000, guid: 6d2a7a03dd720374d8e74e9e8c985b45, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -5.69687557
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6d2a7a03dd720374d8e74e9e8c985b45, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -.31655407
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6d2a7a03dd720374d8e74e9e8c985b45, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6d2a7a03dd720374d8e74e9e8c985b45, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6d2a7a03dd720374d8e74e9e8c985b45, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6d2a7a03dd720374d8e74e9e8c985b45, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: 6d2a7a03dd720374d8e74e9e8c985b45, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6d2a7a03dd720374d8e74e9e8c985b45, type: 2}
       propertyPath: m_RootOrder
       value: 2
