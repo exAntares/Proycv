@@ -8,9 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 400000}
-  - 114: {fileID: 11400002}
-  - 61: {fileID: 6100000}
-  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400008}
   m_Layer: 0
   m_Name: BugCollector
   m_TagString: Untagged
@@ -168,17 +166,6 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 0
   m_SortingOrder: 0
---- !u!61 &6100000
-BoxCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Size: {x: 5, y: 5}
-  m_Center: {x: 0, y: 0}
 --- !u!102 &10200000
 TextMesh:
   serializedVersion: 3
@@ -200,34 +187,6 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 588966d10007e0648a7a673071b4d2bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ObjectsToToggle:
-  - {fileID: 100006}
-  - {fileID: 100002}
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18d672c4a2abfb746bab22b905df731b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SkillRank: 'Rank: 2/10'
-  SkillDescription: I recently started a collection of bugs (insects)
-  TextRenderer: {fileID: 10200000}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -240,6 +199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseOffset: {x: 2, y: -2, z: 0}
+  TextRenderer: {fileID: 0}
 --- !u!114 &11400006
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -252,6 +212,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Layer: GuiText
+  index: 0
+--- !u!114 &11400008
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8df1f9463f5c6b498f647a074f0d155, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SkillRank: 2/10
+  SkillDescription: I recently started a collection of bugs (insects)
+  SkillImage: {fileID: 0}
+  SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
