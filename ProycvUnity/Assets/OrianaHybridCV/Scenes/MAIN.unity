@@ -2483,6 +2483,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 460439694}
+  - 95: {fileID: 460439695}
   m_Layer: 0
   m_Name: UI
   m_TagString: Untagged
@@ -2504,6 +2505,21 @@ Transform:
   - {fileID: 997758177}
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!95 &460439695
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 460439693}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3b046b072eb51394d9db36e7a2a6f125, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &476871958
 GameObject:
   m_ObjectHideFlags: 0
