@@ -73,6 +73,21 @@ public class EventsObserver : MonoBehaviour {
         DelegatesByEventName.Clear();
     }
 
+    void OnMouseUpAsButton()
+    {
+        gameObject.BroadCastEvent("OnMouseUpAsButton");
+    }
+
+    void OnMouseOver()
+    {
+        gameObject.BroadCastEvent("OnMouseOver");
+    }
+
+    void OnMouseExit()
+    {
+        gameObject.BroadCastEvent("OnMouseExit");
+    }
+
     #endregion
 }
 
@@ -100,8 +115,6 @@ public class EventsObserver : MonoBehaviour {
 //        }
 //    }
 //}
-
-
 
 #endregion
 
