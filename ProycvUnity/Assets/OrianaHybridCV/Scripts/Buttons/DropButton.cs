@@ -25,7 +25,7 @@ public class DropButton : ButtonBase
 	[HideInInspector]
 	public List<DropItem> _DropItems;
 
-    void Awake()
+    public override void Awake()
     {
         foreach (DropItemData dropItem in DropItemsData)
         {
