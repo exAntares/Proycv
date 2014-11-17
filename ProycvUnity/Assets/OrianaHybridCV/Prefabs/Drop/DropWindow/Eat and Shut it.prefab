@@ -82,7 +82,47 @@ GameObject:
   - 102: {fileID: 10200002}
   - 61: {fileID: 6100002}
   m_Layer: 0
-  m_Name: '- Video link'
+  m_Name: Global Game Jam Experience
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400010}
+  - 114: {fileID: 11400010}
+  - 114: {fileID: 11400012}
+  - 23: {fileID: 2300004}
+  - 102: {fileID: 10200004}
+  - 61: {fileID: 6100004}
+  m_Layer: 0
+  m_Name: 'Eath and Shut it Game '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400012}
+  - 114: {fileID: 11400016}
+  - 114: {fileID: 11400014}
+  - 23: {fileID: 2300006}
+  - 102: {fileID: 10200006}
+  - 61: {fileID: 6100006}
+  m_Layer: 0
+  m_Name: Video link
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,6 +141,8 @@ Transform:
   - {fileID: 400002}
   - {fileID: 400004}
   - {fileID: 400006}
+  - {fileID: 400012}
+  - {fileID: 400010}
   - {fileID: 400008}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -147,7 +189,31 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.8571815, y: -41.5243225, z: 0}
+  m_LocalPosition: {x: 34.8571815, y: -34.5081711, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 5
+--- !u!4 &400010
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.5544205, y: -30.2027969, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 4
+--- !u!4 &400012
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.8571815, y: -32.1162949, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -192,6 +258,46 @@ Renderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 607488441
   m_SortingOrder: 0
+--- !u!23 &2300004
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 607488441
+  m_SortingOrder: 0
+--- !u!23 &2300006
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 607488441
+  m_SortingOrder: 0
 --- !u!61 &6100000
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -214,6 +320,28 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_Size: {x: 10.7349434, y: 3.42000008}
   m_Center: {x: .187831879, y: 0}
+--- !u!61 &6100004
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 10.7349434, y: 3.42000008}
+  m_Center: {x: .187831879, y: 0}
+--- !u!61 &6100006
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 10.7349434, y: 3.42000008}
+  m_Center: {x: .187831879, y: 0}
 --- !u!102 &10200000
 TextMesh:
   serializedVersion: 3
@@ -231,7 +359,7 @@ TextMesh:
     of game's art. </color></size>\n<size=21><b><color=#FFDC35FF>Rewards__________________</color></b></size>\n<size=20><color=#DD7D7FF>\t\t\t\t\t\t\t\t\t\t-
     Eat & Shut it game\n\t\t\t\t\t\t\t\t\t\t- +30 to Team Work\n\t\t\t\t\t\t\t\t\t\t-
     Global Game Jam Experience\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>EXP:</color> +
-    2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color> + 500</color></size>\n<size=20><color=#62C0CEFF>wwwwwwwwwwwww</color></size>\n"
+    2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color> + 500</color></size>\n<size=20><color=#62C0CEFF></color></size>\n"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -252,6 +380,48 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
+  m_Text: <color=#4971CB>- Video link</color>
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 20
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!102 &10200004
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Text: <color=#61BDEB>Eath and Shut it Game </color>
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 20
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!102 &10200006
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
   m_Text: <color=#4971CB>- Video link</color>
   m_OffsetZ: 0
   m_CharacterSize: 1
@@ -288,10 +458,9 @@ MonoBehaviour:
     Jam event.\n\tThe team's members decided to upload to kongregate\n\tfor anyone
     can played. Overall ,I was in charge of game's art. "
   QuestSecondaryTitle: Rewards__________________
-  QuestSecondaryDescription: "\t\t\t\t\t\t\t\t\t\t- Eat & Shut it game\n\t\t\t\t\t\t\t\t\t\t-
-    +30 to Team Work\n\t\t\t\t\t\t\t\t\t\t- Global Game Jam Experience\n\t\t\t\t\t\t\t\t\t\t-
-    <color=yellow>EXP:</color> + 2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color>
-    + 500"
+  QuestSecondaryDescription: "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t- +30 to Team Work\n\t\t\t\t\t\t\t\t\t\t-
+    Global Game Jam Experience\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>EXP:</color> +
+    2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color> + 500"
   Links: 
   TextMeshRenderer: {fileID: 10200000}
 --- !u!114 &11400002
@@ -317,6 +486,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a017546f722e882438eb791e0def8d71, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
   ButtonText: http://www.kongregate.com/games/chepetzini/eat-shut-it?acomplete=eat+and+shut
   TextRenderer: {fileID: 0}
   myAnimator: {fileID: 0}
@@ -324,6 +498,9 @@ MonoBehaviour:
   TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  WebLinkConfig:
+    NormalSprite: {fileID: 0}
+    MouseOverSprite: {fileID: 0}
   NormalSprite: {fileID: 21300000, guid: a5adc87fe169696448a31793545d8439, type: 3}
   MouseOverSprite: {fileID: 21300000, guid: 4879e0ea0d944304caf3a9c59225554f, type: 3}
 --- !u!114 &11400006
@@ -349,8 +526,85 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e423ceeb2641e04a9b7876acd00fd00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ButtonText: https://www.youtube.com/watch?v=6kCcKSQ6Nl0
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
+  ButtonText: http://www.gamejam.es/2013/games.html
   TextRenderer: {fileID: 10200002}
+  myAnimator: {fileID: 0}
+  TextNormalColor: {r: .380392164, g: .741176486, b: .921568632, a: 1}
+  TextSelectedColor: {r: .257352948, g: .404411793, b: .603921592, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  selectedHEX: 000071
+--- !u!114 &11400010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e423ceeb2641e04a9b7876acd00fd00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
+  ButtonText: http://www.kongregate.com/games/chepetzini/eat-shut-it?acomplete=eat+and+shut
+  TextRenderer: {fileID: 10200004}
+  myAnimator: {fileID: 0}
+  TextNormalColor: {r: .380392164, g: .741176486, b: .921568632, a: 1}
+  TextSelectedColor: {r: .257352948, g: .404411793, b: .603921592, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  selectedHEX: 41679A
+--- !u!114 &11400012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1055b06bd108f1e438f941bc06b8d5d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layer: GuiText
+--- !u!114 &11400014
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1055b06bd108f1e438f941bc06b8d5d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layer: GuiText
+--- !u!114 &11400016
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e423ceeb2641e04a9b7876acd00fd00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
+  ButtonText: https://www.youtube.com/watch?v=6kCcKSQ6Nl0
+  TextRenderer: {fileID: 10200006}
   myAnimator: {fileID: 0}
   TextNormalColor: {r: .380392164, g: .741176486, b: .921568632, a: 1}
   TextSelectedColor: {r: .257352948, g: .404411793, b: .603921592, a: 1}
