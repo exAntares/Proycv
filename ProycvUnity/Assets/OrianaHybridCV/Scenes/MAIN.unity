@@ -6722,6 +6722,7 @@ GameObject:
   - 114: {fileID: 1160585769}
   - 114: {fileID: 1160585768}
   - 61: {fileID: 1160585767}
+  - 114: {fileID: 1160585771}
   m_Layer: 0
   m_Name: OpenButton
   m_TagString: Untagged
@@ -6799,6 +6800,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc9d4dabe1b76294eada7b147437d4e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1160585771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160585765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6f5bff9a525624a8496cb804a433dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorNormal: {fileID: 0}
+  cursorMouseOver: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
 --- !u!1001 &1188791208
 Prefab:
   m_ObjectHideFlags: 0
@@ -7859,6 +7873,7 @@ GameObject:
   - 114: {fileID: 1505518282}
   - 114: {fileID: 1505518284}
   - 61: {fileID: 1505518281}
+  - 114: {fileID: 1505518285}
   m_Layer: 0
   m_Name: CloseButton
   m_TagString: Untagged
@@ -7936,6 +7951,19 @@ MonoBehaviour:
     EventOwner: {fileID: 1505518283}
     ObjectInSceneToActivate: {fileID: 1160585765}
     Activate: 1
+--- !u!114 &1505518285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505518279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6f5bff9a525624a8496cb804a433dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorNormal: {fileID: 0}
+  cursorMouseOver: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
 --- !u!1001 &1506384219
 Prefab:
   m_ObjectHideFlags: 0

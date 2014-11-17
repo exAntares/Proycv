@@ -23,23 +23,11 @@ public class EventExecuterBase
 
     public virtual void DoAction() { }
 
-    public virtual void Init() { }
-
     public void Register()
     {
         if (EventOwner)
         {
             EventOwner.RegisterFunctionToEvent(DoAction, eventName);
         }
-    }
-
-    public void setOwner(EventsObserver newOwner)
-    {
-        EventOwner = newOwner;
-    }
-
-    public EventsObserver getOwner()
-    {
-        return EventOwner;
     }
 }

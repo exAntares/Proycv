@@ -65,11 +65,12 @@ public class EventsObserver : MonoBehaviour {
     #region GameObject Interface
     void Start()
     {
-        gameObject.BroadCastEvent("OnFinishStart");
+        gameObject.BroadCastEvent("OnStart");
     }
 
     private void OnDestroy()
     {
+        gameObject.BroadCastEvent("OnDestroy");
         DelegatesByEventName.Clear();
     }
 
@@ -90,33 +91,6 @@ public class EventsObserver : MonoBehaviour {
 
     #endregion
 }
-
-#region EventDefinitions
-
-//[System.Serializable]
-//public class EventSendMessages : EventExecuterBase
-//{
-//    [System.Serializable]
-//    public class Mensaje
-//    {
-//        public GameObject Target = null;
-//        public string Message = "";
-//        public UnityEngine.Object Params = null;
-
-//    };
-
-//    public Mensaje MessageForSendMessage;
-
-//    public override void DoAction()
-//    {
-//        if (MessageForSendMessage != null && MessageForSendMessage.Target != null)
-//        {
-//            MessageForSendMessage.Target.SendMessage(MessageForSendMessage.Message, MessageForSendMessage.Params, SendMessageOptions.DontRequireReceiver);
-//        }
-//    }
-//}
-
-#endregion
 
 public static class EventsHandlerExtensionMethods
 {
