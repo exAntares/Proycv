@@ -1116,6 +1116,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Layer: GuiText
   index: 0
+--- !u!1 &210562070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 210562071}
+  m_Layer: 0
+  m_Name: OpenCloseButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &210562071
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 210562070}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -.33000946, y: 35.7163582, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1505518280}
+  - {fileID: 1160585766}
+  m_Father: {fileID: 460439694}
+  m_RootOrder: 3
 --- !u!1001 &225884783
 Prefab:
   m_ObjectHideFlags: 0
@@ -2286,6 +2315,132 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Layer: GuiText
   index: 0
+--- !u!1 &388559092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 388559093}
+  - 114: {fileID: 388559098}
+  - 114: {fileID: 388559097}
+  - 23: {fileID: 388559096}
+  - 102: {fileID: 388559095}
+  - 61: {fileID: 388559094}
+  m_Layer: 0
+  m_Name: 'Eath and Shut it Game '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &388559093
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 388559092}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 41.5544205, y: -30.2027969, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 974503236}
+  m_RootOrder: 4
+--- !u!61 &388559094
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100004, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 388559092}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 10.7349434, y: 3.42000008}
+  m_Center: {x: .187831879, y: 0}
+--- !u!102 &388559095
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 10200004, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 388559092}
+  m_Text: <color=#61BDEB>Eath and Shut it Game </color>
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 20
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &388559096
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 388559092}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 607488441
+  m_SortingOrder: 0
+--- !u!114 &388559097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400012, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 388559092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1055b06bd108f1e438f941bc06b8d5d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layer: GuiText
+  index: 0
+--- !u!114 &388559098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400010, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 388559092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e423ceeb2641e04a9b7876acd00fd00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
+  ButtonText: http://www.kongregate.com/games/chepetzini/eat-shut-it?acomplete=eat+and+shut
+  TextRenderer: {fileID: 388559095}
+  myAnimator: {fileID: 0}
+  TextNormalColor: {r: .380392164, g: .741176486, b: .921568632, a: 1}
+  TextSelectedColor: {r: .257352948, g: .404411793, b: .603921592, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  selectedHEX: 41679A
 --- !u!1001 &409704659
 Prefab:
   m_ObjectHideFlags: 0
@@ -2428,7 +2583,7 @@ Transform:
   m_LocalScale: {x: 15, y: 15, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
 --- !u!1 &455616313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2504,8 +2659,9 @@ Transform:
   - {fileID: 1643204394}
   - {fileID: 552842381}
   - {fileID: 997758177}
+  - {fileID: 210562071}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 3
 --- !u!95 &460439695
 Animator:
   serializedVersion: 3
@@ -3455,7 +3611,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2eedf1f66c104d248a5d3baabb13d766, type: 2}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2eedf1f66c104d248a5d3baabb13d766, type: 2}
@@ -4113,7 +4269,7 @@ TextMesh:
     of game's art. </color></size>\n<size=21><b><color=#FFDC35FF>Rewards__________________</color></b></size>\n<size=20><color=#DD7D7FF>\t\t\t\t\t\t\t\t\t\t-
     Eat & Shut it game\n\t\t\t\t\t\t\t\t\t\t- +30 to Team Work\n\t\t\t\t\t\t\t\t\t\t-
     Global Game Jam Experience\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>EXP:</color> +
-    2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color> + 500</color></size>\n<size=20><color=#62C0CEFF>wwwwwwwwwwwww</color></size>\n"
+    2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color> + 500</color></size>\n<size=20><color=#62C0CEFF></color></size>\n"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -5337,6 +5493,8 @@ Transform:
   - {fileID: 747454868}
   - {fileID: 684090715}
   - {fileID: 111331284}
+  - {fileID: 1057005095}
+  - {fileID: 388559093}
   - {fileID: 1789151883}
   m_Father: {fileID: 2019962777}
   m_RootOrder: 7
@@ -5363,10 +5521,9 @@ MonoBehaviour:
     Jam event.\n\tThe team's members decided to upload to kongregate\n\tfor anyone
     can played. Overall ,I was in charge of game's art. "
   QuestSecondaryTitle: Rewards__________________
-  QuestSecondaryDescription: "\t\t\t\t\t\t\t\t\t\t- Eat & Shut it game\n\t\t\t\t\t\t\t\t\t\t-
-    +30 to Team Work\n\t\t\t\t\t\t\t\t\t\t- Global Game Jam Experience\n\t\t\t\t\t\t\t\t\t\t-
-    <color=yellow>EXP:</color> + 2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color>
-    + 500"
+  QuestSecondaryDescription: "\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t- +30 to Team Work\n\t\t\t\t\t\t\t\t\t\t-
+    Global Game Jam Experience\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>EXP:</color> +
+    2013p\n\t\t\t\t\t\t\t\t\t\t- <color=yellow>Gold:</color> + 500"
   TextMeshRenderer: {fileID: 747454869}
 --- !u!1001 &974517161
 Prefab:
@@ -5752,6 +5909,132 @@ MonoBehaviour:
     * Dragon Light'
   SkillImage: {fileID: 0}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
+--- !u!1 &1057005094
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1057005095}
+  - 114: {fileID: 1057005100}
+  - 114: {fileID: 1057005099}
+  - 23: {fileID: 1057005098}
+  - 102: {fileID: 1057005097}
+  - 61: {fileID: 1057005096}
+  m_Layer: 0
+  m_Name: Video link
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1057005095
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1057005094}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 34.8571815, y: -32.1162949, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 974503236}
+  m_RootOrder: 3
+--- !u!61 &1057005096
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 6100006, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1057005094}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 10.7349434, y: 3.42000008}
+  m_Center: {x: .187831879, y: 0}
+--- !u!102 &1057005097
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 10200006, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1057005094}
+  m_Text: <color=#4971CB>- Video link</color>
+  m_OffsetZ: 0
+  m_CharacterSize: 1
+  m_LineSpacing: 1
+  m_Anchor: 4
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 20
+  m_FontStyle: 0
+  m_RichText: 1
+  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4294967295
+--- !u!23 &1057005098
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1057005094}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 607488441
+  m_SortingOrder: 0
+--- !u!114 &1057005099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400014, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1057005094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1055b06bd108f1e438f941bc06b8d5d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Layer: GuiText
+  index: 0
+--- !u!114 &1057005100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400016, guid: 708c801a7f3e31742bad5cce052c3183,
+    type: 2}
+  m_PrefabInternal: {fileID: 1895728687}
+  m_GameObject: {fileID: 1057005094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e423ceeb2641e04a9b7876acd00fd00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TextConfig:
+    ButtonText: 
+    TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
+    TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
+    TextRenderer: {fileID: 0}
+  ButtonText: https://www.youtube.com/watch?v=6kCcKSQ6Nl0
+  TextRenderer: {fileID: 1057005097}
+  myAnimator: {fileID: 0}
+  TextNormalColor: {r: .380392164, g: .741176486, b: .921568632, a: 1}
+  TextSelectedColor: {r: .257352948, g: .404411793, b: .603921592, a: 1}
+  cursorTextureNormal: {fileID: 0}
+  cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
+  selectedHEX: 000071
 --- !u!1 &1079158628
 GameObject:
   m_ObjectHideFlags: 0
@@ -6680,6 +6963,109 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentSlideList: {fileID: 0}
+--- !u!1 &1160585765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1160585766}
+  - 114: {fileID: 1160585770}
+  - 114: {fileID: 1160585769}
+  - 114: {fileID: 1160585768}
+  - 61: {fileID: 1160585767}
+  - 114: {fileID: 1160585771}
+  m_Layer: 0
+  m_Name: OpenButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1160585766
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160585765}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 210562071}
+  m_RootOrder: 1
+--- !u!61 &1160585767
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160585765}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 106, y: 9}
+  m_Center: {x: 0, y: 0}
+--- !u!114 &1160585768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160585765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2b19d3c48d749479ffda7110f6e76c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventsActions:
+  - eventName: OnMouseUpAsButton
+    EventOwner: {fileID: 1160585770}
+    ObjectInSceneToActivate: {fileID: 1160585765}
+    Activate: 0
+  - eventName: OnMouseUpAsButton
+    EventOwner: {fileID: 1160585770}
+    ObjectInSceneToActivate: {fileID: 1505518279}
+    Activate: 1
+--- !u!114 &1160585769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160585765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360f756a88aa70449b0c68e7c0b58a48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventsActions:
+  - eventName: OnMouseUpAsButton
+    EventOwner: {fileID: 1160585770}
+    animator: {fileID: 460439695}
+    animationName: UI_Window@Show
+--- !u!114 &1160585770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160585765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9d4dabe1b76294eada7b147437d4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1160585771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1160585765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6f5bff9a525624a8496cb804a433dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorNormal: {fileID: 0}
+  cursorMouseOver: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
 --- !u!1001 &1188791208
 Prefab:
   m_ObjectHideFlags: 0
@@ -7322,7 +7708,7 @@ Transform:
   - {fileID: 1112098381}
   - {fileID: 1254352266}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!114 &1396638367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7689,6 +8075,148 @@ Prefab:
   m_RootGameObject: {fileID: 2082544296}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1471834380
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1471834382}
+  - 114: {fileID: 1471834381}
+  m_Layer: 0
+  m_Name: GlobalEvents
+  m_TagString: GlobalEvents
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1471834381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471834380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9d4dabe1b76294eada7b147437d4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1471834382
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1471834380}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!1 &1505518279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1505518280}
+  - 114: {fileID: 1505518283}
+  - 114: {fileID: 1505518282}
+  - 114: {fileID: 1505518284}
+  - 61: {fileID: 1505518281}
+  - 114: {fileID: 1505518285}
+  m_Layer: 0
+  m_Name: CloseButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1505518280
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505518279}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 47.3245735, y: .359203339, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 210562071}
+  m_RootOrder: 0
+--- !u!61 &1505518281
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505518279}
+  m_Enabled: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Size: {x: 4, y: 4}
+  m_Center: {x: 0, y: 0}
+--- !u!114 &1505518282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505518279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 360f756a88aa70449b0c68e7c0b58a48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventsActions:
+  - eventName: OnMouseUpAsButton
+    EventOwner: {fileID: 1505518283}
+    animator: {fileID: 460439695}
+    animationName: UI_Window@Hide
+--- !u!114 &1505518283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505518279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc9d4dabe1b76294eada7b147437d4e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1505518284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505518279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d2b19d3c48d749479ffda7110f6e76c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EventsActions:
+  - eventName: OnMouseUpAsButton
+    EventOwner: {fileID: 1505518283}
+    ObjectInSceneToActivate: {fileID: 1505518279}
+    Activate: 0
+  - eventName: OnMouseUpAsButton
+    EventOwner: {fileID: 1505518283}
+    ObjectInSceneToActivate: {fileID: 1160585765}
+    Activate: 1
+--- !u!114 &1505518285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1505518279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d6f5bff9a525624a8496cb804a433dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cursorNormal: {fileID: 0}
+  cursorMouseOver: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
 --- !u!1001 &1506384219
 Prefab:
   m_ObjectHideFlags: 0
@@ -8662,7 +9190,7 @@ GameObject:
   - 102: {fileID: 1789151885}
   - 61: {fileID: 1789151884}
   m_Layer: 0
-  m_Name: '- Video link'
+  m_Name: Global Game Jam Experience
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8675,11 +9203,11 @@ Transform:
   m_PrefabInternal: {fileID: 1895728687}
   m_GameObject: {fileID: 1789151882}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 34.8571815, y: -41.5243225, z: 0}
+  m_LocalPosition: {x: 34.8571815, y: -34.5081711, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 974503236}
-  m_RootOrder: 3
+  m_RootOrder: 5
 --- !u!61 &1789151884
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8766,7 +9294,7 @@ MonoBehaviour:
     TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
     TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
     TextRenderer: {fileID: 0}
-  ButtonText: https://www.youtube.com/watch?v=6kCcKSQ6Nl0
+  ButtonText: http://www.gamejam.es/2013/games.html
   TextRenderer: {fileID: 1789151885}
   myAnimator: {fileID: 0}
   TextNormalColor: {r: .380392164, g: .741176486, b: .921568632, a: 1}
@@ -11114,7 +11642,7 @@ Transform:
   m_Children:
   - {fileID: 694554811}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 4
 --- !u!1 &2145947900
 GameObject:
   m_ObjectHideFlags: 0

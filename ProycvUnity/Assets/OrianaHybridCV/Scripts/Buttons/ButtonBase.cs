@@ -38,7 +38,7 @@ public class ButtonBase : MonoBehaviour
     protected CursorMode cursorMode = CursorMode.Auto;
     protected Vector2 hotSpot = Vector2.zero;
     
-    public void Awake()
+    public virtual void Awake()
     {
     }
 
