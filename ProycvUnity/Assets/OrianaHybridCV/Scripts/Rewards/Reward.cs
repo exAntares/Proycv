@@ -25,7 +25,7 @@ public class Reward : MonoBehaviour
 
         if(Data)
         {
-            myText.text = Data.Description;
+            myText.text = "<size="+Data.DescriptionSize+">"+Data.Description+"</size>";
             floatingInfo = Data.ExtendedDescription;
         }
     }

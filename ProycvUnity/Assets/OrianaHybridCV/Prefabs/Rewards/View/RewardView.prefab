@@ -61,7 +61,7 @@ GameObject:
   - 102: {fileID: 10200000}
   - 114: {fileID: 11400002}
   m_Layer: 0
-  m_Name: SkillPoints
+  m_Name: Description
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -113,7 +113,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.31035042, y: 1.00574684, z: 0}
+  m_LocalPosition: {x: 2.60256386, y: .125665665, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400000}
@@ -156,14 +156,14 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
-  m_Text: Super text With the lorem ipsum.
+  m_Text: <size=20>Super text With the lorem ipsum.</size>
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1.5
-  m_Anchor: 3
+  m_Anchor: 4
   m_Alignment: 1
   m_TabSize: 4
-  m_FontSize: 10
+  m_FontSize: 20
   m_FontStyle: 0
   m_RichText: 1
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
