@@ -10,13 +10,30 @@ public class RewardData : MonoBehaviour
     [Multiline]
     public string ExtendedDescription;
     public Reward RewardPrefab;
+    
+    [HideInInspector]
+    public GameObject View = null;
 
     void Start()
     {
-        GameObject myRewardView = Instantiate(RewardPrefab.gameObject, transform.position, transform.rotation) as GameObject;
-        myRewardView.name = name;
-        Reward rewardScript = myRewardView.GetComponent<Reward>();
-        rewardScript.Data = this;
-        myRewardView.transform.parent = transform;
+        SpawnView();
     }
+
+    [ContextMenu("SpawnView")]
+    void SpawnView()
+    {
+        if (View)
+        {
+            DestroyImmediate(View);
+            View = null;
+        }
+
+        View = Instantiate(RewardPrefab.gameObject, transform.position, transform.rotation) as GameObject;
+        View.name = name;
+        Reward rewardScript = View.GetComponent<Reward>();
+        rewardScript.Data = this;
+        View.transform.parent = transform;
+    }
+
+
 }
