@@ -18,7 +18,15 @@ public class FloatingInfo : MonoBehaviour {
             transform.GetChild(i).gameObject.SetActive(false);
         }
 	}
-	
+
+    public void SetText(string newText)
+    {
+        if (TextRenderer)
+        {
+            TextRenderer.text = newText;
+        }
+    }
+
 	// Update is called once per frame
 	void FixedUpdate () {
         Vector3 p = Camera.main.ScreenToWorldPoint(Input.mousePosition);
