@@ -45,7 +45,7 @@ MonoBehaviour:
     digital drawing was with Paint, and that lead
 
     me to Photoshop'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: c94d2dde47295354b8461a00318b1248, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1001 &100100000
 Prefab:

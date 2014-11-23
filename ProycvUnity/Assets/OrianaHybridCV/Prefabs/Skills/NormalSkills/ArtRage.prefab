@@ -43,7 +43,7 @@ MonoBehaviour:
   SkillDescription: 'As child I was enjoying drawing on this software
 
     and kept doing it for some time.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 95660e25e22570f40a9f37e9184f1406, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1001 &100100000
 Prefab:
