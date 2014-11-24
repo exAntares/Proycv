@@ -49,7 +49,7 @@ MonoBehaviour:
     That''s something I''ve learned doing what I love:
 
     Video games'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 4f7e331e08967f64da45daff21d0ccfe, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1001 &100100000
 Prefab:

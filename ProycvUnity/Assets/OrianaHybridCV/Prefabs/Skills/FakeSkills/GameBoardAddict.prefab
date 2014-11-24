@@ -74,7 +74,7 @@ MonoBehaviour:
     not as much as videogames
 
     but pretty close.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 12417d6461338bc41b2ae7e687a1c0ac, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!212 &21200002
 SpriteRenderer:

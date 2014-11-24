@@ -43,7 +43,7 @@ MonoBehaviour:
   SkillDescription: 'As a creative person I learned to use photoshop
 
     to express myself and create new things'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: f831e25635415bd47a5cb4da59736b5f, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1001 &100100000
 Prefab:

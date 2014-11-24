@@ -49,7 +49,7 @@ MonoBehaviour:
     * Wedding Invitation
 
     * Dragon Light'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 0b6ac9ce693e1fb469783f39d224c859, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1001 &100100000
 Prefab:
