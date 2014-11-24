@@ -161,7 +161,7 @@ MonoBehaviour:
   SkillRank: 3/10
   SkillDescription: "I've studied this 3D modeling software because \nI always liked
     3D, although I've been doing more\n2D than 3D."
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: b7cbd2dcf836ae142b5af856923e4ac0, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &40165831
 GameObject:
@@ -895,7 +895,7 @@ MonoBehaviour:
   SkillRank: 10/10
   SkillDescription: "I'm always observing my sourroundings, \nyou learn a lot about
     it and you can't imagine\nhow many problems can be solved just by\nlooking arround."
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: f1ae7c5cf11fdcb4d9dc3357d2df9e3b, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &190441990
 GameObject:
@@ -974,7 +974,7 @@ MonoBehaviour:
     creating new characters, new worlds, new rules,
 
     new heroes, new enemies...'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 3dddbec9f42e7604fb7873e70983e22c, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &199631831
 GameObject:
@@ -1024,7 +1024,7 @@ MonoBehaviour:
     And then communicate those ideas in an easy
 
     way to my team.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: d1f95d9db2392624db34361b341721fb, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &199792280
 GameObject:
@@ -1332,7 +1332,7 @@ MonoBehaviour:
   SkillDescription: 'I studied Fine Arts and learned to animate,
 
     a skill that I use often in personal 2D projects'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: b06f59c92544ec346826e0e5cb749832, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1001 &250622851
 Prefab:
@@ -1426,7 +1426,7 @@ MonoBehaviour:
   SkillDescription: 'As a creative person I learned to use photoshop
 
     to express myself and create new things'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: f831e25635415bd47a5cb4da59736b5f, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &259950851
 GameObject:
@@ -1781,7 +1781,7 @@ MonoBehaviour:
   SkillDescription: 'YES! I do love cats, I''m a crazy cats girl.
 
     And most of my artist friends are too.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 4de8a226d6bd4cc46b706bdc7a10920b, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1001 &276756231
 Prefab:
@@ -1849,7 +1849,7 @@ MonoBehaviour:
     * Perforce
 
     * Tortoise'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: fdb2b14727085654f809e64013162027, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &310368240
 GameObject:
@@ -2532,7 +2532,7 @@ MonoBehaviour:
     I really don''t know what I like more,
 
     designing them or playing them.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 95259a3e0a6a3d848a2850425bce3183, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &447755078
 GameObject:
@@ -2628,7 +2628,7 @@ MonoBehaviour:
   SkillDescription: 'As child I was enjoying drawing on this software
 
     and kept doing it for some time.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 95660e25e22570f40a9f37e9184f1406, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &460439693
 GameObject:
@@ -2719,7 +2719,7 @@ GameObject:
   m_Layer: 0
   m_Name: 3DS MAX
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -1203168336, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -2755,7 +2755,7 @@ MonoBehaviour:
     useful when I need to communicate with
 
     modelers and animators.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 2e2a190105e384b45a95ff7797f3fd63, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &520324574
 GameObject:
@@ -4137,7 +4137,7 @@ MonoBehaviour:
     entry to videogames where I made an interactive
 
     animation'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 3fe1d5c6727449044b7832e255147c56, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &719159502
 GameObject:
@@ -5706,7 +5706,7 @@ MonoBehaviour:
     That''s something I''ve learned doing what I love:
 
     Video games'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 4f7e331e08967f64da45daff21d0ccfe, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &1025372577
 GameObject:
@@ -5907,7 +5907,7 @@ MonoBehaviour:
     * Wedding Invitation
 
     * Dragon Light'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 0b6ac9ce693e1fb469783f39d224c859, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &1057005094
 GameObject:
@@ -6919,7 +6919,7 @@ MonoBehaviour:
   SkillDescription: 'A hobby and skill that is very useful when I need
 
     to communicate ideas to my team.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: f88e7348f8e7f684ea3f41f68683e6a3, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &1152982835
 GameObject:
@@ -7812,7 +7812,7 @@ MonoBehaviour:
     Because of this I know about many
 
     game genders.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 27f2ffc6e15b4e049babeabbcbc4982d, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &1400926328
 GameObject:
@@ -8361,7 +8361,7 @@ MonoBehaviour:
     other people, new courses, lectures, etc.
 
     Learning its something that is easy for me.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 1de886df94839dd4da87fa87a0330209, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &1578607987
 GameObject:
@@ -9914,7 +9914,7 @@ MonoBehaviour:
     not as much as videogames
 
     but pretty close.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 12417d6461338bc41b2ae7e687a1c0ac, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &1951737282
 GameObject:
@@ -10212,7 +10212,7 @@ MonoBehaviour:
     team mates, something I really enjoy because
 
     I think most of what I learn is from co-workers'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 46027c8f322cc184587e42c36a54fc60, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &2014510059
 GameObject:
@@ -10257,7 +10257,7 @@ MonoBehaviour:
   SkillRank: 6/10
   SkillDescription: "Whenever there is a GameJam I love to \nparticipate, I think
     they are a great way to\nachieve creativity and productivity."
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 884339e2fbb3aa04f9137214da7d3408, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &2015683844
 GameObject:
@@ -11062,7 +11062,7 @@ MonoBehaviour:
     traveling and also I think it''s very good for
 
     the soul.'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 48cd8d30db9e3fd4e909fee8d2405a0a, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &2067259492
 GameObject:
@@ -11114,7 +11114,7 @@ MonoBehaviour:
     * Pivotal Tracker
 
     * Mantis'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: 31dda4812114b08429acf7e9e032238c, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &2082544296
 GameObject:
@@ -11215,7 +11215,7 @@ SpriteRenderer:
   m_ScaleInLightmap: 1
   m_SortingLayerID: 3363470833
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 10e446c6fceca7146950f6a6a9f8c6ac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7298bc3e0cfcb504d85e3af49dada076, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &2099272738
 GameObject:
@@ -11263,7 +11263,7 @@ MonoBehaviour:
     digital drawing was with Paint, and that lead
 
     me to Photoshop'
-  SkillImage: {fileID: 0}
+  SkillImage: {fileID: 21300000, guid: c94d2dde47295354b8461a00318b1248, type: 3}
   SkillPrefab: {fileID: 100006, guid: b2a5638f667dad24398189a5e3cc756a, type: 2}
 --- !u!1 &2108471484
 GameObject:
