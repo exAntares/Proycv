@@ -212,6 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MouseOffset: {x: 2, y: -2, z: 0}
+  TextRenderer: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -223,12 +224,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18d672c4a2abfb746bab22b905df731b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SkillText: '<color=#a52a2aff><b>Traveler</b></color>
-
-    <size=15><color=#808000ff>Rank: 8/10</color>
-
-    -----------</size> '
+  Data: {fileID: 0}
+  SkillRank: Rank 0/10
+  SkillDescription: Soy una Skill
   TextRenderer: {fileID: 10200000}
+  ImageRenderer: {fileID: 0}
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -255,6 +255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Layer: GuiText
+  index: 0
 --- !u!212 &21200000
 SpriteRenderer:
   m_ObjectHideFlags: 1
