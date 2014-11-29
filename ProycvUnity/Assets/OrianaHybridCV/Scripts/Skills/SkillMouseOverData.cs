@@ -8,10 +8,24 @@ public class SkillMouseOverData : MonoBehaviour {
 
     public Sprite SkillImage = null;
     public GameObject SkillPrefab = null;
+    
+    [HideInInspector]
+    public GameObject mySkill = null;
 
     void Start()
     {
-        GameObject mySkill = (GameObject)Instantiate(SkillPrefab, transform.position, transform.rotation);
+        Spawn();
+    }
+
+    [ContextMenu("SpawnSkill")]
+    void Spawn()
+    {
+        if (mySkill)
+        {
+            DestroyImmediate(mySkill);
+        }
+
+        mySkill = Instantiate(SkillPrefab, transform.position, transform.rotation) as GameObject;
         mySkill.name = name;
         SkillMouseOver mouseOverScript = mySkill.GetComponent<SkillMouseOver>();
         mouseOverScript.Data = this;
