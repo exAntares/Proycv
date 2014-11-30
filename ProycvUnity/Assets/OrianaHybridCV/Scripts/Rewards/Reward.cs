@@ -25,7 +25,7 @@ public class Reward : MonoBehaviour
         
         if(Data)
         {
-            myText.text = "<size="+Data.DescriptionSize+">"+Data.Description+"</size>";
+            myText.text = "<color=#" + Data.DescriptionColor.ColorToHEX() + "><size=" + Data.DescriptionSize + ">" + Data.Description + "</size></color>";
 
             Icon.sprite = Data.Icon;
 
