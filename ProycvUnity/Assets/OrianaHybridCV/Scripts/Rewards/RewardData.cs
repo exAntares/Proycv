@@ -4,7 +4,9 @@ using System.Collections;
 public class RewardData : MonoBehaviour
 {
     public Sprite Icon = null;
+
     public int DescriptionSize = 12;
+    public Color DescriptionColor = Color.white;
     [Multiline]
     public string Description;
     [Multiline]

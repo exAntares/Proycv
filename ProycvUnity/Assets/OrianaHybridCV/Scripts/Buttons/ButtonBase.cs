@@ -171,7 +171,7 @@ public class ButtonBase : MonoBehaviour
 	public virtual string GetButtonText()
 	{
 		string End = "</color>";
-		string Start = Selected ? "<color=#"+RGBToHex(TextSelectedColor)+">" : "<color=#"+RGBToHex(TextNormalColor)+">";
+        string Start = Selected ? "<color=#" + TextSelectedColor.ColorToHEX() + ">" : "<color=#" + TextNormalColor.ColorToHEX() + ">";
 		return Start + ButtonText + End;
 	}
 

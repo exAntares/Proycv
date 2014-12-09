@@ -22,10 +22,13 @@ public class Reward : MonoBehaviour
     void Start()
     {
         floatingInformation = GameObject.FindGameObjectWithTag("SkillText").GetComponent<FloatingInfo>();
-
+        
         if(Data)
         {
-            myText.text = "<size="+Data.DescriptionSize+">"+Data.Description+"</size>";
+            myText.text = "<color=#" + Data.DescriptionColor.ColorToHEX() + "><size=" + Data.DescriptionSize + ">" + Data.Description + "</size></color>";
+
+            Icon.sprite = Data.Icon;
+
             if (floatingInformation)
             {
                 floatingInfo = Data.ExtendedDescription;
