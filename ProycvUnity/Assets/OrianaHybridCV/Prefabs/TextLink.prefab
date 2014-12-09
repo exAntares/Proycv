@@ -12,7 +12,7 @@ GameObject:
   - 23: {fileID: 2300000}
   - 102: {fileID: 10200000}
   m_Layer: 0
-  m_Name: TextLink
+  m_Name: Mercury Steam Entertaiment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54,8 +54,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.6006393, y: -10.7544155, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: .275200725, y: .211328566, z: 0}
+  m_LocalScale: {x: .740740716, y: .740740716, z: 1}
   m_Children:
   - {fileID: 400000}
   m_Father: {fileID: 0}
@@ -89,8 +89,8 @@ BoxCollider2D:
   m_Enabled: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Size: {x: 7.26000023, y: 3.42000008}
-  m_Center: {x: 0, y: 0}
+  m_Size: {x: 30, y: 6}
+  m_Center: {x: -.5, y: -.300000012}
 --- !u!102 &10200000
 TextMesh:
   serializedVersion: 3
@@ -98,7 +98,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Text: <color=#4971CB>TextLink</color>
+  m_Text: <color=#C12CCA>Mercury Steam Entertainment</color>
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -124,6 +124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Layer: GuiText
+  index: 0
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,14 +141,14 @@ MonoBehaviour:
     TextNormalColor: {r: 1, g: .921568632, b: .0156862754, a: 1}
     TextSelectedColor: {r: 1, g: 1, b: 1, a: 1}
     TextRenderer: {fileID: 0}
-  ButtonText: www.oriori.es
+  ButtonText: http://company.mercurysteam.com/html/?language_code=en
   TextRenderer: {fileID: 10200000}
   myAnimator: {fileID: 0}
-  TextNormalColor: {r: .286274523, g: .443137258, b: .796078444, a: 1}
-  TextSelectedColor: {r: 0, g: 0, b: .443137258, a: 1}
+  TextNormalColor: {r: .13333334, g: .847058833, b: .925490201, a: 1}
+  TextSelectedColor: {r: .13333334, g: .850980401, b: .929411769, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
-  selectedHEX: 000071
+  selectedHEX: 00FF00
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
