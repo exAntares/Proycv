@@ -1759,7 +1759,7 @@ TextMesh:
 
     <color=orange>Localization:</color> Barcelona (Spain)
 
-    <color=orange>Duration:</color> 1.4 years
+    <color=orange>Duration:</color> 1.5 years (2013- in progress)
 
     <color=orange>Objectives:</color> Designer in                                             game'
   m_OffsetZ: 0
@@ -2080,7 +2080,7 @@ MonoBehaviour:
   QuestTitle: BE A COMBAT MASTER
   QuestRequester: 8-bits Studio
   QuestLocalization: Barcelona (Spain)
-  QuestDuration: 1.4 years
+  QuestDuration: 1.5 years (2013- in progress)
   QuestObjectives: Designer in                                             game
   QuestDescription: "For the first year I was working in Skara as the only game designer.
     I was\nin charge of all design starter processes: Create game mechanics, level
@@ -2169,6 +2169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 3c5f23b159c5f254eaf5788b606a12a5, type: 3}
   DescriptionSize: 10
+  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
   Description: '
 
     VIDEOGAME EARLY ACCESS
@@ -2204,6 +2205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 3c5f23b159c5f254eaf5788b606a12a5, type: 3}
   DescriptionSize: 10
+  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
   Description: '
 
     VIDEOGAME EARLY ACCESS
@@ -2269,6 +2271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 1b246cca4d4cf414b926ddaddddd5a51, type: 3}
   DescriptionSize: 10
+  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
   Description: "\nVIDEO \n\"Skara:The Blade Remains\""
   ExtendedDescription: "<size=20>\n You obtained a video to Skara\nClick to see the
     Video in Youtube.</size>"
