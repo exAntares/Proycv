@@ -10,6 +10,7 @@ public class TextMeshSortingLayer : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		renderer.sortingLayerName = Layer;
+        renderer.sortingOrder = index;
 	}
 
 }
