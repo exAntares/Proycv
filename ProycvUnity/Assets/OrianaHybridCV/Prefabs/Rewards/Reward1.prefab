@@ -211,7 +211,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 3c5f23b159c5f254eaf5788b606a12a5, type: 3}
+  linkData:
+    islink: 0
+    link: 
   DescriptionSize: 12
+  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
   Description: 'Video "Castlevania: Mirror of Fate Game"'
   ExtendedDescription: 'asfasfasfas extended edition
 
