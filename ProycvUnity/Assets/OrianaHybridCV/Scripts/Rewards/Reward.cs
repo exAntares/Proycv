@@ -21,7 +21,7 @@ public class Reward : MonoBehaviour
 
     void Start()
     {
-        floatingInformation = GameObject.FindGameObjectWithTag("SkillText").GetComponent<FloatingInfo>();
+        floatingInformation = GameObject.FindGameObjectWithTag("RewardText").GetComponent<FloatingInfo>();
         
         if(Data)
         {
