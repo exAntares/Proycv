@@ -1714,7 +1714,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Text: +50
+  m_Text: +40
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1735,7 +1735,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_Text: +150
+  m_Text: +3000
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1798,13 +1798,9 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Text: "I started to work in Castlevania: Mirror of fate 's vertical slice until
-    the end of the\ndevelopment. \r\nMy responsibilities where to find issues, categorize
-    them by importance, \ncommunicate them to the developers and make sure that they
-    were fixed. \nThe workload organization, prioritization and the insistence to
-    developers \n(to be sure that the most important issues were fixed) were part
-    of my\n work, too.\r\nDuring the last stages I tested the game in collaboration
-    with Babel Media.\r"
+  m_Text: 'Videomage Master: Game Design specialty.
+
+'
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -1894,7 +1890,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100020}
-  m_Text: I WANT MAKE VIDEOGAMES!
+  m_Text: I WANT MAKE VIDEOGAMES !
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -2194,13 +2190,9 @@ MonoBehaviour:
   QuestLocalization: Madrid (Spain)
   QuestDuration: 1 year (2011-2012)
   QuestObjectives: Learn about Game Design
-  QuestDescription: "I started to work in Castlevania: Mirror of fate 's vertical
-    slice until the end of the\ndevelopment. \r\nMy responsibilities where to find
-    issues, categorize them by importance, \ncommunicate them to the developers and
-    make sure that they were fixed. \nThe workload organization, prioritization and
-    the insistence to developers \n(to be sure that the most important issues were
-    fixed) were part of my\n work, too.\r\nDuring the last stages I tested the game
-    in collaboration with Babel Media.\r"
+  QuestDescription: 'Videomage Master: Game Design specialty.
+
+'
   QuestExpReward: 3000
   QuestMoneyReward: 40
 --- !u!114 &11400020
@@ -2279,6 +2271,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 1b246cca4d4cf414b926ddaddddd5a51, type: 3}
+  linkData:
+    islink: 0
+    link: 
   DescriptionSize: 10
   DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
   Description: '
@@ -2315,6 +2310,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 1b246cca4d4cf414b926ddaddddd5a51, type: 3}
+  linkData:
+    islink: 0
+    link: 
   DescriptionSize: 10
   DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
   Description: '
@@ -2381,6 +2379,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 3c5f23b159c5f254eaf5788b606a12a5, type: 3}
+  linkData:
+    islink: 0
+    link: 
   DescriptionSize: 10
   DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
   Description: '
