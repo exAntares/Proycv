@@ -10447,13 +10447,9 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1619098617}
   m_GameObject: {fileID: 596745783}
-  m_Text: "I started to work in Castlevania: Mirror of fate 's vertical slice until
-    the end of the\ndevelopment. \r\nMy responsibilities where to find issues, categorize
-    them by importance, \ncommunicate them to the developers and make sure that they
-    were fixed. \nThe workload organization, prioritization and the insistence to
-    developers \n(to be sure that the most important issues were fixed) were part
-    of my\n work, too.\r\nDuring the last stages I tested the game in collaboration
-    with Babel Media.\r"
+  m_Text: 'Videomage Master: Game Design specialty.
+
+'
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -11865,7 +11861,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400024, guid: e080727b140304643a156a4ac751019e, type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: e080727b140304643a156a4ac751019e, type: 2}
       propertyPath: m_IsActive
@@ -15972,7 +15968,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 545dcf5919a7cd34ab3d22548521d11a, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 545dcf5919a7cd34ab3d22548521d11a, type: 2}
       propertyPath: m_IsActive
@@ -19725,7 +19721,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 29343414f0b18cb4eb148aaed3b4c5d8, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 10200000, guid: 29343414f0b18cb4eb148aaed3b4c5d8, type: 2}
       propertyPath: m_Text
@@ -20440,13 +20436,9 @@ MonoBehaviour:
   QuestLocalization: Madrid (Spain)
   QuestDuration: 1 year (2011-2012)
   QuestObjectives: Learn about Game Design
-  QuestDescription: "I started to work in Castlevania: Mirror of fate 's vertical
-    slice until the end of the\ndevelopment. \r\nMy responsibilities where to find
-    issues, categorize them by importance, \ncommunicate them to the developers and
-    make sure that they were fixed. \nThe workload organization, prioritization and
-    the insistence to developers \n(to be sure that the most important issues were
-    fixed) were part of my\n work, too.\r\nDuring the last stages I tested the game
-    in collaboration with Babel Media.\r"
+  QuestDescription: 'Videomage Master: Game Design specialty.
+
+'
   QuestExpReward: 3000
   QuestMoneyReward: 40
 --- !u!1 &1150541410
@@ -21237,7 +21229,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: m_LocalPosition.x
@@ -21278,22 +21270,22 @@ Prefab:
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.data[0].WindowToShow
       value: 
-      objectReference: {fileID: 1595297663}
+      objectReference: {fileID: 428651531}
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.data[1].WindowToShow
       value: 
-      objectReference: {fileID: 428651531}
+      objectReference: {fileID: 1148051121}
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.data[2].WindowToShow
       value: 
       objectReference: {fileID: 1148051121}
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.data[0].ButtonName
-      value: Bachelor
+      value: University
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.data[1].ButtonName
-      value: University
+      value: Master
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 750721741c956a741b7e6ffb2b3ff263, type: 2}
       propertyPath: DropItemsData.Array.data[2].ButtonName
@@ -26347,7 +26339,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 4372040ac98d918478ac0057179e9dc8, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4372040ac98d918478ac0057179e9dc8, type: 2}
@@ -27400,7 +27392,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400024, guid: eb12f16283a4c4944807fff3a0b8ad6f, type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: eb12f16283a4c4944807fff3a0b8ad6f, type: 2}
       propertyPath: m_IsActive
@@ -27602,7 +27594,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 276977482}
   m_GameObject: {fileID: 1523780226}
-  m_Text: THE BUG HUNTER
+  m_Text: 'TESTER: THE BUG HUNTER'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -29165,7 +29157,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400024, guid: 09ad2af674ec7664a8705714b13841aa, type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100024, guid: 09ad2af674ec7664a8705714b13841aa, type: 2}
       propertyPath: m_IsActive
@@ -31623,7 +31615,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1619098617}
   m_GameObject: {fileID: 1769345568}
-  m_Text: +50
+  m_Text: +40
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -31822,7 +31814,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1619098617}
   m_GameObject: {fileID: 1775633522}
-  m_Text: +150
+  m_Text: +3000
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -32710,7 +32702,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 657926743}
   m_GameObject: {fileID: 1813964452}
-  m_Text: BE A COMBAT MASTER
+  m_Text: 'DESIGNER: BE A COMBAT MASTER'
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -32810,7 +32802,7 @@ MonoBehaviour:
     Description: {fileID: 493658893}
     Experience: {fileID: 2121292884}
     Money: {fileID: 281876459}
-  QuestTitle: BE A COMBAT MASTER
+  QuestTitle: 'DESIGNER: BE A COMBAT MASTER'
   QuestRequester: 8-bits Studio
   QuestLocalization: Barcelona (Spain)
   QuestDuration: 1.5 years (2013- in progress)
@@ -33858,7 +33850,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 708c801a7f3e31742bad5cce052c3183, type: 2}
       propertyPath: m_IsActive
@@ -35582,7 +35574,7 @@ MonoBehaviour:
     Description: {fileID: 933418939}
     Experience: {fileID: 1663654642}
     Money: {fileID: 1887513354}
-  QuestTitle: THE BUG HUNTER
+  QuestTitle: 'TESTER: THE BUG HUNTER'
   QuestRequester: 
   QuestLocalization: Madrid (Spain)
   QuestDuration: 1.3 years (2011-2013)
@@ -36841,8 +36833,6 @@ MonoBehaviour:
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
   DropItemsData:
-  - ButtonName: Bachelor
-    WindowToShow: {fileID: 1595297663}
   - ButtonName: University
     WindowToShow: {fileID: 428651531}
   - ButtonName: Master
@@ -37746,7 +37736,7 @@ TextMesh:
     type: 2}
   m_PrefabInternal: {fileID: 1619098617}
   m_GameObject: {fileID: 2101914888}
-  m_Text: I WANT MAKE VIDEOGAMES!
+  m_Text: I WANT MAKE VIDEOGAMES !
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
