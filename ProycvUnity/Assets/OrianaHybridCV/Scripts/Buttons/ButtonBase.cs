@@ -143,31 +143,6 @@ public class ButtonBase : MonoBehaviour
 		}
 	}
 
-	string GetHex(int myDecimal)
-	{
-		string alpha = "0123456789ABCDEF";
-		string HexName = "" + alpha[myDecimal];
-		return HexName;
-	}
-	
-	protected string RGBToHex(Color ColorToHex)
-	{
-		float red = ColorToHex.r * 255.0f;
-		float green = ColorToHex.g * 255.0f;
-		float blue = ColorToHex.b * 255.0f;
-		
-		string r1 = GetHex((int)Mathf.Floor(red / 16));
-		string r2 = GetHex((int)Mathf.Floor(red % 16));
-		string g1 = GetHex((int)Mathf.Floor(green / 16));
-		string g2 = GetHex((int)Mathf.Floor(green % 16));
-		string b1 = GetHex((int)Mathf.Floor(blue / 16));
-		string b2 = GetHex((int)Mathf.Floor(blue % 16));
-		
-		string z = r1 + r2 + g1 + g2 + b1 + b2;
-		
-		return z;
-	}
-
 	public virtual string GetButtonText()
 	{
 		string End = "</color>";
