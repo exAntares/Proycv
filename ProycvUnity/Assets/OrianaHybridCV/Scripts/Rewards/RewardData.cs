@@ -47,10 +47,11 @@ public class RewardData : MonoBehaviour
 
         View = Instantiate(RewardPrefab.gameObject, transform.position, transform.rotation) as GameObject;
         View.name = name;
+
         if (linkData.islink)
         {
-            View.AddComponent<CursorData>();
-
+            LinkScript linkScript = View.GetComponent<LinkScript>();
+            linkScript.link = linkData.link;
         }
 
         Reward rewardScript = View.GetComponent<Reward>();

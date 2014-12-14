@@ -212,7 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59d842fee82bb274b96dab3a66f18dd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  link: http://www.google.com.mx
+  link: 
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
   cursorMode: 0
