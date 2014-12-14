@@ -13,15 +13,17 @@ public class Reward : MonoBehaviour
     public SpriteRenderer View;
     public TextMesh myText;
 
+    private FloatingReward floatingInformation;
     
-    private FloatingInfo floatingInformation;
-    
+    private GameObject ExtendedDescriptionPrefab;
+    private GameObject ExtendedDescriptionInstance;
+
     private string floatingInfo;
     private string Description;
 
     void Start()
     {
-        floatingInformation = GameObject.FindGameObjectWithTag("RewardText").GetComponent<FloatingInfo>();
+        floatingInformation = GameObject.FindGameObjectWithTag("RewardText").GetComponent<FloatingReward>();
         
         if(Data)
         {
@@ -29,9 +31,18 @@ public class Reward : MonoBehaviour
 
             Icon.sprite = Data.Icon;
 
+
+
             if (floatingInformation)
             {
                 floatingInfo = Data.ExtendedDescription;
+                ExtendedDescriptionPrefab = Data.ExtendedDescriptionPrefab;
+                if (ExtendedDescriptionPrefab)
+                {
+                    ExtendedDescriptionInstance = Instantiate(ExtendedDescriptionPrefab, floatingInformation.transform.position, floatingInformation.transform.rotation) as GameObject;
+                    ExtendedDescriptionInstance.transform.parent = floatingInformation.transform;
+                    ExtendedDescriptionInstance.SetActive(false);
+                }
             }
         }
     }
@@ -39,21 +50,30 @@ public class Reward : MonoBehaviour
     void OnMouseOver()
     {
         View.sprite = ViewMouseOver;
-        UpdateText();
         floatingInformation.ShowInfo(true);
+
+        if (ExtendedDescriptionInstance)
+        {
+            ExtendedDescriptionInstance.SetActive(true);
+        }
     }
 
     void OnMouseExit()
     {
         View.sprite = ViewNormal;
         floatingInformation.ShowInfo(false);
+
+        if (ExtendedDescriptionInstance)
+        {
+            ExtendedDescriptionInstance.SetActive(false);
+        }
     }
 
-    void UpdateText()
+    void OnDestroy()
     {
-        if (floatingInformation)
+        if(ExtendedDescriptionInstance)
         {
-            floatingInformation.SetText(floatingInfo);
+            Destroy(ExtendedDescriptionInstance);
         }
     }
 }

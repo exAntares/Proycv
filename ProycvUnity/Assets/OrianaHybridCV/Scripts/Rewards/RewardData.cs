@@ -26,6 +26,7 @@ public class RewardData : MonoBehaviour
     public string Description;
     [Multiline]
     public string ExtendedDescription;
+    public GameObject ExtendedDescriptionPrefab;
     public Reward RewardPrefab;
     
     [HideInInspector]
