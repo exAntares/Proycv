@@ -32,10 +32,10 @@ public class TextLink : ButtonBase
 
     public override string GetButtonText()
     {
-        selectedHEX = RGBToHex(TextSelectedColor);
+        selectedHEX = TextSelectedColor.ColorToHEX();
 
-        string normalColor = "<color=#" + RGBToHex(TextNormalColor) + ">";
-        string mouseOverColor = "<color=#" + RGBToHex(TextSelectedColor) + ">";
+        string normalColor = "<color=#" + TextNormalColor.ColorToHEX() + ">";
+        string mouseOverColor = "<color=#" + TextSelectedColor.ColorToHEX() + ">";
         
         string Start = (bMouseOver ? mouseOverColor : normalColor) + (bMouseOver ? "<i>" : "");
         string End = (bMouseOver ? "</i>" : "") + "</color>";
