@@ -16,12 +16,18 @@ public class LinkScript : MonoBehaviour
 
     void OnMouseOver()
     {
-        Cursor.SetCursor(cursorTextureLink, Vector2.zero, cursorMode);
+        if (link != "")
+        {
+            Cursor.SetCursor(cursorTextureLink, Vector2.zero, cursorMode);
+        }
     }
 
     void OnMouseExit()
     {
-        Cursor.SetCursor(null, Vector2.zero, cursorMode);
+        if (link != "")
+        {
+            Cursor.SetCursor(null, Vector2.zero, cursorMode);
+        }
     }
 
     void OnMouseUpAsButton()
