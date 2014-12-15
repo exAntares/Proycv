@@ -2291,6 +2291,8 @@ MonoBehaviour:
 
 
     </size>'
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 355345fbba8416b42a89c535231b4cd0,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100046}
 --- !u!114 &11400032
@@ -2330,6 +2332,8 @@ MonoBehaviour:
     "Casltevania: Lord of Shadow 2"'
   ExtendedDescription: "<size=20 > \n\nYou obtained a video to Castlevania: \n\"Lord
     of shadow 2\"\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 0e9c437e970457d48bf2261f76f4bd3f,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100050}
 --- !u!114 &11400036
@@ -2395,6 +2399,8 @@ MonoBehaviour:
   Description: "\nVIDEO \n\"Castlevania: Mirror of Fate\""
   ExtendedDescription: "<size=20>\n You obtained a video to Castlevania: \n\"Mirror
     of fate\"\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100002, guid: 87b39a2e74046a94697d00725741ad5e,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100056}
 --- !u!114 &11400044
