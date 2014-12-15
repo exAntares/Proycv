@@ -2170,16 +2170,16 @@ MonoBehaviour:
   Icon: {fileID: 21300000, guid: 3c5f23b159c5f254eaf5788b606a12a5, type: 3}
   linkData:
     islink: 0
-    link: 
+    link: http://store.steampowered.com/app/274620/?l=spanish
   DescriptionSize: 10
-  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
+  DescriptionColor: {r: .0705882385, g: 1, b: 1, a: 1}
   Description: '
 
     VIDEOGAME EARLY ACCESS
 
     "Skara:The blade remains"'
-  ExtendedDescription: "<size=20 > \n\nYou obtained a Early access to Skara \nClick
-    to see the videogame in Steam.</size>\n</size>"
+  ExtendedDescription: "<size=20 > \nYou obtained a Early access to Skara \nClick
+    to see the videogame in Steam.\n</size>"
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100046}
 --- !u!114 &11400032
@@ -2277,10 +2277,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 1b246cca4d4cf414b926ddaddddd5a51, type: 3}
   linkData:
-    islink: 0
-    link: 
+    islink: 1
+    link: https://www.youtube.com/watch?v=o1XIhEmCB_8
   DescriptionSize: 10
-  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
+  DescriptionColor: {r: .0705882385, g: 1, b: 1, a: 1}
   Description: "\nVIDEO \n\"Skara:The Blade Remains\""
   ExtendedDescription: "<size=20>\n You obtained a video to Skara\nClick to see the
     Video in Youtube.</size>"

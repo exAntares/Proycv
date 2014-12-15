@@ -45,7 +45,7 @@ GameObject:
   - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: RewardFloatingText
-  m_TagString: SkillText
+  m_TagString: RewardText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,7 +107,7 @@ Renderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 607488441
-  m_SortingOrder: 0
+  m_SortingOrder: 6
 --- !u!102 &10200000
 TextMesh:
   serializedVersion: 3

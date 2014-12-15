@@ -907,7 +907,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -52.7068863, y: 29.361166, z: 0}
+  m_LocalPosition: {x: -53.1528397, y: 29.161602, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400022}
@@ -2197,8 +2197,8 @@ MonoBehaviour:
     the insistence to developers \n(to be sure that the most important issues were
     fixed) were part of my\n work, too.\r\nDuring the last stages I tested the game
     in collaboration with Babel Media.\r"
-  QuestExpReward: +150
-  QuestMoneyReward: +50
+  QuestExpReward: 150
+  QuestMoneyReward: 50
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2319,10 +2319,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 1b246cca4d4cf414b926ddaddddd5a51, type: 3}
   linkData:
-    islink: 0
-    link: 
+    islink: 1
+    link: http://www.konami-castlevania.com/castlevania-lords-of-shadow-2/
   DescriptionSize: 10
-  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
+  DescriptionColor: {r: .0705882385, g: 1, b: 1, a: 1}
   Description: '
 
     VIDEO
@@ -2388,10 +2388,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 1b246cca4d4cf414b926ddaddddd5a51, type: 3}
   linkData:
-    islink: 0
-    link: 
+    islink: 1
+    link: http://www.konami-castlevania.com/es/castlevania-lords-of-shadow-mirror-of-fate/
   DescriptionSize: 10
-  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
+  DescriptionColor: {r: .0705882385, g: 1, b: 1, a: 1}
   Description: "\nVIDEO \n\"Castlevania: Mirror of Fate\""
   ExtendedDescription: "<size=20>\n You obtained a video to Castlevania: \n\"Mirror
     of fate\"\nClick to see the Video in the official page.</size>"
