@@ -907,7 +907,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -52.7068863, y: 29.361166, z: 0}
+  m_LocalPosition: {x: -53.1528397, y: 29.161602, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400022}
@@ -2197,8 +2197,8 @@ MonoBehaviour:
     the insistence to developers \n(to be sure that the most important issues were
     fixed) were part of my\n work, too.\r\nDuring the last stages I tested the game
     in collaboration with Babel Media.\r"
-  QuestExpReward: +150
-  QuestMoneyReward: +50
+  QuestExpReward: 150
+  QuestMoneyReward: 50
 --- !u!114 &11400020
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2291,6 +2291,8 @@ MonoBehaviour:
 
 
     </size>'
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 355345fbba8416b42a89c535231b4cd0,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100046}
 --- !u!114 &11400032
@@ -2319,10 +2321,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 1b246cca4d4cf414b926ddaddddd5a51, type: 3}
   linkData:
-    islink: 0
-    link: 
+    islink: 1
+    link: http://www.konami-castlevania.com/castlevania-lords-of-shadow-2/
   DescriptionSize: 10
-  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
+  DescriptionColor: {r: .0705882385, g: 1, b: 1, a: 1}
   Description: '
 
     VIDEO
@@ -2330,6 +2332,8 @@ MonoBehaviour:
     "Casltevania: Lord of Shadow 2"'
   ExtendedDescription: "<size=20 > \n\nYou obtained a video to Castlevania: \n\"Lord
     of shadow 2\"\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 0e9c437e970457d48bf2261f76f4bd3f,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100050}
 --- !u!114 &11400036
@@ -2388,13 +2392,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Icon: {fileID: 21300000, guid: 1b246cca4d4cf414b926ddaddddd5a51, type: 3}
   linkData:
-    islink: 0
-    link: 
+    islink: 1
+    link: http://www.konami-castlevania.com/es/castlevania-lords-of-shadow-mirror-of-fate/
   DescriptionSize: 10
-  DescriptionColor: {r: 1, g: 1, b: 1, a: 1}
+  DescriptionColor: {r: .0705882385, g: 1, b: 1, a: 1}
   Description: "\nVIDEO \n\"Castlevania: Mirror of Fate\""
   ExtendedDescription: "<size=20>\n You obtained a video to Castlevania: \n\"Mirror
     of fate\"\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100002, guid: 87b39a2e74046a94697d00725741ad5e,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100056}
 --- !u!114 &11400044
