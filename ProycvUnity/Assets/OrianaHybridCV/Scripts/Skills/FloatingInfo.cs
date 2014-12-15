@@ -2,8 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class FloatingInfo : MonoBehaviour {
-
+public class FloatingInfo : MonoBehaviour
+{
     public Vector3 MouseOffset = new Vector3( 2.0f, -2.0f, 0.0f);
     [HideInInspector]
     public TextMesh TextRenderer;
