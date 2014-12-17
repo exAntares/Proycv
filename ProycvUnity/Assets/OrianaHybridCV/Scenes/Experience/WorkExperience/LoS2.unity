@@ -1164,6 +1164,8 @@ MonoBehaviour:
   Description: "\nVIDEO \n\"Castlevania: Mirror of Fate\""
   ExtendedDescription: "<size=20>\n You obtained a video to Castlevania: \n\"Mirror
     of fate\"\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100002, guid: 87b39a2e74046a94697d00725741ad5e,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 435268024}
 --- !u!1 &460439693
@@ -2700,23 +2702,22 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1919763334}
-  - {fileID: 1193112245}
   m_Father: {fileID: 1862883832}
   m_RootOrder: 4
 --- !u!114 &1064360253
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: 01bcd9829b6a3f542b445934be4fcac9,
+  m_PrefabParentObject: {fileID: 11400004, guid: 01bcd9829b6a3f542b445934be4fcac9,
     type: 2}
   m_PrefabInternal: {fileID: 1715179069}
   m_GameObject: {fileID: 1064360251}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fe101a969e306745978b845a3e27206, type: 3}
+  m_Script: {fileID: 11500000, guid: 46f3496aa5d21534ab6ad5e9329ea523, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MouseOffset: {x: 2, y: -2, z: 0}
-  TextRenderer: {fileID: 0}
+  InitialObjects: []
 --- !u!1 &1082502558
 GameObject:
   m_ObjectHideFlags: 0
@@ -2836,93 +2837,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1396638366}
   m_RootOrder: 0
---- !u!1 &1193112244
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: 01bcd9829b6a3f542b445934be4fcac9, type: 2}
-  m_PrefabInternal: {fileID: 1715179069}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1193112245}
-  - 23: {fileID: 1193112248}
-  - 102: {fileID: 1193112247}
-  - 114: {fileID: 1193112246}
-  m_Layer: 0
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1193112245
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: 01bcd9829b6a3f542b445934be4fcac9, type: 2}
-  m_PrefabInternal: {fileID: 1715179069}
-  m_GameObject: {fileID: 1193112244}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: .5, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1064360252}
-  m_RootOrder: 1
---- !u!114 &1193112246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: 01bcd9829b6a3f542b445934be4fcac9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1715179069}
-  m_GameObject: {fileID: 1193112244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1055b06bd108f1e438f941bc06b8d5d3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Layer: GuiText
-  index: 6
---- !u!102 &1193112247
-TextMesh:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 10200000, guid: 01bcd9829b6a3f542b445934be4fcac9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1715179069}
-  m_GameObject: {fileID: 1193112244}
-  m_Text: Lorem Ipsum
-  m_OffsetZ: 0
-  m_CharacterSize: 1
-  m_LineSpacing: 1.5
-  m_Anchor: 0
-  m_Alignment: 0
-  m_TabSize: 4
-  m_FontSize: 25
-  m_FontStyle: 0
-  m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-  m_Color:
-    serializedVersion: 2
-    rgba: 4294967295
---- !u!23 &1193112248
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: 01bcd9829b6a3f542b445934be4fcac9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1715179069}
-  m_GameObject: {fileID: 1193112244}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 607488441
-  m_SortingOrder: 6
 --- !u!1 &1205628254
 GameObject:
   m_ObjectHideFlags: 0
@@ -3376,6 +3290,8 @@ MonoBehaviour:
 
 
     </size>'
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 355345fbba8416b42a89c535231b4cd0,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 206663210}
 --- !u!1 &1350219125
@@ -3777,6 +3693,8 @@ MonoBehaviour:
     "Casltevania: Lord of Shadow 2"'
   ExtendedDescription: "<size=20 > \n\nYou obtained a video to Castlevania: \n\"Lord
     of shadow 2\"\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 0e9c437e970457d48bf2261f76f4bd3f,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 110013558}
 --- !u!1 &1481556328
@@ -4619,7 +4537,7 @@ Renderer:
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 607488441
-  m_SortingOrder: 6
+  m_SortingOrder: 0
 --- !u!1 &1912056261
 GameObject:
   m_ObjectHideFlags: 0
