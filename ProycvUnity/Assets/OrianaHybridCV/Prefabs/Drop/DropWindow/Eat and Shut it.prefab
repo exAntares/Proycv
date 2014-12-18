@@ -2167,7 +2167,7 @@ MonoBehaviour:
   DescriptionColor: {r: .0705882385, g: 1, b: 1, a: 1}
   Description: '
 
-    GGJ EXPERIENCE
+    GGJ EXPERIENCE 2013
 
 '
   ExtendedDescription: '<size=20>
@@ -2178,6 +2178,8 @@ MonoBehaviour:
 
 
     </size>'
+  ExtendedDescriptionPrefab: {fileID: 100002, guid: 18f9a3dde866ddf4f816db64e2e47fdb,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100046}
 --- !u!114 &11400032
@@ -2218,6 +2220,8 @@ MonoBehaviour:
   ExtendedDescription: "<size=20 > \n\nYou obtained a video to Eat& Shut it.\nIf you
     have no time for playing , you can see it \nin video.\n\nClick to see a video
     in youtube. \n\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: dfd9429cecb9c6c4eaaac9006ab6b80c,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100050}
 --- !u!114 &11400036
@@ -2288,6 +2292,8 @@ MonoBehaviour:
   ExtendedDescription: "<size=20>\n You obtained a fast videogame: \n\"Eat & Shut
     it\"\nClick to play in kongregate website\nClick to see the Video in the official
     page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100002, guid: 12a2eebdbfea07647a42e2d1e730fefa,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100056}
 --- !u!114 &11400044

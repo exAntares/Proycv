@@ -2283,6 +2283,8 @@ MonoBehaviour:
     "Galahad''s Memories"'
   ExtendedDescription: "<size=20>\nIf you have no time to play it but\nyou have curiosity
     don't despair. \nYou can see the playthougth.\n\nClik here to see a Youtube video\n\n</size>"
+  ExtendedDescriptionPrefab: {fileID: 100002, guid: 57c4a19ca1192864d94885fe698f5da9,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100046}
 --- !u!114 &11400032
@@ -2322,6 +2324,7 @@ MonoBehaviour:
     "Casltevania: Lord of Shadow 2"'
   ExtendedDescription: "<size=20 > \n\nYou obtained a video to Castlevania: \n\"Lord
     of shadow 2\"\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 0}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100050}
 --- !u!114 &11400036
@@ -2391,6 +2394,8 @@ MonoBehaviour:
     "Galahad''s Memories"'
   ExtendedDescription: "<size=20>\n You obtained a master videogame: \n\"Galahad's
     Memories\"\nClick here download\nClick to see the Video in the official page.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 28bc9e7d764c2ca4598eaa5314877fa9,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100056}
 --- !u!114 &11400044
