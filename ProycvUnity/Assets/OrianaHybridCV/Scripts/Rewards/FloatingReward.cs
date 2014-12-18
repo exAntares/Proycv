@@ -8,7 +8,7 @@ public class FloatingReward : MonoBehaviour {
     public List<GameObject> InitialObjects = new List<GameObject>();
 
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         for (int i = 0; i < transform.childCount; ++i)
         {
