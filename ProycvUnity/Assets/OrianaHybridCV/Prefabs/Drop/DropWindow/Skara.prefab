@@ -2180,6 +2180,8 @@ MonoBehaviour:
     "Skara:The blade remains"'
   ExtendedDescription: "<size=20 > \nYou obtained a Early access to Skara \nClick
     to see the videogame in Steam.\n</size>"
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 476e1da6f53f7f34fa0e43d055514c7b,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100046}
 --- !u!114 &11400032
@@ -2219,6 +2221,7 @@ MonoBehaviour:
     "Skara:The blade remains"'
   ExtendedDescription: "<size=20 > \n\nYou obtained a Early access to Skara \nClick
     to see the videogame in Steam.</size>"
+  ExtendedDescriptionPrefab: {fileID: 0}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100050}
 --- !u!114 &11400036
@@ -2284,6 +2287,8 @@ MonoBehaviour:
   Description: "\nVIDEO \n\"Skara:The Blade Remains\""
   ExtendedDescription: "<size=20>\n You obtained a video to Skara\nClick to see the
     Video in Youtube.</size>"
+  ExtendedDescriptionPrefab: {fileID: 100000, guid: 70f52e7511e898e43b50cd5cc532cfcf,
+    type: 2}
   RewardPrefab: {fileID: 11400000, guid: 9f2bc53c0a4537f439bbd11c90c82673, type: 2}
   View: {fileID: 100056}
 --- !u!114 &11400048
