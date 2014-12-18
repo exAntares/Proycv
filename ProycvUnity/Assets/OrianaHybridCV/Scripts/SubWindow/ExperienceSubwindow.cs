@@ -13,6 +13,9 @@ public class ExperienceSubwindow : MonoBehaviour
         public TextMesh Experience;
         public TextMesh Money;
     }
+    
+    public GameObject TemplateInstancePrefab;
+    public GameObject TemplateInstance;
 
     public TextComponents textsObjects;
 
@@ -32,6 +35,29 @@ public class ExperienceSubwindow : MonoBehaviour
     void Start()
     {
         UpdateText();
+        SpawnView();
+    }
+
+    [ContextMenu("SpawnView")]
+    void SpawnView()
+    {
+        if (TemplateInstancePrefab != null)
+        {
+            if (TemplateInstance != null)
+            {
+                DestroyImmediate(TemplateInstance);
+            }
+
+            TemplateInstance = Instantiate(TemplateInstancePrefab, transform.position, transform.rotation) as GameObject;
+            TemplateInstance.transform.parent = transform;
+
+
+            textsObjects.Title = TemplateInstance.transform.FindChild("Title").GetComponent<TextMesh>();
+            textsObjects.Info = TemplateInstance.transform.FindChild("Info").GetComponent<TextMesh>();
+            textsObjects.Description = TemplateInstance.transform.FindChild("Description").FindChild("DescriptionText").GetComponent<TextMesh>();
+            textsObjects.Experience = TemplateInstance.transform.FindChild("Experience").FindChild("ExperienceAmmount").GetComponent<TextMesh>();
+            textsObjects.Money = TemplateInstance.transform.FindChild("MoneyAmmount").GetComponent<TextMesh>();
+        }
     }
 
     [ContextMenu("UpdateText")]
