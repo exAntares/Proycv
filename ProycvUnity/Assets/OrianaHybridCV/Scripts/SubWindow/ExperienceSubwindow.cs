@@ -15,6 +15,7 @@ public class ExperienceSubwindow : MonoBehaviour
     }
     
     public GameObject TemplateInstancePrefab;
+    [HideInInspector]
     public GameObject TemplateInstance;
 
     public TextComponents textsObjects;
@@ -41,16 +42,17 @@ public class ExperienceSubwindow : MonoBehaviour
     [ContextMenu("SpawnView")]
     void SpawnView()
     {
-        if (TemplateInstancePrefab != null)
+        if (TemplateInstancePrefab)
         {
-            if (TemplateInstance != null)
+            if (TemplateInstance)
             {
                 DestroyImmediate(TemplateInstance);
+                TemplateInstance = null;
             }
 
             TemplateInstance = Instantiate(TemplateInstancePrefab, transform.position, transform.rotation) as GameObject;
+            TemplateInstance.name = TemplateInstancePrefab.name;
             TemplateInstance.transform.parent = transform;
-
 
             textsObjects.Title = TemplateInstance.transform.FindChild("Title").GetComponent<TextMesh>();
             textsObjects.Info = TemplateInstance.transform.FindChild("Info").GetComponent<TextMesh>();
