@@ -37,7 +37,8 @@ public class ButtonBase : MonoBehaviour
     public Texture2D cursorTextureLink;
     protected CursorMode cursorMode = CursorMode.Auto;
     protected Vector2 hotSpot = Vector2.zero;
-    
+    protected AudioClip ButtonSound;
+
     public virtual void Awake()
     {
     }
@@ -60,6 +61,7 @@ public class ButtonBase : MonoBehaviour
 
 	public virtual void Init()
 	{
+        ButtonSound = Resources.Load<AudioClip>("SFX/Sounds/212003__pegtel__button-tap-1");
 		UpdateText();
 	}
 
@@ -107,6 +109,11 @@ public class ButtonBase : MonoBehaviour
 		if(ButtonEnabled)
 		{
 			StartSelect();
+            
+            if (ButtonSound)
+            {
+                AudioSource.PlayClipAtPoint(ButtonSound, Vector3.zero);
+            }
 		}
 	}
 

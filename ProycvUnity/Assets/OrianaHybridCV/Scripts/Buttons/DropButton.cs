@@ -93,6 +93,10 @@ public class DropButton : ButtonBase
 		if(ButtonEnabled)
 		{
 			ToggleSelected();
+            if (ButtonSound)
+            {
+                AudioSource.PlayClipAtPoint(ButtonSound, Vector3.zero);
+            }
 		}
 	}
 
