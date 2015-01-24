@@ -30,5 +30,6 @@ public class SkillMouseOverData : MonoBehaviour {
         SkillMouseOver mouseOverScript = mySkill.GetComponent<SkillMouseOver>();
         mouseOverScript.Data = this;
         mySkill.transform.parent = transform;
+        mySkill.transform.localScale = SkillPrefab.transform.localScale;
     }
 }
