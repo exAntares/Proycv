@@ -19,6 +19,8 @@ public class ExperienceSubwindow : MonoBehaviour
     public GameObject TemplateInstance;
 
     public TextComponents textsObjects;
+    
+    public Color NormalTextColor = Color.white;
 
     public string QuestTitle = "Insert Text";
     public string QuestRequester = "Insert Text";
@@ -72,15 +74,17 @@ public class ExperienceSubwindow : MonoBehaviour
 
         if (textsObjects.Info)
         {
-            textsObjects.Info.text = "<color=orange>Quest requester:</color> " + QuestRequester
-                + "\n<color=orange>Localization:</color> " + QuestLocalization
-                + "\n<color=orange>Duration:</color> " + QuestDuration
-                + "\n<color=orange>Objectives:</color> " + QuestObjectives;
+            string textColor = NormalTextColor.ColorToHEX();
+
+            textsObjects.Info.text = "<color=orange>Quest requester:</color> " + "<color=#" + textColor + ">" + QuestRequester + "</color>"
+                + "\n<color=orange>Localization:</color> " + "<color=#" + textColor + ">" + QuestLocalization + "</color>"
+                + "\n<color=orange>Duration:</color> " + "<color=#" + textColor + ">" + QuestDuration + "</color>"
+                + "\n<color=orange>Objectives:</color> " + "<color=#" + textColor + ">" + QuestObjectives + "</color>";
         }
 
         if (textsObjects.Description)
         {
-            textsObjects.Description.text = QuestDescription;
+            textsObjects.Description.text = "<color=#" + NormalTextColor.ColorToHEX() +">" + QuestDescription + "</color>";
         }
 
         if (textsObjects.Experience)
