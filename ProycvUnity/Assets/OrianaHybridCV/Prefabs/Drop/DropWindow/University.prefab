@@ -802,7 +802,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.2555103, y: -1.06912613, z: 0}
+  m_LocalPosition: {x: -27.2555103, y: -.680847168, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400014}
@@ -853,7 +853,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.4168701, y: -31.3934517, z: 0}
+  m_LocalPosition: {x: 30.4168701, y: -34.3055649, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400072}
@@ -867,7 +867,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 30.0487995, y: -16.307415, z: 0}
+  m_LocalPosition: {x: 30.0487995, y: -14.3660088, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400006}
@@ -883,7 +883,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.643116, y: -5.9675827, z: 0}
+  m_LocalPosition: {x: 1.643116, y: -4.51152802, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400074}
@@ -908,7 +908,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.0495892, y: -3.63111877, z: 0}
+  m_LocalPosition: {x: 31.0495892, y: -2.85455704, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400022}
@@ -982,7 +982,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.2230644, y: -47.5963783, z: 0}
+  m_LocalPosition: {x: 45.2230644, y: -49.8289948, z: 0}
   m_LocalScale: {x: 1.35000002, y: 1.35000002, z: 1}
   m_Children:
   - {fileID: 400032}
@@ -1111,7 +1111,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.2230644, y: -36.2380981, z: 0}
+  m_LocalPosition: {x: 45.2230644, y: -38.4707146, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400036}
@@ -1136,7 +1136,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.1401672, y: -43.159977, z: 0}
+  m_LocalPosition: {x: 14.1401672, y: -45.3925934, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400034}
@@ -1200,7 +1200,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.1401672, y: -36.238102, z: 0}
+  m_LocalPosition: {x: 14.1401672, y: -38.4707184, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400056}
@@ -1363,7 +1363,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100090}
   m_LocalRotation: {x: 0, y: 0, z: -.0549980253, w: .998486459}
-  m_LocalPosition: {x: 45.561676, y: -42.9296646, z: 0}
+  m_LocalPosition: {x: 45.2704697, y: -44.1915703, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 400024}
@@ -1856,11 +1856,16 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Text: "Adobe flash animation 2008 \nAction Sript 2.0 for Flash 2008\nBasic Stop
-    Motion Animation 2009\nDigital Illustration in Photoshop 2010\n3D Studio y Vray,Granada,
-    2010\r\n2D/3D Animation in Nexo Film School ( 280 h ), 2011\n"
+  m_Text: "<color=#532913>Fine Arts studies help me to be more creative, \r\nto have
+    a lot of differents ideas and to lose the fear to throw away many others,\r\nto
+    be able to do my own animations,illustrations, modelations, etc...\r\nWhile I
+    was in the university I was doing too differents courses at the same time:\r\n\n
+    \  -Adobe flash animation 2008 and Action Sript 2.0 for Flash 2008\n   -Basic
+    Stop Motion Animation 2009\n   -Digital Illustration in Photoshop 2010\n   -3D
+    Studio y Vray,Granada, 2010\r\n  - 2D/3D Animation in Nexo Film School ( 280 h
+    ), 2011\n</color>"
   m_OffsetZ: 0
-  m_CharacterSize: .949999988
+  m_CharacterSize: .850000024
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0
@@ -1900,13 +1905,13 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
-  m_Text: '<color=#433220FF>Quest requester:</color> Alonso Cano University
+  m_Text: '<color=#120904>Quest requester:</color> <color=#532913>Alonso Cano University</color>
 
-    <color=#433220FF>Localization:</color> Granada (Spain)
+    <color=#120904>Localization:</color> <color=#532913>Granada (Spain)</color>
 
-    <color=#433220FF>Duration:</color> 5 years (2006-2011)
+    <color=#120904>Duration:</color> <color=#532913>5 years (2006-2011)</color>
 
-    <color=#433220FF>Objectives:</color> Get a Degree in Fine Arts'
+    <color=#120904>Objectives:</color> <color=#532913>Get a Degree in Fine Arts</color>'
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -2246,14 +2251,20 @@ MonoBehaviour:
     Experience: {fileID: 10200002}
     Money: {fileID: 10200000}
   NormalTextColor: {r: .325490206, g: .160784319, b: .0745098069, a: 1}
+  CategoryTextColor: {r: .0724137947, g: .0357706696, b: .0165766496, a: 1}
   QuestTitle: FINE ARTS DEGREE
   QuestRequester: Alonso Cano University
   QuestLocalization: Granada (Spain)
   QuestDuration: 5 years (2006-2011)
   QuestObjectives: Get a Degree in Fine Arts
-  QuestDescription: "Adobe flash animation 2008 \nAction Sript 2.0 for Flash 2008\nBasic
-    Stop Motion Animation 2009\nDigital Illustration in Photoshop 2010\n3D Studio
-    y Vray,Granada, 2010\r\n2D/3D Animation in Nexo Film School ( 280 h ), 2011\n"
+  QuestDescription: "Fine Arts studies help me to be more creative, \r\nto have a
+    lot of differents ideas and to lose the fear to throw away many others,\r\nto
+    be able to do my own animations,illustrations, modelations, etc...\r\nWhile I
+    was in the university I was doing too differents courses at the same time:\r\n\n
+    \  -Adobe flash animation 2008 and Action Sript 2.0 for Flash 2008\n   -Basic
+    Stop Motion Animation 2009\n   -Digital Illustration in Photoshop 2010\n   -3D
+    Studio y Vray,Granada, 2010\r\n  - 2D/3D Animation in Nexo Film School ( 280 h
+    ), 2011\n"
   QuestExpReward: 1500
   QuestMoneyReward: 20
 --- !u!114 &11400020

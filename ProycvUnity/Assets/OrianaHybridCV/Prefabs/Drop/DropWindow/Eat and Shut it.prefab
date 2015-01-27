@@ -904,7 +904,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -52.4874001, y: 28.5053101, z: 0}
+  m_LocalPosition: {x: -19.1556206, y: 21.4667492, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400022}
@@ -1202,8 +1202,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.7400608, y: -.182159424, z: 0}
-  m_LocalScale: {x: 6.27690744, y: 3.58680487, z: 5}
+  m_LocalPosition: {x: -20.0489616, y: -.182159424, z: 0}
+  m_LocalScale: {x: 6.05783033, y: 3.46161819, z: 5}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 1
@@ -1214,8 +1214,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.0639668, y: -.182159424, z: 0}
-  m_LocalScale: {x: 6.16566372, y: 3.52323651, z: 5}
+  m_LocalPosition: {x: 19.604538, y: -.182159424, z: 0}
+  m_LocalScale: {x: 5.78227949, y: 3.30416012, z: 5}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 0
@@ -1745,7 +1745,7 @@ TextMesh:
   m_GameObject: {fileID: 100008}
   m_Text: REWARDS OBTAINED
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.10000002
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1756,7 +1756,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200008
 TextMesh:
   serializedVersion: 3
@@ -1764,12 +1764,12 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Text: "Eat And Shut It, is a 2D videogame made in Unity3D engine. \nIs a casual,
-    one screen action videogame where you have to eat all food, that a \ntree who
-    is in the center of the screen, drops for you. If one drop fall down to the \nfloor,
-    the game ends.\nThis Game was made during a Global Game Jam event.\nThe team's
-    members decided to upload to kongregate for anyone can played. \nOverall ,I was
-    in charge of game's art. "
+  m_Text: "<color=#532913>Eat And Shut It, is a 2D videogame made in Unity3D engine.
+    \nIs a casual, one screen action videogame where you have to eat all food, that
+    a \ntree who is in the center of the screen, drops for you. If one drop fall down
+    to the \nfloor, the game ends.\nThis Game was made during a Global Game Jam event.\nThe
+    team's members decided to upload to kongregate for anyone can played. \nOverall
+    ,I was in charge of game's art. </color>"
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -1792,7 +1792,7 @@ TextMesh:
   m_GameObject: {fileID: 100012}
   m_Text: DESCRIPTION
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.20000005
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1803,7 +1803,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200012
 TextMesh:
   serializedVersion: 3
@@ -1811,9 +1811,14 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
-  m_Text: "<color=orange>Quest requester:</color> \n<color=orange>Localization:</color>
-    Madrid (Spain)\n<color=orange>Duration:</color> 2 days (2013)\n<color=orange>Objectives:</color>
-    Survive for 2 days at Global Game Jam Even and Make a game"
+  m_Text: '<color=#120904>Quest requester:</color> <color=#532913></color>
+
+    <color=#120904>Localization:</color> <color=#532913>Madrid (Spain)</color>
+
+    <color=#120904>Duration:</color> <color=#532913>2 days (2013)</color>
+
+    <color=#120904>Objectives:</color> <color=#532913>Survive for 2 days at Global
+    Game Jam Even and Make a game</color>'
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -2131,6 +2136,8 @@ MonoBehaviour:
     Description: {fileID: 10200008}
     Experience: {fileID: 10200002}
     Money: {fileID: 10200000}
+  NormalTextColor: {r: .325490206, g: .160784319, b: .0745098069, a: 1}
+  CategoryTextColor: {r: .0705882385, g: .0352941193, b: .0156862754, a: 1}
   QuestTitle: FAST FOOD  & FAST GAME
   QuestRequester: 
   QuestLocalization: Madrid (Spain)
@@ -2425,7 +2432,7 @@ MonoBehaviour:
   ButtonText: http://www.gamejam.es/2013/games.html
   TextRenderer: {fileID: 10200028}
   myAnimator: {fileID: 0}
-  TextNormalColor: {r: .13333334, g: .847058833, b: .925490201, a: 1}
+  TextNormalColor: {r: .807682514, g: .851061881, b: .95517242, a: 1}
   TextSelectedColor: {r: .13333334, g: .850980401, b: .929411769, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}

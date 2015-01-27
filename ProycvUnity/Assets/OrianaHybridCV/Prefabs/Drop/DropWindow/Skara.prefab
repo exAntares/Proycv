@@ -845,7 +845,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100018}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 46.8081169, y: -5.75066376, z: 0}
+  m_LocalPosition: {x: 51.1578522, y: -5.75066376, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400022}
@@ -1185,8 +1185,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.592001, y: -.182159424, z: 0}
-  m_LocalScale: {x: 6.1718955, y: 3.52679682, z: 5}
+  m_LocalPosition: {x: -20.0753059, y: -.182159424, z: 0}
+  m_LocalScale: {x: 5.82912636, y: 3.33092928, z: 5}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 1
@@ -1197,8 +1197,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.4619541, y: -.182159424, z: 0}
-  m_LocalScale: {x: 6.44792652, y: 3.68452978, z: 5}
+  m_LocalPosition: {x: 20.428566, y: -.182159424, z: 0}
+  m_LocalScale: {x: 5.76239061, y: 3.29279518, z: 5}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 0
@@ -1716,7 +1716,7 @@ TextMesh:
   m_GameObject: {fileID: 100008}
   m_Text: REWARDS OBTAINED
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.20000005
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1727,7 +1727,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200008
 TextMesh:
   serializedVersion: 3
@@ -1735,14 +1735,15 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Text: "For the first year I was working in Skara as the only game designer. I
-    was\nin charge of all design starter processes: Create game mechanics, level design,\ndocumentation
-    and several other problems during the development, creating\n the core game vision
-    together with project leads.\r\nNow there is a new game designer working with
-    us so we're working together and \ndistributing tasks. Currently I'm focused on
-    Combat mechanics (Attacks melee, \ncombat balancing, character\u2019s combat ability,
-    special skills, others). \rI\xB4m in continuous \ncommunication with all departments
-    especially with the animation and programming \nteam.  "
+  m_Text: "<color=#532913>For the first year I was working in Skara as the only game
+    designer. I was\nin charge of all design starter processes: Create game mechanics,
+    level design,\ndocumentation and several other problems during the development,
+    creating\n the core game vision together with project leads.\r\nNow there is a
+    new game designer working with us so we're working together and \ndistributing
+    tasks. Currently I'm focused on Combat mechanics (Attacks melee, \ncombat balancing,
+    character\u2019s combat ability, special skills, others). \rI\xB4m in continuous
+    \ncommunication with all departments especially with the animation and programming
+    \nteam.  </color>"
   m_OffsetZ: 0
   m_CharacterSize: .899999976
   m_LineSpacing: 1
@@ -1765,7 +1766,7 @@ TextMesh:
   m_GameObject: {fileID: 100012}
   m_Text: DESCRIPTION
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.20000005
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1776,7 +1777,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200012
 TextMesh:
   serializedVersion: 3
@@ -1784,13 +1785,13 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
-  m_Text: '<color=orange>Quest requester:</color> 8-bits Studio
+  m_Text: '<color=#120904>Quest requester:</color> <color=#532913>8-bits Studio</color>
 
-    <color=orange>Localization:</color> Barcelona (Spain)
+    <color=#120904>Localization:</color> <color=#532913>Barcelona (Spain)</color>
 
-    <color=orange>Duration:</color> 1.5 years (2013- in progress)
+    <color=#120904>Duration:</color> <color=#532913>1.5 years (2013- in progress)</color>
 
-    <color=orange>Objectives:</color> Designer in                                             game'
+    <color=#120904>Objectives:</color> <color=#532913>Designer in                                              game</color>'
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -2108,11 +2109,13 @@ MonoBehaviour:
     Description: {fileID: 10200008}
     Experience: {fileID: 10200002}
     Money: {fileID: 10200000}
+  NormalTextColor: {r: .325490206, g: .160784319, b: .0745098069, a: 1}
+  CategoryTextColor: {r: .0705882385, g: .0352941193, b: .0156862754, a: 1}
   QuestTitle: 'DESIGNER: BE A COMBAT MASTER'
   QuestRequester: 8-bits Studio
   QuestLocalization: Barcelona (Spain)
   QuestDuration: 1.5 years (2013- in progress)
-  QuestObjectives: Designer in                                             game
+  QuestObjectives: Designer in                                              game
   QuestDescription: "For the first year I was working in Skara as the only game designer.
     I was\nin charge of all design starter processes: Create game mechanics, level
     design,\ndocumentation and several other problems during the development, creating\n
@@ -2378,7 +2381,7 @@ MonoBehaviour:
   ButtonText: http://skarathebladeremains.com/es/
   TextRenderer: {fileID: 10200030}
   myAnimator: {fileID: 0}
-  TextNormalColor: {r: .13333334, g: .847058833, b: .925490201, a: 1}
+  TextNormalColor: {r: .802998841, g: .833621681, b: .925490201, a: 1}
   TextSelectedColor: {r: .13333334, g: .850980401, b: .929411769, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}

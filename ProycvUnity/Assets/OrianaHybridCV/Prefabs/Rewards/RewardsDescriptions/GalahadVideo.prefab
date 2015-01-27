@@ -101,7 +101,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.59365082, y: -10.0586967, z: 0}
+  m_LocalPosition: {x: 2.32602692, y: -11.0840492, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400002}
@@ -133,7 +133,7 @@ Renderer:
   - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
+  m_UseLightProbes: 1
   m_LightProbeAnchor: {fileID: 0}
   m_ScaleInLightmap: 1
   m_SortingLayerID: 607488441
@@ -165,10 +165,11 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_Text: "Click to see the video into\r\nyoutube"
+  m_Text: " A video to the Galahad's\r\nlevel tutorial walkthrougth\r\n\r\nClick to
+    see the video into\r\nyoutube"
   m_OffsetZ: 0
   m_CharacterSize: .699999988
-  m_LineSpacing: 1.5
+  m_LineSpacing: 1.29999995
   m_Anchor: 0
   m_Alignment: 0
   m_TabSize: 4
