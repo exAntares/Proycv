@@ -784,7 +784,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.7364349, y: -1.66393661, z: 0}
+  m_LocalPosition: {x: -26.8042107, y: .956954956, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400014}
@@ -808,7 +808,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.6405067, y: -42.2700653, z: 0}
+  m_LocalPosition: {x: 16.5462036, y: -43.8293533, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400088}
@@ -821,7 +821,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.21609116, y: -42.2126617, z: 0}
+  m_LocalPosition: {x: 2.12178421, y: -43.383667, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400002}
@@ -835,7 +835,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 29.397974, y: -30.2239494, z: 0}
+  m_LocalPosition: {x: 29.397974, y: -32.5536423, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400072}
@@ -849,7 +849,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100014}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 27.7736206, y: -17.0509224, z: 0}
+  m_LocalPosition: {x: 27.7736206, y: -15.8860817, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400006}
@@ -878,7 +878,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100018}
   m_LocalRotation: {x: 0, y: 0, z: -.0549982451, w: .998486459}
-  m_LocalPosition: {x: 41.2344093, y: -42.2381363, z: 0}
+  m_LocalPosition: {x: 45.4973068, y: -44.5636902, z: 0}
   m_LocalScale: {x: 8, y: 8, z: 1}
   m_Children: []
   m_Father: {fileID: 400024}
@@ -963,7 +963,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100032}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 43.5873413, y: -48.6098747, z: 0}
+  m_LocalPosition: {x: 43.5873413, y: -50.551281, z: 0}
   m_LocalScale: {x: 1.35000002, y: 1.35000002, z: 1}
   m_Children:
   - {fileID: 400032}
@@ -1092,7 +1092,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100064}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.3645782, y: -35.9269295, z: 0}
+  m_LocalPosition: {x: 44.3645782, y: -37.8683357, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400036}
@@ -1117,7 +1117,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100066}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.5044441, y: -48.6098747, z: 0}
+  m_LocalPosition: {x: 12.5044441, y: -50.551281, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400034}
@@ -1181,7 +1181,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.4904594, y: -36.1860085, z: 0}
+  m_LocalPosition: {x: 14.4904594, y: -38.1274147, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400056}
@@ -1763,7 +1763,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100004}
-  m_Text: 'Exp:'
+  m_Text: EXP
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1776,7 +1776,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4278971903
 --- !u!102 &10200006
 TextMesh:
   serializedVersion: 3
@@ -1797,7 +1797,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200008
 TextMesh:
   serializedVersion: 3
@@ -1805,9 +1805,13 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Text: 'Videomage Master: Game Design specialty.
-
-'
+  m_Text: "<color=#532913>\r\nI was learning in the Complutense university, \r\nin
+    the Videogame Master: Game Design Specialty\r\nDuring the master I worked with
+    my clasemates in the final master project: A \r\nvideogame called \"Galahad memories\".
+    A side scroller platformer where you \nare\r an artist that use the color to move
+    around the levels. Each color has\ndiferents effects: Jump taller, Go faster or
+    Climb walls. You must use them\nto advance in the game\r and figth against your
+    enemies.\r\n</color>"
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -1841,7 +1845,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200012
 TextMesh:
   serializedVersion: 3
@@ -1849,13 +1853,13 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
-  m_Text: '<color=#301d01ff>Quest requester:</color> Complutense University
+  m_Text: '<color=#120904>Quest requester:</color> <color=#532913>Complutense University</color>
 
-    <color=#301d01ff>Localization:</color> Madrid (Spain)
+    <color=#120904>Localization:</color> <color=#532913>Madrid (Spain)</color>
 
-    <color=#301d01ff>Duration:</color> 1 year (2011-2012)
+    <color=#120904>Duration:</color> <color=#532913>1 year (2011-2012)</color>
 
-    <color=#301d01ff>Objectives:</color> Learn about Game Design'
+    <color=#120904>Objectives:</color> <color=#532913>Learn about Game Design</color>'
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -2160,14 +2164,20 @@ MonoBehaviour:
     Description: {fileID: 10200008}
     Experience: {fileID: 10200002}
     Money: {fileID: 10200000}
+  NormalTextColor: {r: .325490206, g: .160784319, b: .0745098069, a: 1}
+  CategoryTextColor: {r: .0705882385, g: .0352941193, b: .0156862754, a: 1}
   QuestTitle: I WANT MAKE VIDEOGAMES !
   QuestRequester: Complutense University
   QuestLocalization: Madrid (Spain)
   QuestDuration: 1 year (2011-2012)
   QuestObjectives: Learn about Game Design
-  QuestDescription: 'Videomage Master: Game Design specialty.
-
-'
+  QuestDescription: "\r\nI was learning in the Complutense university, \r\nin the
+    Videogame Master: Game Design Specialty\r\nDuring the master I worked with my
+    clasemates in the final master project: A \r\nvideogame called \"Galahad memories\".
+    A side scroller platformer where you \nare\r an artist that use the color to move
+    around the levels. Each color has\ndiferents effects: Jump taller, Go faster or
+    Climb walls. You must use them\nto advance in the game\r and figth against your
+    enemies.\r\n"
   QuestExpReward: 3000
   QuestMoneyReward: 40
 --- !u!114 &11400020

@@ -939,7 +939,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -53.1528397, y: 29.161602, z: 0}
+  m_LocalPosition: {x: -52.7068863, y: 29.361166, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 400022}
@@ -1237,8 +1237,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -19.58992, y: -.182159424, z: 0}
-  m_LocalScale: {x: 6.17043018, y: 3.52596021, z: 5}
+  m_LocalPosition: {x: -20.2348061, y: -.182159424, z: 0}
+  m_LocalScale: {x: 5.71306705, y: 3.26460934, z: 5}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 1
@@ -1249,8 +1249,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.5905457, y: -.182159424, z: 0}
-  m_LocalScale: {x: 6.53912544, y: 3.73664284, z: 5}
+  m_LocalPosition: {x: 20.3966599, y: -.182159424, z: 0}
+  m_LocalScale: {x: 5.96742058, y: 3.40995431, z: 5}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 0
@@ -1837,7 +1837,7 @@ TextMesh:
   m_GameObject: {fileID: 100008}
   m_Text: REWARDS OBTAINED
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.10000002
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1848,7 +1848,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200008
 TextMesh:
   serializedVersion: 3
@@ -1856,13 +1856,13 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Text: "I started to work in Castlevania: Mirror of fate 's vertical slice until
-    \nthe end of the development. \r\nMy responsibilities where to find issues, categorize
-    them by importance, \ncommunicate them to the developers and make sure that they
-    were fixed. \nThe workload organization, prioritization and the insistence to
-    developers \n(to be sure that the most important issues were fixed) were part
-    of my\n work, too.\r\nDuring the last stages I tested the game in collaboration
-    with Babel Media.\r"
+  m_Text: "<color=#532913>I started to work in Castlevania: Mirror of fate 's vertical
+    slice until \nthe end of the development. \r\nMy responsibilities where to find
+    issues, categorize them by importance, \ncommunicate them to the developers and
+    make sure that they were fixed. \nThe workload organization, prioritization and
+    the insistence to developers \n(to be sure that the most important issues were
+    fixed) were part of my\n work, too.\r\nDuring the last stages I tested the game
+    in collaboration with Babel Media.\r</color>"
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -1885,7 +1885,7 @@ TextMesh:
   m_GameObject: {fileID: 100012}
   m_Text: DESCRIPTION
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.20000005
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1896,7 +1896,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200012
 TextMesh:
   serializedVersion: 3
@@ -1904,9 +1904,13 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
-  m_Text: "<color=orange>Quest requester:</color> \n<color=orange>Localization:</color>
-    Madrid (Spain)\n<color=orange>Duration:</color> 1.3 years (2011-2013)\n<color=orange>Objectives:</color>
-    Test                                          and"
+  m_Text: '<color=#120904>Quest requester:</color> <color=#532913></color>
+
+    <color=#120904>Localization:</color> <color=#532913>Madrid (Spain)</color>
+
+    <color=#120904>Duration:</color> <color=#532913>1.3 years (2011-2013)</color>
+
+    <color=#120904>Objectives:</color> <color=#532913>Test                                          and</color>'
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -2245,6 +2249,8 @@ MonoBehaviour:
     Description: {fileID: 10200008}
     Experience: {fileID: 10200002}
     Money: {fileID: 10200000}
+  NormalTextColor: {r: .325490206, g: .160784319, b: .0745098069, a: 1}
+  CategoryTextColor: {r: .0705882385, g: .0352941193, b: .0156862754, a: 1}
   QuestTitle: 'TESTER: THE BUG HUNTER'
   QuestRequester: 
   QuestLocalization: Madrid (Spain)
@@ -2482,7 +2488,7 @@ MonoBehaviour:
   ButtonText: http://www.konami-castlevania.com/
   TextRenderer: {fileID: 10200026}
   myAnimator: {fileID: 0}
-  TextNormalColor: {r: .13333334, g: .847058833, b: .925490201, a: 1}
+  TextNormalColor: {r: .843829274, g: .875052571, b: .925490201, a: 1}
   TextSelectedColor: {r: .13333334, g: .850980401, b: .929411769, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
@@ -2532,7 +2538,7 @@ MonoBehaviour:
   ButtonText: http://company.mercurysteam.com/html/?language_code=en
   TextRenderer: {fileID: 10200028}
   myAnimator: {fileID: 0}
-  TextNormalColor: {r: .13333334, g: .847058833, b: .925490201, a: 1}
+  TextNormalColor: {r: .83021915, g: .87084949, b: .925490201, a: 1}
   TextSelectedColor: {r: .13333334, g: .850980401, b: .929411769, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}
@@ -2556,7 +2562,7 @@ MonoBehaviour:
   ButtonText: http://en.wikipedia.org/wiki/Castlevania:_Lords_of_Shadow_%E2%80%93_Mirror_of_Fate
   TextRenderer: {fileID: 10200030}
   myAnimator: {fileID: 0}
-  TextNormalColor: {r: .13333334, g: .847058833, b: .925490201, a: 1}
+  TextNormalColor: {r: .843829274, g: .911079407, b: .925490201, a: 1}
   TextSelectedColor: {r: .13333334, g: .850980401, b: .929411769, a: 1}
   cursorTextureNormal: {fileID: 0}
   cursorTextureLink: {fileID: 2800000, guid: ec1646b3124f3d04f80936614e0ccaeb, type: 3}

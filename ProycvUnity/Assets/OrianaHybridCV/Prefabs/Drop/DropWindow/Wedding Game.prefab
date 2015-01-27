@@ -908,7 +908,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100020}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 32.3584137, y: -3.19122696, z: 0}
+  m_LocalPosition: {x: 31.4047928, y: -3.73615646, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 400022}
@@ -1237,8 +1237,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100070}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20.020237, y: -.182159424, z: 0}
-  m_LocalScale: {x: 6.47560358, y: 3.70034409, z: 5}
+  m_LocalPosition: {x: -20.3266621, y: -.182159424, z: 0}
+  m_LocalScale: {x: 6.25828171, y: 3.57615995, z: 5}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 1
@@ -1249,8 +1249,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.5009804, y: -.182159424, z: 0}
-  m_LocalScale: {x: 6.47561407, y: 3.70034909, z: 5}
+  m_LocalPosition: {x: 20.1649055, y: -.182159424, z: 0}
+  m_LocalScale: {x: 6.00474739, y: 3.43128324, z: 5}
   m_Children: []
   m_Father: {fileID: 400012}
   m_RootOrder: 0
@@ -1772,7 +1772,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
-  m_Text: +400
+  m_Text: ++20
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1793,7 +1793,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100002}
-  m_Text: +2013
+  m_Text: ++1500
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -1837,7 +1837,7 @@ TextMesh:
   m_GameObject: {fileID: 100008}
   m_Text: REWARDS OBTAINED
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.10000002
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1848,7 +1848,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200008
 TextMesh:
   serializedVersion: 3
@@ -1856,11 +1856,11 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100010}
-  m_Text: "\"Wedding invitation\" is a plataformer game with RPG dialogs made in\nUnity3D
-    engine. \nIt's a personal and creative project that was made by my husband\nand
-    me (mains characters) as wedding invitation.\nI worked in this project\tas Game
-    Designer, level designer and artist.\t\nThe final result could be improved but
-    was an good wedding\ninvitation that was enjoged fo all guest."
+  m_Text: "<color=#532913>\"Wedding invitation\" is a plataformer game with RPG dialogs
+    made in\nUnity3D engine. \nIt's a personal and creative project that was made
+    by my husband\nand me (mains characters) as wedding invitation.\nI worked in this
+    project\tas Game Designer, level designer and artist.\t\nThe final result could
+    be improved but was an good wedding\ninvitation that was enjoged fo all guest.</color>"
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -1883,7 +1883,7 @@ TextMesh:
   m_GameObject: {fileID: 100012}
   m_Text: DESCRIPTION
   m_OffsetZ: 0
-  m_CharacterSize: 1
+  m_CharacterSize: 1.20000005
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 0
@@ -1894,7 +1894,7 @@ TextMesh:
   m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278192659
 --- !u!102 &10200012
 TextMesh:
   serializedVersion: 3
@@ -1902,13 +1902,14 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100016}
-  m_Text: '<color=orange>Quest requester:</color> My husband and me
+  m_Text: '<color=#120904>Quest requester:</color> <color=#532913>My husband and me</color>
 
-    <color=orange>Localization:</color> Barcelona (Spain)
+    <color=#120904>Localization:</color> <color=#532913>Barcelona (Spain)</color>
 
-    <color=orange>Duration:</color> 2 Months (2013-2013)
+    <color=#120904>Duration:</color> <color=#532913>2 Months (2013-2013)</color>
 
-    <color=orange>Objectives:</color> Create a videogame to use like a wedding invitation'
+    <color=#120904>Objectives:</color> <color=#532913>Create a videogame to use like
+    a wedding invitation</color>'
   m_OffsetZ: 0
   m_CharacterSize: .949999988
   m_LineSpacing: 1
@@ -1963,7 +1964,7 @@ TextMesh:
   m_Font: {fileID: 12800000, guid: 2035eda0bc924da449fd986376fd0a32, type: 3}
   m_Color:
     serializedVersion: 2
-    rgba: 4278392130
+    rgba: 4278391611
 --- !u!102 &10200018
 TextMesh:
   serializedVersion: 3
@@ -2247,6 +2248,8 @@ MonoBehaviour:
     Description: {fileID: 10200008}
     Experience: {fileID: 10200002}
     Money: {fileID: 10200000}
+  NormalTextColor: {r: .325490206, g: .160784319, b: .0745098069, a: 1}
+  CategoryTextColor: {r: .0705882385, g: .0352941193, b: .0156862754, a: 1}
   QuestTitle: A PERSONAL WEDDING INVITATION
   QuestRequester: My husband and me
   QuestLocalization: Barcelona (Spain)
