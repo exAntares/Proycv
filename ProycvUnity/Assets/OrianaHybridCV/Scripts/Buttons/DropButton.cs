@@ -63,6 +63,8 @@ public class DropButton : ButtonBase
 		{
 			Item.gameObject.SetActive(true);
 		}
+
+        _DropItems[0].StartSelect();
 	}
 	
 	public override void OnUnSelected()
