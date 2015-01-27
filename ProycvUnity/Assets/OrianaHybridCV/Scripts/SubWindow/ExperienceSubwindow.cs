@@ -21,6 +21,7 @@ public class ExperienceSubwindow : MonoBehaviour
     public TextComponents textsObjects;
     
     public Color NormalTextColor = Color.white;
+    public Color CategoryTextColor = Color.yellow;
 
     public string QuestTitle = "Insert Text";
     public string QuestRequester = "Insert Text";
@@ -75,11 +76,12 @@ public class ExperienceSubwindow : MonoBehaviour
         if (textsObjects.Info)
         {
             string textColor = NormalTextColor.ColorToHEX();
+            string categoryColor = CategoryTextColor.ColorToHEX();
 
-            textsObjects.Info.text = "<color=orange>Quest requester:</color> " + "<color=#" + textColor + ">" + QuestRequester + "</color>"
-                + "\n<color=orange>Localization:</color> " + "<color=#" + textColor + ">" + QuestLocalization + "</color>"
-                + "\n<color=orange>Duration:</color> " + "<color=#" + textColor + ">" + QuestDuration + "</color>"
-                + "\n<color=orange>Objectives:</color> " + "<color=#" + textColor + ">" + QuestObjectives + "</color>";
+            textsObjects.Info.text = "<color=#" + categoryColor + ">" + "Quest requester:</color> " + "<color=#" + textColor + ">" + QuestRequester + "</color>"
+                + "\n<color=#" + categoryColor + ">" + "Localization:</color> " + "<color=#" + textColor + ">" + QuestLocalization + "</color>"
+                + "\n<color=#" + categoryColor + ">" + "Duration:</color> " + "<color=#" + textColor + ">" + QuestDuration + "</color>"
+                + "\n<color=#" + categoryColor + ">" + "Objectives:</color> " + "<color=#" + textColor + ">" + QuestObjectives + "</color>";
         }
 
         if (textsObjects.Description)
