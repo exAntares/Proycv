@@ -16,7 +16,10 @@ public class DropItem : ButtonBase
 
 	public override void OnSelected()
 	{
-		Owner.UnSelectAllMyDropItems(this);
+        if (Owner)
+        {
+            Owner.UnSelectAllMyDropItems(this);
+        }
 
 		if(WindowToShow)
 		{

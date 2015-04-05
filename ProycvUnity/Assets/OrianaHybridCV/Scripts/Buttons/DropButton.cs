@@ -2,9 +2,19 @@
 using System.Collections;
 using System.Collections.Generic;
 
-[ExecuteInEditMode]
+//[ExecuteInEditMode]
 public class DropButton : ButtonBase
 {
+    [System.Serializable]
+    public class DropItemData
+    {
+        public string ButtonName;
+        public GameObject WindowToShow;
+    }
+
+    public List<DropItemData> DropItemsData;
+    public GameObject DropItemPrefab;
+
 	private float _Height = 4.0f;
 	public float Height
 	{
@@ -15,8 +25,23 @@ public class DropButton : ButtonBase
 	[HideInInspector]
 	public List<DropItem> _DropItems;
 
+    public override void Awake()
+    {
+        foreach (DropItemData dropItem in DropItemsData)
+        {
+            GameObject newDropItem = Instantiate(DropItemPrefab) as GameObject;
+            newDropItem.transform.parent = transform;
+            newDropItem.name = dropItem.ButtonName;
+
+            DropItem DropItemComp = newDropItem.GetComponent<DropItem>();
+            DropItemComp.WindowToShow = dropItem.WindowToShow;
+        }
+    }
+
 	public override void Init()
 	{
+        ButtonText = gameObject.name;
+
 		base.Init();
 
 		_DropItems = new List<DropItem>();
@@ -38,6 +63,8 @@ public class DropButton : ButtonBase
 		{
 			Item.gameObject.SetActive(true);
 		}
+
+        _DropItems[0].StartSelect();
 	}
 	
 	public override void OnUnSelected()
@@ -68,6 +95,10 @@ public class DropButton : ButtonBase
 		if(ButtonEnabled)
 		{
 			ToggleSelected();
+            if (ButtonSound)
+            {
+                AudioSource.PlayClipAtPoint(ButtonSound, Vector3.zero);
+            }
 		}
 	}
 

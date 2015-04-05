@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: f0adfc97d18956e45bee6e8b3862f794
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - TemplateInstancePrefab: {fileID: 100040, guid: ee948736b98f3d044b1edfe535792fd2,
+      type: 2}
+  - TemplateInstance: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

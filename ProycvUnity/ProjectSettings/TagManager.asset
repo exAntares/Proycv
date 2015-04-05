@@ -11,6 +11,9 @@ TagManager:
   - DropItemWindow
   - SliderCategory
   - SliderList
+  - SkillText
+  - GlobalEvents
+  - RewardText
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

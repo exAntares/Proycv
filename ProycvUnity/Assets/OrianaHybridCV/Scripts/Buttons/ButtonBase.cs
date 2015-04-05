@@ -3,6 +3,25 @@ using System.Collections;
 
 public class ButtonBase : MonoBehaviour
 {
+    [System.Serializable]
+    public class TextData
+    {
+        public string ButtonText = "";
+        public Color TextNormalColor = Color.yellow;
+        public Color TextSelectedColor = Color.white;
+        public TextMesh TextRenderer;
+
+        TextData()
+        {
+            ButtonText = "";
+            TextNormalColor = Color.yellow;
+            TextSelectedColor = Color.white;
+        }
+    }
+
+    [HideInInspector]
+    public TextData TextConfig;
+
 	public string ButtonText = "";
 
 	public TextMesh TextRenderer;
@@ -13,6 +32,16 @@ public class ButtonBase : MonoBehaviour
 	
 	protected bool Selected = false;
 	protected bool ButtonEnabled = true;
+
+    public Texture2D cursorTextureNormal;
+    public Texture2D cursorTextureLink;
+    protected CursorMode cursorMode = CursorMode.Auto;
+    protected Vector2 hotSpot = Vector2.zero;
+    protected AudioClip ButtonSound;
+
+    public virtual void Awake()
+    {
+    }
 
 	public void DisableButton()
 	{
@@ -32,6 +61,7 @@ public class ButtonBase : MonoBehaviour
 
 	public virtual void Init()
 	{
+        ButtonSound = Resources.Load<AudioClip>("SFX/Sounds/212003__pegtel__button-tap-1");
 		UpdateText();
 	}
 
@@ -79,11 +109,18 @@ public class ButtonBase : MonoBehaviour
 		if(ButtonEnabled)
 		{
 			StartSelect();
+            
+            if (ButtonSound)
+            {
+                AudioSource.PlayClipAtPoint(ButtonSound, Vector3.zero);
+            }
 		}
 	}
 
 	void OnMouseOver()
 	{
+        Cursor.SetCursor(cursorTextureLink, Vector2.zero, cursorMode);
+
 		if(ButtonEnabled && myAnimator && !Selected)
 		{
 			myAnimator.Play("MouseOver");
@@ -94,6 +131,8 @@ public class ButtonBase : MonoBehaviour
 
 	void OnMouseExit()
 	{
+        Cursor.SetCursor(null, Vector2.zero, cursorMode);
+
 		if(ButtonEnabled && myAnimator && !Selected)
 		{
 			myAnimator.Play("Idle");
@@ -111,35 +150,10 @@ public class ButtonBase : MonoBehaviour
 		}
 	}
 
-	string GetHex(int myDecimal)
-	{
-		string alpha = "0123456789ABCDEF";
-		string HexName = "" + alpha[myDecimal];
-		return HexName;
-	}
-	
-	protected string RGBToHex(Color ColorToHex)
-	{
-		float red = ColorToHex.r * 255;
-		float green = ColorToHex.g * 255;
-		float blue = ColorToHex.b * 255;
-		
-		string r1 = GetHex((int)Mathf.Floor(red / 16));
-		string r2 = GetHex((int)Mathf.Floor(red % 16));
-		string g1 = GetHex((int)Mathf.Floor(green / 16));
-		string g2 = GetHex((int)Mathf.Floor(green % 16));
-		string b1 = GetHex((int)Mathf.Floor(blue / 16));
-		string b2 = GetHex((int)Mathf.Floor(blue % 16));
-		
-		string z = r1 + r2 + g1 + g2 + b1 + b2;
-		
-		return z;
-	}
-
 	public virtual string GetButtonText()
 	{
 		string End = "</color>";
-		string Start = Selected ? "<color=#"+RGBToHex(TextSelectedColor)+">" : "<color=#"+RGBToHex(TextNormalColor)+">";
+        string Start = Selected ? "<color=#" + TextSelectedColor.ColorToHEX() + ">" : "<color=#" + TextNormalColor.ColorToHEX() + ">";
 		return Start + ButtonText + End;
 	}
 
